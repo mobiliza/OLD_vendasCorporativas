@@ -1,0 +1,29 @@
+//*****************************************************************
+//Estilos importados do padrao2 _baseClient
+//*****************************************************************
+
+@import "estiloPadrao.scss";
+
+//player css
+@import "../../../../../player/_base/css/sass/global";
+
+//_base
+@import "../../../../_baseClient/_base/css/sass/base";
+
+//main
+@import "../../../../_baseClient/padrao2/css/sass/main/main";
+
+//slides
+@import "../../../../_baseClient/padrao2/css/sass/slides";
+
+//resources
+@import "../../../../_baseClient/padrao2/css/sass/resources";
+
+
+//*****************************************************************
+//Estilo do cliente
+//*****************************************************************
+
+@import "changes";
+
+@import "_resources";

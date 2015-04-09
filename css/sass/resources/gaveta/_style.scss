@@ -1,0 +1,22 @@
+.theTab ul.tabs-nav li{
+	color: red;
+}
+
+.theTab ul.tabs-nav li.ui-tabs-active > * {
+	background: #FF871F;
+	color: #ffffff;
+}
+
+.theTab ul.tabs-nav li .anchor{
+	background: #003C65;
+	color: #ffffff;
+
+	&:hover{
+		background: #FF871F;
+	}
+}
+
+
+.theTab ul.tabs-nav li.visited:before{
+	background: #FF871F;
+}

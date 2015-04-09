@@ -1,0 +1,98 @@
+{
+	"defaults": {
+		"background": {
+			"src": ""
+		}
+	},
+
+	"resources": {
+		"allowed": [
+			"texto",
+			"caixaDestaque",
+			"imagem",
+			"video",
+			"multimedia",
+			"audio",
+			"atividade",
+			"botaoPP"
+		],
+
+		"insert": [
+			{
+				"balao": {
+					"active": false,
+					"subType": "left"
+				},
+				"content": "<div style=\"text-align: left;\"><span style=\"background-color: initial;\">Título deste slide</span></div>",
+				"normal": {
+					"subType": "comFundo",
+					"active": false
+				},
+				"order": "0",
+				"styleObj": {
+					"left": "51px",
+					"top": "37px",
+					"width": "334px",
+					"position": "absolute"
+				},
+				"template": "texto",
+				"titulo": {
+					"subType": "primario",
+					"active": true
+				}
+			},
+
+			{
+				"balao": {
+					"active": false,
+					"subType": "left"
+				},
+				"content": "<div>Texto de introdução ao assunto do slide e chamada para interação com a animação ao lado.</div><div><br></div>Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.",
+				"normal": {
+					"subType": "semFundo",
+					"active": true
+				},
+				"order": "1",
+				"styleObj": {
+					"position": "absolute",
+					"width": "255px",
+					"top": "95px",
+					"left": "54px"
+				},
+				"template": "texto",
+				"titulo": {
+					"active": false,
+					"subType": "primario"
+				}
+		    },
+
+			{
+				"order": "2",
+				"ready": false,
+				"src": "",
+				"styleObj": {
+					"left": "340px",
+					"top": "108px",
+					"height": "401px",
+					"width": "604px",
+					"position": "absolute"
+				},
+				"template": "multimedia"
+		      },
+
+			{
+				"content": "Lorem ipsum Ut exercitation deserunt velit fugiat elit quis nostrud id irure ullamc.<div><ol><li>Excepteur sint sit est consequat exercitation sit.<br></li><li>Excepteur sint sit est consequat exercitation sit.<br></li></ol></div>",
+				"order": "3",
+				"styleObj": {
+					"left": "52px",
+					"top": "304px",
+					"width": "251px",
+					"position": "absolute"
+				},
+				"template": "caixaDestaque",
+				"title": "Saiba mais",
+				"type": "saibaMais"
+	     	}
+		]
+	}
+}

@@ -1,0 +1,36 @@
+//estilo do texto
+
+
+.Textocomlista{
+	.texto.titulo.secundario{
+		color: #003C65;
+		font-size: 18px;
+	}
+
+	.texto.titulo.primario{
+		color: #003C65;
+		font-size: 24px;
+	}
+
+	.texto.normal{
+		font-family: Arial;
+		font-size: 14px;
+		line-height: 20px; 
+		color: #33434C;
+
+	}
+
+}
+
+.texto.normal{
+		font-family: Arial;
+		font-size: 14px;
+		line-height: 20px; 
+		color: #33434C;
+
+	}
+
+.texto.normal.comFundo{
+	background: rgba(187, 194, 197, 0.5);
+	border: 1px solid #ffffff;
+} 

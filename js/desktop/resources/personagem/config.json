@@ -1,0 +1,337 @@
+{
+	"defaults": {
+		"template": "personagem",
+		"src": "",
+		"styleObj": {
+			"position": "absolute",
+			"top": "40px",
+			"left": "50px",
+			"height": "360px",
+			"width": "135px"
+		}
+	},
+
+	"validators": [
+		"_template === personagem"
+	],
+
+	"character": [
+		{
+			"name": "André",
+			"position": [
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Andre/Andre_C01_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Andre/Andre_C01_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Andre/Andre_C01_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Andre/Andre_C01_P01_BF01_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Andre/Andre_C01_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Andre/Andre_C01_P01_BF02_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Andre/Andre_C01_P01_BF02_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Andre/Andre_C02_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Andre/Andre_C02_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Andre/Andre_C02_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Andre/Andre_C02_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Andre/Andre_C02_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Andre/Andre_C02_P01_BF02_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Andre/Andre_C02_P01_BF02_BT04.png"
+
+			]
+		},
+
+		{
+			"name" : "Caio",
+			"position" : [
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C01_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C01_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C01_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C01_P01_BF01_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C01_P01_BF01_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C01_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C01_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C01_P01_BF02_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C01_P01_BF02_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C01_P01_BF02_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C02_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C02_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C02_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C02_P01_BF01_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C02_P01_BF01_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C02_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C02_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C02_P01_BF02_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C02_P01_BF02_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Caio/Caio_C02_P01_BF02_BT05.png"
+			]
+		},
+
+		{
+			"name" : "João",
+			"position" : [
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C01_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C01_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C01_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C01_P01_BF01_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C01_P01_BF01_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C01_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C01_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C01_P01_BF02_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C01_P01_BF02_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C01_P01_BF02_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C02_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C02_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C02_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C02_P01_BF01_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C02_P01_BF01_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C02_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C02_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C02_P01_BF02_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C02_P01_BF02_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Joao/Joao_C02_P01_BF02_BT05.png"
+			]
+		},
+
+		{
+			"name" : "Lucas",
+			"position" : [
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C01_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C01_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C01_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C01_P01_BF01_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C01_P01_BF01_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C01_P01_BF01_BT07.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C01_P01_BF01_BT08.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C01_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C01_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C01_P01_BF02_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C01_P01_BF02_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C01_P01_BF02_BT06.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C01_P01_BF02_BT07.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C01_P01_BF02_BT08.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C02_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C02_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C02_P01_BF01_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C02_P01_BF01_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C02_P01_BF01_BT06.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C02_P01_BF01_BT07.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C02_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C02_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C02_P01_BF02_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C02_P01_BF02_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C02_P01_BF02_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C02_P01_BF02_BT07.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Lucas/Lucas_C02_P01_BF02_BT08.png"
+			]
+		},
+
+		{
+			"name" : "Marcos",
+			"position" : [
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF01_BT010.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF01_BT011.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF01_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF01_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF01_BT07.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF01_BT08.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF01_BT09.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF02_BT010.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF02_BT011.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF02_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF02_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF02_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF02_BT06.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF02_BT08.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C01_P01_BF02_BT09.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF01_BT010.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF01_BT011.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF01_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF01_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF01_BT06.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF01_BT07.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF01_BT09.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF02_BT010.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF02_BT011.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF02_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF02_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF02_BT06.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF02_BT07.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Marcos/Marcos_C02_P01_BF02_BT08.png"
+
+			]
+		},
+
+		{
+			"name": "Mariana",
+			"position": [
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Mariana/Mariana_C01_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Mariana/Mariana_C01_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Mariana/Mariana_C01_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Mariana/Mariana_C01_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Mariana/Mariana_C01_P01_BF03_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Mariana/Mariana_C01_P01_BF03_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Mariana/Mariana_C02_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Mariana/Mariana_C02_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Mariana/Mariana_C02_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Mariana/Mariana_C02_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Mariana/Mariana_C02_P01_BF03_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Mariana/Mariana_C02_P01_BF03_BT02.png"
+			]
+		},
+
+		{
+			"name" : "Paula",
+			"position" : [
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C01_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C01_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C01_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C01_P01_BF01_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C01_P01_BF01_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C01_P01_BF01_BT07.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C01_P01_BF01_BT08.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C01_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C01_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C01_P01_BF02_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C01_P01_BF02_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C01_P01_BF02_BT06.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C01_P01_BF02_BT07.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C01_P01_BF02_BT08.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C02_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C02_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C02_P01_BF01_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C02_P01_BF01_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C02_P01_BF01_BT06.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C02_P01_BF01_BT07.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C02_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C02_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C02_P01_BF02_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C02_P01_BF02_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C02_P01_BF02_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C02_P01_BF02_BT07.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Paula/Paula_C02_P01_BF02_BT08.png"
+			]
+		},
+
+		{
+			"name" : "Rafaela",
+			"position" : [
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C01_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C01_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C01_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C01_P01_BF01_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C01_P01_BF01_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C01_P01_BF01_BT07.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C01_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C01_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C01_P01_BF02_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C01_P01_BF02_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C01_P01_BF02_BT06.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C01_P01_BF02_BT07.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C02_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C02_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C02_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C02_P01_BF01_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C02_P01_BF01_BT06.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C02_P01_BF01_BT07.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C02_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C02_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C02_P01_BF02_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C02_P01_BF02_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C02_P01_BF02_BT06.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rafaela/Rafaela_C02_P01_BF02_BT07.png"		
+			]
+		},
+
+		{
+			"name" : "Recepcionista",
+			"position" : [
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Recepcionista/Recepcionista_C01_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Recepcionista/Recepcionista_C01_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Recepcionista/Recepcionista_C01_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Recepcionista/Recepcionista_C01_P01_BF01_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Recepcionista/Recepcionista_C01_P01_BF01_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Recepcionista/Recepcionista_C01_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Recepcionista/Recepcionista_C01_P01_BF02_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Recepcionista/Recepcionista_C01_P01_BF02_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Recepcionista/Recepcionista_C01_P01_BF02_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Recepcionista/Recepcionista_C02_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Recepcionista/Recepcionista_C02_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Recepcionista/Recepcionista_C02_P01_BF01_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Recepcionista/Recepcionista_C02_P01_BF01_BT05.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Recepcionista/Recepcionista_C02_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Recepcionista/Recepcionista_C02_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Recepcionista/Recepcionista_C02_P01_BF02_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Recepcionista/Recepcionista_C02_P01_BF02_BT05.png"
+			]
+		},
+
+		{
+			"name" : "Rogério",
+			"position" : [
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rogerio/Rogerio_C01_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rogerio/Rogerio_C01_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rogerio/Rogerio_C01_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rogerio/Rogerio_C01_P01_BF01_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rogerio/Rogerio_C01_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rogerio/Rogerio_C01_P01_BF02_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rogerio/Rogerio_C01_P01_BF02_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rogerio/Rogerio_C02_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rogerio/Rogerio_C02_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rogerio/Rogerio_C02_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rogerio/Rogerio_C02_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rogerio/Rogerio_C02_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rogerio/Rogerio_C02_P01_BF02_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Rogerio/Rogerio_C02_P01_BF02_BT04.png"
+			]
+		},
+
+		{
+			"name" : "Tony",
+			"position" : [
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Tony/Tonny_C01_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Tony/Tonny_C01_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Tony/Tonny_C01_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Tony/Tonny_C01_P01_BF01_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Tony/Tonny_C01_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Tony/Tonny_C01_P01_BF02_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Tony/Tonny_C01_P01_BF02_BT04.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Tony/Tonny_C02_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Tony/Tonny_C02_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Tony/Tonny_C02_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Tony/Tonny_C02_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Tony/Tonny_C02_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Tony/Tonny_C02_P01_BF02_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Tony/Tonny_C02_P01_BF02_BT04.png"
+			]
+		},
+
+		{
+			"name": "Torbe",
+			"position": [
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Torbe/Torbe_C01_P01_BF01_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Torbe/Torbe_C01_P01_BF01_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Torbe/Torbe_C01_P01_BF01_BT03.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Torbe/Torbe_C01_P01_BF02_BT01.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Torbe/Torbe_C01_P01_BF02_BT02.png",
+				"http://s3-sa-east-1.amazonaws.com/mobiliza/clients/academiavw/assets/images/personagens/Torbe/Torbe_C01_P01_BF02_BT03.png"
+			]
+		}
+
+
+	],
+
+	"editor": {
+		"restrictions": {
+			"scale": true,
+			"width": true,
+			"height": true,
+			"top": true,
+			"left": true
+		}
+	}
+}

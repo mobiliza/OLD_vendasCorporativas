@@ -1,0 +1,32 @@
+.top{
+	.topLogo{
+		position: absolute;
+		right: 0px;
+		bottom: 5px;
+		width: 40px;
+		height: 40px;
+	}
+}
+
+.topText span{
+	font-weight: bold;
+}
+
+.topText .tituloNegrito{
+	font-weight: normal;
+}
+
+.menuListaSlides{
+	.botaoIndice .botao-menu-texto{
+		top: 12px;
+	}
+}
+
+.caixaDestaque .tituloCaixaDestaque h2{
+    font-family: $fontePadrao;
+    padding: 9px 0px 7px 0px;
+}
+
+.menuIndice ol h3 {
+	padding-top: 3px;
+}

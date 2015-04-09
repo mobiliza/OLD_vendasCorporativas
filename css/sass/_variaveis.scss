@@ -1,0 +1,34 @@
+/*
+#start
+
+//-------------------------- COR PADRÃO ------------------------------- 
+$baseColor: {{color}}; 
+
+//-------------------------- FONTE ------------------------------- 
+$fontePadrao: {{font.name}}, sans-serif;
+
+//-------------------------- LOGO ------------------------------- 
+$logo: url("{{logo.url}}") no-repeat;
+
+//-------------------------- BACKGROUND SLIDE  ------------------------------- 
+$background_atividade: url(assets/images/background_atividade.png);
+
+#end
+*/
+
+//#790000			
+$r:255;			
+$g:135;			
+$b:31;		
+
+//-------------------------- COR PADRÃO ------------------------------- 
+$baseColor: rgb($r, $g, $b);	
+
+//-------------------------- FONTE ------------------------------- 
+$fontePadrao: VWHeadlineOTBook, sans-serif;
+
+//-------------------------- LOGO ------------------------------- 
+$logo: url("assets/images/logo.png") no-repeat;
+
+//-------------------------- BACKGROUND SLIDE  ------------------------------- 
+$backgroundSlide: url('assets/images/background_atividade.png') no-repeat;

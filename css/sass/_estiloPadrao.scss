@@ -1,0 +1,52 @@
+@import "variaveis.scss";
+@import "../../../../_baseClient/_base/css/sass/mixins";
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('assets/fonts/OpenSans-Regular.eot');
+    src: url('assets/fonts/OpenSans-Regular.eot') format('embedded-opentype'),
+         url('assets/fonts/OpenSans-Regular.ttf') format('truetype'),
+         url('assets/fonts/OpenSans-Regular.svg#OpenSansRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('assets/fonts/OpenSans-Bold.eot');
+    src: url('assets/fonts/OpenSans-Bold.eot') format('embedded-opentype'),
+         url('assets/fonts/OpenSans-Bold.ttf') format('truetype'),
+         url('assets/fonts/OpenSans-Bold.svg#OpenSansRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'VWHeadlineOTBook';
+    src: url('assets/fonts/VWHeadlineOT-Book.eot');
+    src: url('assets/fonts/VWHeadlineOT-Book.eot') format('embedded-opentype'),
+         url('assets/fonts/VWHeadlineOT-Book.ttf') format('truetype'),
+         url('assets/fonts/VWHeadlineOT-Book.svg#VWHeadlineOTBook') format('svg');
+}
+
+@font-face {
+    font-family: 'VWHeadlineOTSemibold';
+    src: url('assets/fonts/VWHeadlineOTSemibold.eot');
+    src: url('assets/fonts/VWHeadlineOTSemibold.eot') format('embedded-opentype'),
+         url('assets/fonts/VWHeadlineOTSemibold.ttf') format('truetype'),
+         url('assets/fonts/VWHeadlineOTSemibold.svg#VWHeadlineOTSemibold') format('svg');
+}
+
+@font-face {
+    font-family: 'VWHeadlineOTBlack';
+    src: url('assets/fonts/VWHeadlineOTBlack.eot');
+    src: url('assets/fonts/VWHeadlineOTBlack.eot') format('embedded-opentype'),
+         url('assets/fonts/VWHeadlineOTBlack.ttf') format('truetype'),
+         url('assets/fonts/VWHeadlineOTBlack.svg#VWHeadlineOTBlack') format('svg');
+}
+
+$pastaIconPadrao: url('assets/images/icons-s59dee07877.png') no-repeat;
+$amountDarken: 2%;
+$amountLighten: 4%;
+$corEscura: darken($baseColor, $amountDarken);
+$corClara: lighten($baseColor, $amountLighten);
+$corClara2: lighten($baseColor, 7%);
+
+
+$indiceVisitado: lighten($baseColor, 5%);

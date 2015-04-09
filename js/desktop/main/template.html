@@ -1,0 +1,74 @@
+<div class="wrapper" id="{{_id}}">
+
+	<div class="menuIndice" style="display: none">
+		<div class="avancarIndice"></div>
+		<div class="voltarIndice"></div>
+		<ol id="indice" style="right:0px">
+			{{#slides}}
+				<li class="slideIten indiceDesativado"><h3>{{name}}</h3></li>
+			{{/slides}}					
+		</ol>
+	</div>
+
+			<div class="ajuda" style="display: none;">
+				<div class="setaAjuda"></div>
+			</div>
+
+			<div class="top">
+				<div class="topText">
+					| <span>{{courseName}}</span> | <span class="tituloNegrito">{{name}}</span> |
+				</div>
+				<div class="topLogo" style="{{logoStyle}}"></div>
+			</div>
+
+
+			<div id="slider" class="swipe middle">
+				<div class="swipe-wrap"></div>
+
+				<div class="menuListaSlides">
+					<div class="botaoIndice">
+						<div class="seta-menu icons-seta-menu-baixo"></div>
+						<div class="botao-menu-texto botaoIcon-indice"> ÍNDICE </div>
+					</div>
+
+					<div class="setaSlide setaEsquerda">
+						<!-- icons-seta-esquerda-lista-slide-desativado -->
+						<div href="#" class="icons-seta-esquerda-lista-slide"></div>
+					</div>
+
+					<div class="setaSlide setaDireita">
+						<!-- icons-seta-direita-lista-slide-desativado -->
+						<div href="#" class="icons-seta-direita-lista-slide"></div>
+					</div>
+
+					<div class="listaSlides">
+						<ul>
+							{{#slides}}	
+								<li class="indiceDesativado">
+									<img src="{{srcThumb}}" alt="" >
+								</li>
+							{{/slides}}		
+						</ul> 
+					</div> <!--lista-slides-->
+				</div> <!--menu-lista-slides-->
+			</div>
+
+				<!-- icons-voltar-desativado -->
+				<div class="alteraSlide botaoVoltar"></div>
+				<!-- icons-avancar-desativado -->
+				<div class="alteraSlide botaoAvancar"></div>
+
+
+
+			
+			<div class="bottom">
+				<div class="progressoSlide">
+					Progresso: 
+					<div class="barraProgresso">
+						<div class="valorBarraProgresso"></div>
+					</div>
+					| <span class="valorSlideAtual">01 / 15</span>
+				</div>
+				<div class="botaoAjuda"></div>
+			</div>
+		</div>

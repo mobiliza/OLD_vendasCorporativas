@@ -1,0 +1,107 @@
+{
+   "defaults": {
+
+   },
+
+   "resources": {
+      "allowed": [
+         "texto",
+         "caixaDestaque",
+         "imagem",
+         "video",
+         "multimedia",
+         "audio",
+         "atividade",
+         "botaoPP"
+      ],
+
+      "insert": [
+          {  
+               
+               "template":"texto",
+               "order":1,
+               "styleObj":{  
+                  "position":"absolute",
+                  "width":"243px",
+                  "top":"36px",
+                  "left":"51.9375px"
+               },
+               "content":"Template Tela Vídeo",
+               "normal":{  
+                  "active":false,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "subType":"secundario",
+                  "active":true
+               }
+               
+            },
+            {  
+               
+               "template":"texto",
+               "order":1,
+               "styleObj":{  
+                  "position":"absolute",
+                  "width":"284.65625px",
+                  "top":"128px",
+                  "left":"50.65625px"
+               },
+               "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat arcu nec risus rutrum, ac consequat risus lacinia.&nbsp;<div><br></div><div>Donec eu diam vulputate nibh blandit pulvinar sed sed dui.</div><div><br></div><div>Morbi vehicula metus feugiat gravida venenatis. Cras pulvinar dapibus lectus.<br></div>",
+               "normal":{  
+                  "subType":"semFundo",
+                  "active":true
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               }
+               
+            },
+            {  
+               
+               "template":"video",
+               "order":2,
+               "styleObj":{  
+                  "position":"absolute",
+                  "width":"505px",
+                  "height":"300px",
+                  "top":"128px",
+                  "left":"400px"
+               },
+               "youtube":{  
+                  "active":false,
+                  "id":"5WqO5u2at-A"
+               },
+               "vimeo":{  
+                  "active":false,
+                  "id":"90602247"
+               },
+               "local":{  
+                  "active":true,
+                  "src":"",
+                  "type":"video/mp4",
+                  "techOrder":[  
+                     "html5"
+                  ]
+               },
+               "web":{  
+                  "active":false,
+                  "src":"",
+                  "type":"video/mp4"
+               }
+               
+            }
+      ]
+   }
+}
+
+

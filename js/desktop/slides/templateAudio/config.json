@@ -1,0 +1,118 @@
+{
+   "defaults": {
+      "background": {
+         "src": ""
+      }
+   },
+
+   "resources": {
+      "allowed": [
+         "texto",
+         "caixaDestaque",
+         "imagem",
+         "video",
+         "multimedia",
+         "audio",
+         "atividade",
+         "botaoPP"
+      ],
+
+      "insert": [
+         {  
+               "template":"texto",
+               "order":0,
+               "styleObj":{  
+                  "left":"51.9375px",
+                  "top":"36px",
+                  "width":"249px",
+                  "position":"absolute"
+               },
+               "content":"Template Tela Áudio",
+               "normal":{  
+                  "active":false,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":true,
+                  "subType":"secundario"
+               }
+            },
+            {  
+               
+               "template":"texto",
+               "order":1,
+               "styleObj":{  
+                  "left":"51.9375px",
+                  "top":"87px",
+                  "width":"580.34375px",
+                  "position":"absolute"
+               },
+               "content":"Texto com <b>enunciado</b> do assunto a ser abordado neste slide.<div><br></div><div>Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.<br></div><div><br></div><div>Lorem ipsum Aliqua nostrud occaecat anim elit culpa ut magna velit esse deserunt.<br></div>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               }
+            },
+            {  
+               
+               "template":"imagem",
+               "order":2,
+               "styleObj":{  
+                  "width":"404px",
+                  "height":"211px",
+                  "left":"51.9375px",
+                  "top":"251px",
+                  "position":"absolute"
+               },
+               "baseImg":"",
+               "src":"",
+               "imgHeight":186,
+               "legend":{  
+                  "active":true,
+                  "content":"Teste : Teste images"
+               },
+               "border":true
+            },
+            {  
+               
+               "template":"audio",
+               "order":3,
+               "styleObj":{  
+                  "position":"absolute",
+                  "width":"404px",
+                  "height":"33px",
+                  "top":"472px",
+                  "left":"52px"
+               },
+               "src":"",
+               "type":""
+            },
+            {  
+               
+               "template":"caixaDestaque",
+               "order":4,
+               "styleObj":{  
+                  "position":"absolute",
+                  "width":"283.046875px",
+                  "top":"271px",
+                  "left":"645px"
+               },
+               "type":"atencao",
+               "title":"Atenção",
+               "content":"Lorem ipsum Ut exercitation deserunt velit fugiat elit quis nostrud id irure ullamco Excepteur sint sit est consequat exercitation sit.<div><br><div>Lorem ipsum Ut exercitation deserunt velit fugiat.<br></div></div>"
+            }
+      ]
+   }
+}

@@ -1,0 +1,156 @@
+{
+   "defaults": {
+      "background": {
+         "src": ""
+      }
+   },
+
+   "resources": {
+      "allowed": [
+         "texto",
+         "caixaDestaque",
+         "imagem",
+         "video",
+         "multimedia",
+         "audio",
+         "atividade",
+         "botaoPP"
+      ],
+
+      "insert": [
+         {  
+               "template":"texto",
+               "order":0,
+               "styleObj":{  
+                  "left":"51.9375px",
+                  "top":"36px",
+                  "width":"283.0625px",
+                  "position":"absolute"
+               },
+               "content":"Template Tela Atividade",
+               "normal":{  
+                  "active":false,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":true,
+                  "subType":"secundario"
+               }
+               
+            },
+            {  
+              
+               "template":"texto",
+               "order":1,
+               "styleObj":{  
+                  "left":"50.65625px",
+                  "top":"121px",
+                  "width":"283.65625px",
+                  "position":"absolute"
+               },
+               "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat arcu nec risus rutrum, ac consequat risus lacinia. \n\nDonec eu diam vulputate nibh blandit pulvinar sed sed dui.\n\nMorbi vehicula metus feugiat gravida venenatis.&nbsp;<div><br></div><div>Cras pulvinar dapibus lectus.</div>",
+               "normal":{  
+                  "active":true,
+                  "subType":"semFundo"
+               },
+               "balao":{  
+                  "active":false,
+                  "subType":"left"
+               },
+               "titulo":{  
+                  "active":false,
+                  "subType":"primario"
+               }
+            },
+            {  
+              
+               "template":"atividade",
+               "order":2,
+               "styleObj":{  
+                  "width":"511px",
+                  "left":"432.03125px",
+                  "top":"121px",
+                  "position":"absolute"
+               },
+               "title":"Digite aqui sua pergunta.",
+               "parametros":{  
+                  "tentativas":"1",
+                  "gabarito":[  
+                     "0",
+                     "2",
+                     "4"
+                  ]
+               },
+               "alternativas":[  
+                  {  
+                     "checked":false,
+                     "alt":"Edite as alternativas dando dois cliques.",
+                     "numberAlt":0
+                  },
+                  {  
+                     "checked":false,
+                     "alt":"Edite as alternativas dando dois cliques.",
+                     "numberAlt":1
+                  },
+                  {  
+                     "checked":false,
+                     "alt":"Edite as alternativas dando dois cliques.",
+                     "numberAlt":2
+                  },
+                  {  
+                     "numberAlt":3,
+                     "alt":"Edite as alternativas dando dois cliques.",
+                     "checked":false
+                  },
+                  {  
+                     "checked":false,
+                     "alt":"Edite as alternativas dando dois cliques.",
+                     "numberAlt":4
+                  }
+               ],
+               "feedbackCerto":{  
+                  "type":"respostaCerta",
+                  "title":"Resposta Certa",
+                  "styleObj":null
+               },
+               "feedbackErrado":{  
+                  "type":"respostaErrada",
+                  "title":"Resposta Errada",
+                  "styleObj":null
+               },
+               "feedback":{  
+                  "modal":true,
+                  "circundado":true
+               },
+               "tipo":{  
+                  "subType":"checkbox",
+                  "active":true
+               },
+               "nota":{  
+                  "active":true,
+                  "subType":"comNota"
+               },
+               
+               "lock":false
+            },
+            {  
+              
+               "template":"caixaDestaque",
+               "order":3,
+               "styleObj":{  
+                  "left":"51.65625px",
+                  "top":"360px",
+                  "width":"283px",
+                  "position":"absolute"
+               },
+               "type":"objetivo",
+               "title":"Objetivo",
+               "content":"Lorem ipsum Ut exercitation deserunt velit fugiat elit quis nostrud id irure ullamco Excepteur sint sit est consequat exercitation sit."
+            }
+      ]
+   }
+}

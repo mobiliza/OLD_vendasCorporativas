@@ -1,0 +1,89 @@
+{
+	"defaults": {
+		"name": "Novo slide",
+		"template": "slideSimples"
+	},
+
+	"slides": [
+		{
+			"template": "slideCapa",
+			"thumbnail": "https://s3-sa-east-1.amazonaws.com/mobiliza/clients/neogrid/thumbP2/Neogrid_p2TemplateCapa.png",
+			"name": "Capa",
+			"categories": [
+				"capa",
+				"slide"
+			]
+		},
+
+		{
+			"template": "slideSubCapa",
+			"thumbnail": "https://s3-sa-east-1.amazonaws.com/mobiliza/clients/neogrid/thumbP2/Neogrid_p2TemplateSubCapa.png",
+			"name": "Sub Capa",
+			"categories": [
+				"subCapa",
+				"slide"
+			]
+		},
+
+		{
+			"template": "slideFinal",
+			"thumbnail": "https://s3-sa-east-1.amazonaws.com/mobiliza/clients/neogrid/thumbP2/Neogrid_p2TemplateFinal.png",
+			"name": "Slide Final",
+			"categories": [
+				"final",
+				"slide"
+			]
+		},
+		{
+			"template": "templateVideo",
+			"name": "Template de Vídeo",
+			"thumbnail": "https://s3-sa-east-1.amazonaws.com/mobiliza/clients/neogrid/thumbP2/Neogrid_p2TemplateVideo.png",
+			"categories": [
+				"templates",
+				"template",
+				"templateVideo",
+				"Template de Vídeo",
+				"slide"
+			]
+		},
+
+		{
+			"template": "templateAtividade",
+			"thumbnail": "https://s3-sa-east-1.amazonaws.com/mobiliza/clients/neogrid/thumbP2/Neogrid_p2TemplateAtividade.png",
+			"name": "Template de Atividade",
+			"categories": [
+				"templates",
+				"template",
+				"templateAtividade",
+				"Template de Atividade",
+				"slide"
+			]
+		},
+
+		{
+			"template": "templateTexto",
+			"name": "Template de Texto",
+			"thumbnail": "https://s3-sa-east-1.amazonaws.com/mobiliza/clients/neogrid/thumbP2/Neogrid_p2TemplateTexto.png",
+			"categories": [
+				"templates",
+				"template",
+				"templateTexto",
+				"Template de Texto",
+				"slide"
+			]
+		},
+
+		{
+			"template": "templateAudio",
+			"name": "Template de Áudio",
+			"thumbnail": "https://s3-sa-east-1.amazonaws.com/mobiliza/clients/neogrid/thumbP2/Neogrid_p2TemplateAudio.png",
+			"categories": [
+				"templates",
+				"template",
+				"TemplateAudio",
+				"Template de Áudio",
+				"slide"
+			]
+		}
+	]
+}

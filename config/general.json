@@ -1,0 +1,35 @@
+{
+	"swipe": {
+		"startSlide": 0,
+		"speed": 500,
+		"altura": 540,
+		"largura": 980,
+		"continuous": false
+	},
+
+	"reourcesInAnimation": {
+		"time": 500,
+		"interval": 500,
+		"transition": "fade"
+	},
+
+	"modal": {
+		"color": "126, 126, 126",
+		"opacity": "0.6",
+		"transition": "fade",
+		"time": 500
+	},
+
+	"scorm": {
+		"vars": [
+			"cmi.core.lesson_location",
+			"cmi.core.lesson_status",
+			"cmi.core.score.raw",
+			"cmi.suspend_data"
+		]
+	},
+
+	"imageLazyLoad": {
+		"placeholderURL": "./css/assets/images/placeholder.png"
+	}
+}

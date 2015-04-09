@@ -1,0 +1,22 @@
+//*****************************************************************
+//Estilos importados do padrao2 _baseClient
+//*****************************************************************
+
+@import "estiloPadrao.scss";
+
+//_base
+@import "../../../../_baseClient/_base/css/sass/base";
+
+//slides
+@import "../../../../_baseClient/padrao2/css/sass/slides";
+
+//resources
+@import "../../../../_baseClient/padrao2/css/sass/resources";
+
+//Estilos complementares para o editor
+@import "../../../../_baseClient/padrao2/css/sass/clientsToEditor";
+
+@import "changes";
+
+@import "_resources";
+

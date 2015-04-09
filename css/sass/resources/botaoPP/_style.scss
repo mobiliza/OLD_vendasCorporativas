@@ -1,0 +1,44 @@
+.botaoPP.btnCapture{
+	background: url("assets/images/VW38_botao_captura_normal.png") no-repeat;
+	width: 284px;
+	height: 241px;
+	border-radius: 0px;
+	box-shadow: none;
+	border: none;
+
+
+	&:hover{
+		background: url("assets/images/VW38_botao_captura_hover.png") no-repeat;
+	}
+
+	.btnPPRight{
+		  color: #ffffff;
+		  margin-top: 202px;
+		  text-align: center;
+		  font-family: Arial;
+		  font-weight: bold;
+		  font-size: 16px;
+		
+
+	}
+}
+
+.botaoPP.btnRetangle {
+ 	background: #FF871F;
+
+	&:hover{
+		background: #2274AC;
+	}
+}
+
+
+#mbResources.resource.botaoPP{
+	background: #FF871F;
+
+	&:hover{
+		background: #2274AC;
+	}
+}
+// .botaoPP.btnRetangle{
+
+// }
