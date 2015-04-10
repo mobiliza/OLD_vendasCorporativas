@@ -4550,7 +4550,19 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   color: #33434C;
 }
 
-/* line 33, sass/resources/texto/_style.scss */
+/* line 34, sass/resources/texto/_style.scss */
+.texto.titulo.secundario .tagP {
+  color: #003C65;
+  font-size: 18px;
+}
+
+/* line 39, sass/resources/texto/_style.scss */
+.texto.titulo.primario .tagP {
+  color: #003C65;
+  font-size: 24px;
+}
+
+/* line 44, sass/resources/texto/_style.scss */
 .texto.normal.comFundo {
   background: rgba(187, 194, 197, 0.5);
   border: 1px solid #ffffff;
@@ -4597,6 +4609,7 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   text-align: center;
   font-weight: bold;
   margin: 7px;
+  line-height: 30px;
 }
 
 /* line 1, sass/resources/botaoPP/_style.scss */
@@ -5002,7 +5015,7 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
 /* line 10, sass/resources/introducaoGeral/_style.scss */
 .IntroducaoGeral .texto.titulo.primario .tagP {
   color: #003c65;
-  font-size: 18px;
+  font-size: 36px;
 }
 
 /* line 1, sass/main/style.scss */
@@ -5037,4 +5050,15 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
 /* line 29, sass/main/style.scss */
 .botaoAjuda {
   z-index: 19;
+}
+
+/* line 34, sass/main/style.scss */
+.DestaqueLateralAzul .texto.titulo.secundario .tagP {
+  color: #ffffff;
+  font-size: 24px;
+}
+/* line 40, sass/main/style.scss */
+.DestaqueLateralAzul .texto.normal.semFundo .tagP {
+  font-size: 14px;
+  font-family: Arial;
 }

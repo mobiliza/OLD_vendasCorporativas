@@ -59,6 +59,7 @@ require.config({
 							"text!edition.html"
 						]
 					}
+					
 				}
 			},
 
