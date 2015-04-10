@@ -4525,17 +4525,17 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
 }
 
 /* line 5, sass/resources/texto/_style.scss */
-.Textocomlista .texto.titulo.secundario {
+.Textocomlista .texto.titulo.secundario .tagP {
   color: #003C65;
   font-size: 18px;
 }
 /* line 10, sass/resources/texto/_style.scss */
-.Textocomlista .texto.titulo.primario {
+.Textocomlista .texto.titulo.primario .tagP {
   color: #003C65;
   font-size: 24px;
 }
 /* line 15, sass/resources/texto/_style.scss */
-.Textocomlista .texto.normal {
+.Textocomlista .texto.normal .tagP {
   font-family: Arial;
   font-size: 14px;
   line-height: 20px;
@@ -4543,7 +4543,7 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
 }
 
 /* line 25, sass/resources/texto/_style.scss */
-.texto.normal {
+.texto.normal .tagP {
   font-family: Arial;
   font-size: 14px;
   line-height: 20px;
@@ -4557,38 +4557,45 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
 }
 
 /* line 3, sass/resources/introducaoAula/_style.scss */
-.IntroducaoAula .texto.normal {
+.IntroducaoAula .texto.normal .tagP {
   font-family: Arial;
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
 }
 /* line 11, sass/resources/introducaoAula/_style.scss */
-.IntroducaoAula .texto.titulo.secundario {
+.IntroducaoAula .texto.titulo.secundario .tagP {
   color: #ffffff;
   font-size: 18px;
 }
 
-/* line 2, sass/resources/capaGeral/_style.scss */
-.CapaGeral .texto.titulo.secundario {
+/* line 3, sass/resources/capaGeral/_style.scss */
+.CapaGeral .texto.titulo.secundario .tagP {
   color: #003c65;
   font-size: 18px;
 }
-/* line 10, sass/resources/capaGeral/_style.scss */
-.CapaGeral .texto.titulo.primario {
+/* line 11, sass/resources/capaGeral/_style.scss */
+.CapaGeral .texto.titulo.primario .tagP {
   color: #003c65;
   font-size: 40px;
 }
 
 /* line 2, sass/resources/capaGeralAula/_style.scss */
-.CapaGeralAula .texto.titulo.secundario {
-  color: #ffffff;
-  font-size: 18px;
-}
-/* line 10, sass/resources/capaGeralAula/_style.scss */
-.CapaGeralAula .texto.titulo.primario {
+.CapaGeralAula .texto.titulo.secundario .tagP {
   color: #ffffff;
   font-size: 36px;
+}
+/* line 7, sass/resources/capaGeralAula/_style.scss */
+.CapaGeralAula .texto.titulo.primario .tagP {
+  color: #ffffff;
+  font-size: 122px;
+}
+/* line 12, sass/resources/capaGeralAula/_style.scss */
+.CapaGeralAula .texto.normal.semFundo .tagP {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
 }
 
 /* line 1, sass/resources/botaoPP/_style.scss */
@@ -4632,10 +4639,22 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   background: #2274AC;
 }
 
-/* line 1, sass/resources/primeiroPlano/_style.scss */
+/* line 2, sass/resources/primeiroPlano/_style.scss */
 .primeiroPlano {
   background: #eaeeed;
   border: 1px solid #ffffff;
+}
+
+/* line 10, sass/resources/primeiroPlano/_style.scss */
+.ppGrande {
+  width: 1021px;
+  height: 628px;
+}
+
+/* line 15, sass/resources/primeiroPlano/_style.scss */
+.ppMedio {
+  width: 880px;
+  height: 500px;
 }
 
 /* line 5, sass/resources/caixaDestaque/_style.scss */
@@ -4940,10 +4959,11 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
 /* line 303, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .iconDestaque:after {
   background: url("assets/images/VW38_dica.png") no-repeat;
-  height: 61px;
+  height: 62px;
   width: 58px;
-  top: 7px;
-  left: 12px;
+  top: 20px;
+  background-size: 37px;
+  left: 43px;
 }
 
 /* line 1, sass/resources/gaveta/_style.scss */
@@ -4973,13 +4993,13 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
 }
 
 /* line 2, sass/resources/introducaoGeral/_style.scss */
-.IntroducaoGeral .texto.normal {
+.IntroducaoGeral .texto.normal .tagP {
   font-family: Arial;
   font-size: 14px;
   line-height: 20px;
 }
 /* line 10, sass/resources/introducaoGeral/_style.scss */
-.IntroducaoGeral .texto.titulo.primario {
+.IntroducaoGeral .texto.titulo.primario .tagP {
   color: #003c65;
   font-size: 18px;
 }
@@ -4987,4 +5007,33 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
 /* line 1, sass/main/style.scss */
 .middle {
   background: url("assets/images/VW38_background.png") no-repeat;
+}
+
+/* line 5, sass/main/style.scss */
+.botaoIndice {
+  background: none;
+  width: 45px;
+  height: 16px;
+  border-radius: 6px;
+  background: trasparent;
+  border: 1px solid;
+  top: 14px;
+  right: 31px;
+  color: #a2a2a2;
+  -webkit-box-shadow: 1px 1px 5px 0px #c7c7c7;
+  -moz-box-shadow: 1px 1px 5px 0px #c7c7c7;
+  box-shadow: 1px 1px 5px 0px #c7c7c7;
+}
+/* line 19, sass/main/style.scss */
+.botaoIndice .botao-menu-texto {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 5px 3px 7px;
+  left: 0px;
+  top: 0px !important;
+}
+
+/* line 29, sass/main/style.scss */
+.botaoAjuda {
+  z-index: 19;
 }

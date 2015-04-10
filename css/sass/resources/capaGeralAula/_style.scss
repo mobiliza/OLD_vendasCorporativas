@@ -1,15 +1,20 @@
 .CapaGeralAula{
-	.texto.titulo.secundario{
-		color: #ffffff;
-		font-size: 18px;
-
-
-
-	}
-
-	.texto.titulo.primario{
+	.texto.titulo.secundario .tagP{
 		color: #ffffff;
 		font-size: 36px;
 	}
 
+	.texto.titulo.primario .tagP{
+		color: #ffffff;
+		font-size: 122px;
+	}	
+
+	.texto.normal.semFundo .tagP{
+		color: #ffffff;
+		font-size: 30px;
+		text-align: center;
+		font-weight: bold;
+	}
 }
+
+

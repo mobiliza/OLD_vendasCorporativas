@@ -104,7 +104,7 @@ require.config({
 				},
 
 				"main": {
-					"baseURL": "../../../../_baseClient/padrao2/js/desktop/main",
+					"baseURL": "main",
 					"paths": [
 						"player",
 						"text!template.html"

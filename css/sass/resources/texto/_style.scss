@@ -2,17 +2,17 @@
 
 
 .Textocomlista{
-	.texto.titulo.secundario{
+	.texto.titulo.secundario .tagP{
 		color: #003C65;
 		font-size: 18px;
 	}
 
-	.texto.titulo.primario{
+	.texto.titulo.primario .tagP{
 		color: #003C65;
 		font-size: 24px;
 	}
 
-	.texto.normal{
+	.texto.normal .tagP{
 		font-family: Arial;
 		font-size: 14px;
 		line-height: 20px; 
@@ -22,7 +22,7 @@
 
 }
 
-.texto.normal{
+.texto.normal .tagP{
 		font-family: Arial;
 		font-size: 14px;
 		line-height: 20px; 

@@ -25,32 +25,7 @@
 			<div id="slider" class="swipe middle">
 				<div class="swipe-wrap"></div>
 
-				<div class="menuListaSlides">
-					<div class="botaoIndice">
-						<div class="seta-menu icons-seta-menu-baixo"></div>
-						<div class="botao-menu-texto botaoIcon-indice"> ÍNDICE </div>
-					</div>
-
-					<div class="setaSlide setaEsquerda">
-						<!-- icons-seta-esquerda-lista-slide-desativado -->
-						<div href="#" class="icons-seta-esquerda-lista-slide"></div>
-					</div>
-
-					<div class="setaSlide setaDireita">
-						<!-- icons-seta-direita-lista-slide-desativado -->
-						<div href="#" class="icons-seta-direita-lista-slide"></div>
-					</div>
-
-					<div class="listaSlides">
-						<ul>
-							{{#slides}}	
-								<li class="indiceDesativado">
-									<img src="{{srcThumb}}" alt="" >
-								</li>
-							{{/slides}}		
-						</ul> 
-					</div> <!--lista-slides-->
-				</div> <!--menu-lista-slides-->
+			
 			</div>
 
 				<!-- icons-voltar-desativado -->
@@ -62,6 +37,31 @@
 
 			
 			<div class="bottom">
+				<div class="menuListaSlides">
+					<div class="botaoIndice">
+						<div class="botao-menu-texto botaoIcon-indice"> Menu </div>
+					</div>
+
+					<div class="setaSlide setaEsquerda" style="display: none;">
+						<!-- icons-seta-esquerda-lista-slide-desativado -->
+						<div href="#" class="icons-seta-esquerda-lista-slide"></div>
+					</div>
+
+					<div class="setaSlide setaDireita" style="display: none;">
+						<!-- icons-seta-direita-lista-slide-desativado -->
+						<div href="#" class="icons-seta-direita-lista-slide"></div>
+					</div>
+
+					<div class="listaSlides" style="display:none;">
+						<ul>
+							{{#slides}}	
+								<li class="indiceDesativado">
+									<img src="{{srcThumb}}" alt="" >
+								</li>
+							{{/slides}}		
+						</ul> 
+					</div> <!--lista-slides-->
+				</div> <!--menu-lista-slides-->
 				<div class="progressoSlide">
 					Progresso: 
 					<div class="barraProgresso">

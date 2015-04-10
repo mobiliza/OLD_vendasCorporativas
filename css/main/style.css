@@ -2,3 +2,32 @@
 .middle {
   background: url("assets/images/VW38_background.png") no-repeat;
 }
+
+/* line 5, ../sass/main/style.scss */
+.botaoIndice {
+  background: none;
+  width: 45px;
+  height: 16px;
+  border-radius: 6px;
+  background: trasparent;
+  border: 1px solid;
+  top: 14px;
+  right: 31px;
+  color: #a2a2a2;
+  -webkit-box-shadow: 1px 1px 5px 0px #c7c7c7;
+  -moz-box-shadow: 1px 1px 5px 0px #c7c7c7;
+  box-shadow: 1px 1px 5px 0px #c7c7c7;
+}
+/* line 19, ../sass/main/style.scss */
+.botaoIndice .botao-menu-texto {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 5px 3px 7px;
+  left: 0px;
+  top: 0px !important;
+}
+
+/* line 29, ../sass/main/style.scss */
+.botaoAjuda {
+  z-index: 19;
+}
