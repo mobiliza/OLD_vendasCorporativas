@@ -58,8 +58,15 @@ require.config({
 						"paths": [
 							"text!edition.html"
 						]
+					},
+					"texto": {
+						"baseURL": "resources/texto",
+						"paths": [
+							"text!edition.html",
+							"text!template.html"
+						]
 					}
-					
+
 				}
 			},
 

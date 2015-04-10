@@ -4542,7 +4542,7 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   color: #33434C;
 }
 
-/* line 25, sass/resources/texto/_style.scss */
+/* line 26, sass/resources/texto/_style.scss */
 .texto.normal .tagP {
   font-family: Arial;
   font-size: 14px;
@@ -4550,19 +4550,19 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   color: #33434C;
 }
 
-/* line 34, sass/resources/texto/_style.scss */
+/* line 36, sass/resources/texto/_style.scss */
 .texto.titulo.secundario .tagP {
   color: #003C65;
   font-size: 18px;
 }
 
-/* line 39, sass/resources/texto/_style.scss */
+/* line 41, sass/resources/texto/_style.scss */
 .texto.titulo.primario .tagP {
   color: #003C65;
   font-size: 24px;
 }
 
-/* line 44, sass/resources/texto/_style.scss */
+/* line 46, sass/resources/texto/_style.scss */
 .texto.normal.comFundo {
   background: rgba(187, 194, 197, 0.5);
   border: 1px solid #ffffff;
@@ -5061,4 +5061,19 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
 .DestaqueLateralAzul .texto.normal.semFundo .tagP {
   font-size: 14px;
   font-family: Arial;
+}
+/* line 45, sass/main/style.scss */
+.DestaqueLateralAzul .texto.normalModelo2 .tagP {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* line 54, sass/main/style.scss */
+.texto.normalModelo2 .tagP {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 20px;
 }
