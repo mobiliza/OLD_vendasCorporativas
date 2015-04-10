@@ -5548,6 +5548,7 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   font-size: 30px;
   text-align: center;
   font-weight: bold;
+  margin: 7px;
 }
 
 /* line 1, sass/resources/botaoPP/_style.scss */
