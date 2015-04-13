@@ -4575,6 +4575,13 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   line-height: 32px;
 }
 
+/* line 60, sass/resources/texto/_style.scss */
+.texto.titulo.customColor .tagP {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 /* line 3, sass/resources/introducaoAula/_style.scss */
 .IntroducaoAula .texto.normal .tagP {
   font-family: Arial;
