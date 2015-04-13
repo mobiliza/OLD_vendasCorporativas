@@ -31,29 +31,3 @@
 .botaoAjuda {
   z-index: 19;
 }
-
-/* line 34, ../sass/main/style.scss */
-.DestaqueLateralAzul .texto.titulo.secundario .tagP {
-  color: #ffffff;
-  font-size: 24px;
-}
-/* line 40, ../sass/main/style.scss */
-.DestaqueLateralAzul .texto.normal.semFundo .tagP {
-  font-size: 14px;
-  font-family: Arial;
-}
-/* line 45, ../sass/main/style.scss */
-.DestaqueLateralAzul .texto.normalModelo2 .tagP {
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-/* line 54, ../sass/main/style.scss */
-.texto.normalModelo2 .tagP {
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 14px;
-  line-height: 20px;
-}
