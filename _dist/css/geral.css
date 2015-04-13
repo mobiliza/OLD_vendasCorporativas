@@ -5520,6 +5520,13 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   border: 1px solid #ffffff;
 }
 
+/* line 52, sass/resources/texto/_style.scss */
+.texto.titulo.customizado .tagP {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 /* line 3, sass/resources/introducaoAula/_style.scss */
 .IntroducaoAula .texto.normal .tagP {
   font-family: Arial;
@@ -5970,11 +5977,6 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   font-size: 36px;
 }
 
-/* line 2, sass/resources/caixaLateral/_style.scss */
-.DestaqueLateralAzul .texto.titulo.secundario .tagP {
-  color: #ffffff;
-  font-size: 24px;
-}
 /* line 8, sass/resources/caixaLateral/_style.scss */
 .DestaqueLateralAzul .texto.normal.semFundo .tagP {
   font-size: 14px;
