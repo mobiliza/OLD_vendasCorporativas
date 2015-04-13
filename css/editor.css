@@ -4582,6 +4582,23 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   line-height: 32px;
 }
 
+/* line 67, sass/resources/texto/_style.scss */
+a {
+  color: #ff871f;
+}
+/* line 69, sass/resources/texto/_style.scss */
+a:hover {
+  color: #ff871f;
+}
+/* line 72, sass/resources/texto/_style.scss */
+a:active {
+  color: #ff871f;
+}
+/* line 75, sass/resources/texto/_style.scss */
+a:focus {
+  color: #ff871f;
+}
+
 /* line 3, sass/resources/introducaoAula/_style.scss */
 .IntroducaoAula .texto.normal .tagP {
   font-family: Arial;

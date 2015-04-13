@@ -63,3 +63,16 @@
  		line-height: 32px;
  		
 	}
+
+a{
+	color: #ff871f;
+		&:hover{
+			color: #ff871f;
+		}
+		&:active{
+			color: #ff871f;
+		}
+		&:focus{
+			color: #ff871f;
+		}
+}
