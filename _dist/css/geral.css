@@ -5598,7 +5598,7 @@ a:focus {
 
 /* line 1, sass/resources/botaoPP/_style.scss */
 .botaoPP.btnCapture {
-  background: url("assets/images/VW38_botao_captura_normal.png") no-repeat;
+  background: url("assets/images/VW38_botao_captura_normal.png") no-repeat !important;
   width: 284px;
   height: 241px;
   border-radius: 0px;
@@ -5607,7 +5607,7 @@ a:focus {
 }
 /* line 10, sass/resources/botaoPP/_style.scss */
 .botaoPP.btnCapture:hover {
-  background: url("assets/images/VW38_botao_captura_hover.png") no-repeat;
+  background: url("assets/images/VW38_botao_captura_hover.png") no-repeat !important;
 }
 /* line 14, sass/resources/botaoPP/_style.scss */
 .botaoPP.btnCapture .btnPPRight {
