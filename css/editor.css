@@ -4621,6 +4621,7 @@ a:focus {
 .CapaGeral .texto.titulo.primario .tagP {
   color: #003c65;
   font-size: 40px;
+  line-height: 34px;
 }
 
 /* line 2, sass/resources/capaGeralAula/_style.scss */
@@ -4682,6 +4683,13 @@ a:focus {
 /* line 38, sass/resources/botaoPP/_style.scss */
 #mbResources.resource.botaoPP:hover {
   background: #2274AC;
+}
+
+/* line 46, sass/resources/botaoPP/_style.scss */
+.botaoPP.btnSmallCircle .plus {
+  top: -1px;
+  position: relative;
+  left: -1px;
 }
 
 /* line 2, sass/resources/primeiroPlano/_style.scss */
