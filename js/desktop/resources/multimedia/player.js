@@ -16,21 +16,25 @@ define([], function() {
 				$multimedia = multimedia.$el.find('iframe'),
 				src = $multimedia.attr('src');
 
-			this.iframe = $multimedia;
-			this.src = src;
+			 this.iframe = $multimedia;
+			 this.src = src;
+
+			 
+
+
 			
 		}
 
 
 		console.log('[rec]multimedia [method]init [var]this', this);
 
-		// this['in'] = function() {
-		// 	this.iframe.attr('src', this.src);
-		// }
+		this['in'] = function() {
+			this.iframe.attr('src', this.src);
+		}
 
-		// this['out'] = function() {
-		// 	this.iframe.attr('src', 'about:blank');
-		// }
+		this['out'] = function() {
+			this.iframe.attr('src', 'about:blank');
+		}
 	}
 
 	return multimedia;
