@@ -59,6 +59,13 @@ require.config({
 							"text!edition.html"
 						]
 					},
+					"multimedia": {
+						"baseURL": "resources/multimedia",
+						"paths": [
+							"text!template.html",
+							"player"
+						]
+					},
 					"texto": {
 						"baseURL": "resources/texto",
 						"paths": [

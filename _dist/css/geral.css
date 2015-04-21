@@ -6063,3 +6063,112 @@ a:focus {
 .botaoAjuda {
   z-index: 19;
 }
+
+/* line 34, sass/main/style.scss */
+#indice {
+  position: absolute;
+  top: 50px;
+  width: 967px;
+  max-width: 30630px;
+  height: 439px;
+  padding: 1px 1px 1px 40px;
+}
+
+/* line 44, sass/main/style.scss */
+.menuIndice {
+  background: url("assets/images/VW38_background.png") no-repeat;
+  position: absolute;
+  left: 20px;
+  width: 100%;
+}
+
+/* line 52, sass/main/style.scss */
+.menuIndice ol .indiceVisitado {
+  background: #f3f3f3;
+  border-radius: 0px;
+  border: 1px solid #dadada;
+}
+/* line 57, sass/main/style.scss */
+.menuIndice ol .indiceVisitado h3 {
+  color: #5a646b;
+  font-family: 'Open Sans', sans-serif;
+}
+/* line 63, sass/main/style.scss */
+.menuIndice ol .indiceVisitado:before {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  width: 35px;
+  height: 34px;
+  content: counter(li);
+  counter-increment: li;
+  background: #ff871f;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  padding-top: 8px;
+  box-sizing: border-box;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0px;
+  border: 1px solid #ffffff;
+}
+/* line 85, sass/main/style.scss */
+.menuIndice ol .indiceVisitado:hover {
+  border: 1px solid #ff871f;
+}
+/* line 88, sass/main/style.scss */
+.menuIndice ol .indiceVisitado:hover:before {
+  border: none;
+}
+
+/* line 94, sass/main/style.scss */
+.menuIndice ol li {
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 246px;
+  height: 36px;
+  background: #f3f3f3;
+  margin-bottom: 8px;
+  margin-left: 0px;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border: 1px solid #dadada;
+}
+/* line 109, sass/main/style.scss */
+.menuIndice ol li:before {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #969696;
+  width: 35px;
+  height: 34px;
+  content: counter(li);
+  counter-increment: li;
+  background: #cccccc;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  padding-top: 8px;
+  box-sizing: border-box;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0px;
+  border: 1px solid #969696;
+}
+
+/* line 132, sass/main/style.scss */
+.menuIndice ol .indiceAtual {
+  background: #fbcba2;
+  border: 1px solid #ff871f;
+}
+/* line 136, sass/main/style.scss */
+.menuIndice ol .indiceAtual:before {
+  border: none;
+}

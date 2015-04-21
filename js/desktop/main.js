@@ -103,6 +103,16 @@ require.config({
 					]
 				},
 
+				"resources": {
+					"multimedia": {
+						"baseURL": "resources/multimedia",
+						"paths": [
+							"text!template.html",
+							"player"
+						]
+					}
+				},
+
 				"main": {
 					"baseURL": "main",
 					"paths": [
