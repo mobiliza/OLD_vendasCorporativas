@@ -36,32 +36,54 @@
 #indice {
   position: absolute;
   top: 50px;
-  width: 967px;
+  width: 975px;
   max-width: 30630px;
   height: 439px;
-  padding: 1px 1px 1px 40px;
+  padding: 1px 1px 1px 1px;
 }
 
-/* line 44, ../sass/main/style.scss */
+/* line 45, ../sass/main/style.scss */
 .menuIndice {
   background: url("assets/images/VW38_background.png") no-repeat;
   position: absolute;
   left: 20px;
   width: 100%;
 }
+/* line 51, ../sass/main/style.scss */
+.menuIndice ol {
+  column-width: 245px;
+  -moz-column-gap: 1px;
+  -webkit-column-gap: 1px;
+  column-gap: 1px;
+}
 
-/* line 52, ../sass/main/style.scss */
+/* line 59, ../sass/main/style.scss */
+.menuIndice .avancarIndice {
+  position: absolute;
+  cursor: pointer;
+  right: 42px;
+  top: 50%;
+  margin-top: -12.5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 25px 25px;
+  border-color: transparent transparent transparent #ff871f;
+  z-index: 9999;
+}
+
+/* line 74, ../sass/main/style.scss */
 .menuIndice ol .indiceVisitado {
   background: #f3f3f3;
   border-radius: 0px;
   border: 1px solid #dadada;
 }
-/* line 57, ../sass/main/style.scss */
+/* line 79, ../sass/main/style.scss */
 .menuIndice ol .indiceVisitado h3 {
   color: #5a646b;
   font-family: 'Open Sans', sans-serif;
 }
-/* line 63, ../sass/main/style.scss */
+/* line 85, ../sass/main/style.scss */
 .menuIndice ol .indiceVisitado:before {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
@@ -83,16 +105,16 @@
   border-radius: 0px;
   border: 1px solid #ffffff;
 }
-/* line 85, ../sass/main/style.scss */
+/* line 107, ../sass/main/style.scss */
 .menuIndice ol .indiceVisitado:hover {
   border: 1px solid #ff871f;
 }
-/* line 88, ../sass/main/style.scss */
+/* line 110, ../sass/main/style.scss */
 .menuIndice ol .indiceVisitado:hover:before {
   border: none;
 }
 
-/* line 94, ../sass/main/style.scss */
+/* line 116, ../sass/main/style.scss */
 .menuIndice ol li {
   font-family: 'Open Sans', sans-serif;
   cursor: pointer;
@@ -108,7 +130,7 @@
   -moz-border-radius: 0px;
   border: 1px solid #dadada;
 }
-/* line 109, ../sass/main/style.scss */
+/* line 131, ../sass/main/style.scss */
 .menuIndice ol li:before {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
@@ -131,12 +153,21 @@
   border: 1px solid #969696;
 }
 
-/* line 132, ../sass/main/style.scss */
+/* line 154, ../sass/main/style.scss */
 .menuIndice ol .indiceAtual {
   background: #fbcba2;
   border: 1px solid #ff871f;
 }
-/* line 136, ../sass/main/style.scss */
+/* line 158, ../sass/main/style.scss */
 .menuIndice ol .indiceAtual:before {
   border: none;
+}
+
+/* line 163, ../sass/main/style.scss */
+.menuIndice ol li h3 {
+  font-size: 13px;
+  margin: -6px;
+  font-weight: normal;
+  padding-left: 36px;
+  width: 234px;
 }
