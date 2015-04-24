@@ -1,0 +1,5253 @@
+@charset "UTF-8";
+/*
+#start
+
+//-------------------------- COR PADRÃO ------------------------------- 
+$baseColor: {{color}}; 
+
+//-------------------------- FONTE ------------------------------- 
+$fontePadrao: {{font.name}}, sans-serif;
+
+//-------------------------- LOGO ------------------------------- 
+$logo: url("{{logo.url}}") no-repeat;
+
+//-------------------------- BACKGROUND SLIDE  ------------------------------- 
+$background_atividade: url(assets/images/background_atividade.png);
+
+#end
+*/
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url("assets/fonts/OpenSans-Regular.eot");
+  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
+}
+@font-face {
+  font-family: 'OpenSansBold';
+  src: url("assets/fonts/OpenSans-Bold.eot");
+  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
+}
+@font-face {
+  font-family: 'VWHeadlineOTBook';
+  src: url("assets/fonts/VWHeadlineOT-Book.eot");
+  src: url("assets/fonts/VWHeadlineOT-Book.eot") format("embedded-opentype"), url("assets/fonts/VWHeadlineOT-Book.ttf") format("truetype"), url("assets/fonts/VWHeadlineOT-Book.svg#VWHeadlineOTBook") format("svg");
+}
+@font-face {
+  font-family: 'VWHeadlineOTSemibold';
+  src: url("assets/fonts/VWHeadlineOTSemibold.eot");
+  src: url("assets/fonts/VWHeadlineOTSemibold.eot") format("embedded-opentype"), url("assets/fonts/VWHeadlineOTSemibold.ttf") format("truetype"), url("assets/fonts/VWHeadlineOTSemibold.svg#VWHeadlineOTSemibold") format("svg");
+}
+@font-face {
+  font-family: 'VWHeadlineOTBlack';
+  src: url("assets/fonts/VWHeadlineOTBlack.eot");
+  src: url("assets/fonts/VWHeadlineOTBlack.eot") format("embedded-opentype"), url("assets/fonts/VWHeadlineOTBlack.ttf") format("truetype"), url("assets/fonts/VWHeadlineOTBlack.svg#VWHeadlineOTBlack") format("svg");
+}
+/* line 1, ../../../_baseClient/_base/css/sass/resources/caixaDestaque/_style.scss */
+.resource .caixaDestaque {
+  min-width: 170px;
+}
+
+/* line 6, ../../../_baseClient/_base/css/sass/resources/caixaDestaque/_style.scss */
+.resource .caixaDestaque .tituloCaixaDestaque h2 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+/* line 16, ../../../_baseClient/_base/css/sass/resources/caixaDestaque/_style.scss */
+.resource .caixaDestaque .textoCaixaDestaque {
+  padding: 15px 20px 15px 15px;
+}
+/* line 18, ../../../_baseClient/_base/css/sass/resources/caixaDestaque/_style.scss */
+.resource .caixaDestaque .textoCaixaDestaque .tagP {
+  font-size: 12px;
+}
+
+/* line 2, ../../../_baseClient/_base/css/sass/resources/texto/_style.scss */
+.resource .texto {
+  min-width: 95px;
+  position: absolute;
+  padding: 20px;
+  font-size: 14px;
+  text-align: left;
+}
+/* line 10, ../../../_baseClient/_base/css/sass/resources/texto/_style.scss */
+.resource .titulo {
+  padding: 0px;
+}
+/* line 12, ../../../_baseClient/_base/css/sass/resources/texto/_style.scss */
+.resource .titulo .tagP {
+  font-weight: bold;
+  text-align: center;
+}
+/* line 19, ../../../_baseClient/_base/css/sass/resources/texto/_style.scss */
+.resource .texto.titulo.primario .tagP {
+  font-size: 32px;
+  line-height: 32px;
+}
+/* line 26, ../../../_baseClient/_base/css/sass/resources/texto/_style.scss */
+.resource .texto.titulo.secundario .tagP {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+/* line 1, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+.primeiroPlano {
+  min-height: 285px;
+  /*max-height: 470px;*/
+}
+/* line 4, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+.primeiroPlano h2 {
+  margin: 0px;
+}
+
+/* line 9, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+.ppPequeno {
+  width: 500px;
+  height: 285px;
+}
+/* line 13, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+.ppPequeno #modalContent {
+  height: inherit;
+  width: inherit;
+}
+
+/* line 19, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+.ppMedio {
+  width: 580px;
+  height: 500px;
+}
+/* line 23, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+.ppMedio #modalContent {
+  height: inherit;
+  width: inherit;
+}
+
+/* line 29, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+.ppGrande {
+  width: 880px;
+  height: 500px;
+}
+/* line 33, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+.ppGrande #modalContent {
+  height: inherit;
+  width: inherit;
+}
+
+/* line 5, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.addRemoveTabs {
+  display: none;
+}
+
+/* line 9, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.tabs {
+  padding: 10px;
+  border: 1px solid #b8b8b8;
+  background: #f7f7f7;
+  min-width: 264px;
+  min-height: 200px;
+}
+
+/* line 18, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.ui-tabs {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+/* line 25, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab ul.tabs-nav {
+  display: block;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background: #f8f8f8;
+  position: relative;
+}
+/* line 33, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab ul.tabs-nav li {
+  list-style: none;
+  border: 1px solid #b8b8b8;
+  position: relative;
+  text-align: center;
+  display: table;
+}
+/* line 40, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab ul.tabs-nav li.visited:before {
+  content: "";
+  position: absolute;
+  height: 8%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background: #461e6e;
+  z-index: 11;
+}
+/* line 51, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab ul.tabs-nav li .anchor {
+  background: #FFFFFF;
+  display: block;
+  height: inherit;
+  width: 100%;
+  color: #000000;
+  display: table;
+}
+/* line 58, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab ul.tabs-nav li .anchor:focus {
+  outline: none;
+}
+/* line 62, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab ul.tabs-nav li .anchor, .theTab ul.tabs-nav li .anchor * {
+  text-decoration: none;
+}
+/* line 66, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab ul.tabs-nav li .anchor .tagP {
+  padding: 8px;
+  width: inherit;
+  height: inherit;
+  display: table-cell;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 17px;
+}
+/* line 78, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab ul.tabs-nav li.ui-tabs-active > * {
+  background: #eaeaea;
+}
+/* line 85, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab .tabs-content {
+  position: relative;
+  border: 1px solid #b8b8b8;
+  width: 100%;
+  background: #eaeaea;
+  overflow: hidden;
+}
+/* line 93, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab .addRemoveTabs {
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+}
+/* line 99, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab .tab-prev, .theTab .tab-next {
+  cursor: pointer;
+  /* display: none; */
+}
+/* line 105, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.tabs-nav-can-scroll .tab-prev, .theTab.tabs-nav-can-scroll .tab-next {
+  display: block;
+}
+/* line 112, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical.tabs-nav-prev-exausted.tabs-nav-next-exausted ul.tabs-nav {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+/* line 117, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical.tabs-nav-prev-exausted.tabs-nav-next-exausted .tab-prev,
+.theTab.vertical.tabs-nav-prev-exausted.tabs-nav-next-exausted .tab-next {
+  display: none;
+}
+/* line 123, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal.tabs-nav-prev-exausted.tabs-nav-next-exausted ul.tabs-nav {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 128, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal.tabs-nav-prev-exausted.tabs-nav-next-exausted .tab-prev,
+.theTab.horizontal.tabs-nav-prev-exausted.tabs-nav-next-exausted .tab-next {
+  display: none;
+}
+/* line 134, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.tabs-nav-prev-exausted .tab-prev, .theTab.tabs-nav-next-exausted .tab-next {
+  background: #BDBDBD;
+}
+
+/* line 147, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical.left .tabs-content {
+  right: 0px;
+}
+/* line 151, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical.left .tab-prev, .theTab.vertical.left .tab-next {
+  left: 0px;
+}
+/* line 156, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical.right ul.tabs-nav {
+  float: right;
+}
+/* line 160, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical.right .tabs-content {
+  left: 0px;
+}
+/* line 164, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical.right .tab-prev, .theTab.vertical.right .tab-next {
+  right: 0px;
+}
+/* line 169, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical .tab-prev, .theTab.vertical .tab-next {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  position: absolute;
+  width: 35%;
+  height: 10px;
+  z-index: 1;
+}
+/* line 175, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical .tab-prev:after, .theTab.vertical .tab-next:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 5px 5px 0px;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  margin-left: -2.5px;
+  margin-top: -2.5px;
+}
+/* line 191, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical .tab-prev {
+  top: 0px;
+}
+/* line 193, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical .tab-prev:after {
+  border-width: 0 5px 5px;
+}
+/* line 198, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical .tab-next {
+  bottom: 0px;
+}
+/* line 202, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical ul.tabs-nav {
+  float: left;
+  width: 35%;
+  height: inherit;
+  overflow: hidden;
+  padding: 15px 0px 4px 0px;
+}
+/* line 209, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical ul.tabs-nav li {
+  width: 100%;
+}
+/* line 214, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical .tabs-content {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: inherit;
+  width: 63%;
+  z-index: 0;
+}
+/* line 222, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical .tabs-content .tab-content {
+  height: inherit;
+}
+/* line 225, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical .tabs-content .tab-content .TabsStage {
+  height: inherit;
+}
+/* line 228, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.vertical .tabs-content .tab-content .TabsStage .mbCanvas {
+  height: inherit;
+}
+
+/* line 243, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal .tab-next:after, .theTab.horizontal .tab-prev:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-color: transparent #FFFFFF;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -3px;
+}
+/* line 261, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal .tab-prev:after {
+  border-width: 5px 5px 5px 0;
+}
+/* line 266, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal.top {
+  background: none;
+}
+/* line 268, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal.top ul.tabs-nav {
+  border-bottom: 0px;
+}
+/* line 270, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal.top ul.tabs-nav li {
+  border-bottom: 0px;
+}
+/* line 275, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal.top:after, .theTab.horizontal.top.before {
+  content: none;
+}
+/* line 278, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal.top .tab-next, .theTab.horizontal.top .tab-prev {
+  top: 0px;
+}
+/* line 284, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal.bottom {
+  background: none;
+  bottom: auto;
+  border: 0px;
+}
+/* line 288, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal.bottom ul.tabs-nav {
+  position: absolute;
+  bottom: 0px;
+}
+/* line 291, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal.bottom ul.tabs-nav li {
+  border-top: 0px;
+}
+/* line 296, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal.bottom .tab-prev, .theTab.horizontal.bottom .tab-next {
+  bottom: 0px;
+}
+/* line 301, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal .tab-prev, .theTab.horizontal .tab-next {
+  width: 20px;
+  height: 20%;
+  position: absolute;
+  left: 0px;
+  z-index: 1;
+}
+/* line 309, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal .tab-next {
+  right: 0px;
+  left: initial;
+}
+/* line 314, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal ul.tabs-nav {
+  height: 20%;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 0px 22px 0px 21px;
+}
+/* line 320, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal ul.tabs-nav li {
+  height: 100%;
+  min-width: 60px;
+  display: inline-block;
+}
+/* line 327, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal .tabs-content {
+  height: 80%;
+}
+/* line 330, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal .tabs-content .tab-content {
+  height: 100%;
+}
+/* line 333, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal .tabs-content .tab-content .TabsStage {
+  height: inherit;
+}
+/* line 336, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal .tabs-content .tab-content .TabsStage .mbCanvas {
+  height: inherit;
+}
+
+/* line 350, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.resource .theTab .mb-stage .content-blocker {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+  z-index: 1000;
+  /* @include opacityBackground($n1: 255, $n2: 192, $n3: 203, $opacidade: 0.5); */
+}
+/* line 363, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.resource .theTab .tab-content .TabsStage .mbCanvas {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  overflow: hidden;
+  /* esconde conteudo que extrapola o canvas */
+}
+/* line 369, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.resource .theTab .tab-content .TabsStage .mbCanvas #mbResources {
+  background: #eaeaea;
+}
+/* line 372, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.resource .theTab .tab-content .TabsStage .mbCanvas .cover {
+  position: absolute;
+}
+/* line 380, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.resource .theTab.singleTab ul.tabs-nav li .addRemoveTabs #mbRemoveTab {
+  display: none !important;
+}
+
+/* line 390, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.onEdition2 .theTab ul.tabs-nav li .addRemoveTabs {
+  display: block;
+}
+/* line 392, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.onEdition2 .theTab ul.tabs-nav li .addRemoveTabs .btn-group .btn {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 0px 4px;
+}
+/* line 399, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.onEdition2 .theTab ul.tabs-nav .addRemoveTabs:last-child {
+  position: relative;
+  display: none;
+  top: 0px;
+  left: 0px;
+}
+/* line 404, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+.onEdition2 .theTab ul.tabs-nav .addRemoveTabs:last-child #mbRemoveTab {
+  display: none !important;
+}
+
+/* line 1, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.addRemoveTabs {
+  display: none;
+}
+
+/* line 5, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider {
+  display: none;
+  background: red;
+  overflow: hidden;
+  min-height: 350px;
+  min-width: 620px;
+  background: #FFFFFF;
+}
+/* line 23, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider.tabs-nav-can-scroll .tab-prev, .slider.tabs-nav-can-scroll .tab-next {
+  display: block !important;
+}
+/* line 32, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider.singleSlide ul.tabs-nav li:first-child .addRemoveTabs .btn-group button:last-child {
+  display: none !important;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider .sliderMenu {
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -70px;
+}
+/* line 47, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider .sliderMenu > .prev-slide, .slider .sliderMenu > .next-slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: blue;
+  width: 40px;
+  height: 40px;
+  z-index: 150;
+}
+/* line 57, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider .sliderMenu > .next-slide {
+  left: initial;
+  right: 0px;
+}
+/* line 62, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider .sliderMenu .summary {
+  position: relative;
+  z-index: 149;
+  text-align: center;
+  font-size: 16px;
+}
+/* line 71, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider .tab-prev, .slider .tab-next {
+  bottom: 0px;
+  width: 30px;
+  height: 20%;
+  position: absolute;
+  left: 0px;
+  z-index: 2;
+}
+/* line 81, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider .tab-next {
+  right: 0px;
+  left: initial;
+}
+/* line 86, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider.ui-tabs {
+  display: block;
+}
+/* line 90, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider ul.tabs-nav {
+  display: block;
+  width: 100%;
+  margin: 0px;
+  padding: 10px 35px;
+  position: absolute;
+  bottom: 0px;
+  height: 20%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+/* line 101, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider ul.tabs-nav li {
+  display: block;
+  list-style: none;
+  border: 1px solid #dcd7d5;
+  position: relative;
+  height: 100%;
+  min-width: 60px;
+  width: 90px;
+  display: inline-block;
+  margin-left: 13px;
+}
+/* line 113, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider ul.tabs-nav li:first-child {
+  margin-left: 0px;
+}
+/* line 117, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider ul.tabs-nav li .anchor {
+  color: #333333;
+  display: block;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+/* line 125, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider ul.tabs-nav li .anchor, .slider ul.tabs-nav li .anchor * {
+  text-decoration: none;
+}
+/* line 128, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider ul.tabs-nav li .anchor:focus {
+  outline: none;
+}
+/* line 133, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider ul.tabs-nav li .anchor .resource {
+  height: 100%;
+}
+/* line 135, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider ul.tabs-nav li .anchor .resource .imagem {
+  height: 100%;
+  width: 100%;
+  min-height: initial;
+  min-width: initial;
+  display: block;
+}
+/* line 141, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider ul.tabs-nav li .anchor .resource .imagem .trow, .slider ul.tabs-nav li .anchor .resource .imagem .tcell {
+  display: block;
+}
+/* line 145, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider ul.tabs-nav li .anchor .resource #imageWrapper {
+  min-height: initial;
+  border: 0px;
+}
+/* line 152, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider ul.tabs-nav li.ui-state-hover {
+  -webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.3);
+  box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.3);
+}
+/* line 156, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider ul.tabs-nav li.ui-tabs-active {
+  -webkit-box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.7);
+  -moz-box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.7);
+  box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.7);
+}
+/* line 161, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider ul.tabs-nav li:focus {
+  outline: none;
+}
+/* line 167, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider .tabs-content {
+  width: 100%;
+  height: 80%;
+  background: #FFFFFF;
+  position: relative;
+  overflow: hidden;
+}
+/* line 174, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider .tabs-content .tab-content {
+  height: 100%;
+}
+/* line 177, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider .tabs-content .tab-content .SliderStage {
+  height: inherit;
+}
+/* line 180, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider .tabs-content .tab-content .SliderStage .mbCanvas {
+  height: inherit;
+}
+/* line 186, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider .tabs-content .tab-content .SliderStage .mbCanvas {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  overflow: hidden;
+  /* esconde conteudo que extrapola o canvas */
+}
+/* line 194, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider .addRemoveTabs {
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  z-index: 1;
+}
+/* line 199, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider .addRemoveTabs .btn-group .btn {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 0px 4px;
+}
+
+/* line 208, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.onEdition2 .slider ul.tabs-nav .addRemoveTabs:last-child {
+  display: none;
+}
+/* line 212, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.onEdition2 .slider .addRemoveTabs {
+  display: block;
+}
+
+/* line 224, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.mbCanvas .resource .slider .mb-stage .content-blocker {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+  z-index: 1000;
+}
+/* line 236, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.mbCanvas .resource .slider .anchor {
+  cursor: pointer;
+}
+/* line 238, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.mbCanvas .resource .slider .anchor .tab-thumb-cover {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+/* line 247, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.mbCanvas .resource .slider:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+/* line 259, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.mbCanvas .resource.onEdition2 .slider:after {
+  content: none;
+}
+/* line 265, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.mbCanvas .resource.onEdition2 .slider.tabs-nav-can-scroll .tab-prev, .mbCanvas .resource.onEdition2 .slider.tabs-nav-can-scroll .tab-next {
+  display: block !important;
+}
+
+/*!
+Video.js Default Styles (http://videojs.com)
+Version 4.7.3
+Create your own skin at http://designer.videojs.com
+*/
+/* SKIN
+================================================================================
+The main class name for all skin-specific styles. To make your own skin,
+replace all occurances of 'vjs-default-skin' with a new name. Then add your new
+skin name to your video tag instead of the default skin.
+e.g. <video class="video-js my-skin-name">
+*/
+/* line 13, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin {
+  color: #cccccc;
+}
+
+/* Custom Icon Font
+--------------------------------------------------------------------------------
+The control icons are from a custom font. Each icon corresponds to a character
+(e.g. "\e001"). Font icons allow for easy scaling and coloring of icons.
+*/
+@font-face {
+  font-family: 'VideoJS';
+  src: url("assets/fonts/videojs/vjs.eot");
+  src: url("assets/fonts/videojs/vjs.eot?#iefix") format("embedded-opentype"), url("assets/fonts/videojs/vjs.woff") format("woff"), url("assets/fonts/videojs/vjs.ttf") format("truetype"), url("assets/fonts/videojs/vjs.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Base UI Component Classes
+--------------------------------------------------------------------------------
+*/
+/* Slider - used for Volume bar and Seek bar */
+/* line 32, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-slider {
+  /* Replace browser focus hightlight with handle highlight */
+  outline: 0;
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  /* background-color-with-alpha */
+  background-color: #333333;
+  background-color: rgba(51, 51, 51, 0.9);
+}
+
+/* line 42, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-slider:focus {
+  /* box-shadow */
+  -webkit-box-shadow: 0 0 2em #ffffff;
+  -moz-box-shadow: 0 0 2em #ffffff;
+  box-shadow: 0 0 2em #ffffff;
+}
+
+/* line 48, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-slider-handle {
+  position: absolute;
+  /* Needed for IE6 */
+  left: 0;
+  top: 0;
+}
+
+/* line 54, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-slider-handle:before {
+  content: "\e009";
+  font-family: VideoJS;
+  font-size: 1em;
+  line-height: 1;
+  text-align: center;
+  text-shadow: 0em 0em 1em #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Rotate the square icon to make a diamond */
+  /* transform */
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* Control Bar
+--------------------------------------------------------------------------------
+The default control bar that is a container for most of the controls.
+*/
+/* line 76, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-control-bar {
+  /* Start hidden */
+  display: none;
+  position: absolute;
+  /* Place control bar at the bottom of the player box/video.
+     If you want more margin below the control bar, add more height. */
+  bottom: 0;
+  /* Use left/right to stretch to 100% width of player div */
+  left: 0;
+  right: 0;
+  /* Height includes any margin you want above or below control items */
+  height: 3.0em;
+  /* background-color-with-alpha */
+  background-color: #07141e;
+  background-color: rgba(7, 20, 30, 0.7);
+}
+
+/* Show the control bar only once the video has started playing */
+/* line 93, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin.vjs-has-started .vjs-control-bar {
+  display: block;
+  /* Visibility needed to make sure things hide in older browsers too. */
+  visibility: visible;
+  opacity: 1;
+  /* transition */
+  -webkit-transition: visibility 0.1s, opacity 0.1s;
+  -moz-transition: visibility 0.1s, opacity 0.1s;
+  -o-transition: visibility 0.1s, opacity 0.1s;
+  transition: visibility 0.1s, opacity 0.1s;
+}
+
+/* Hide the control bar when the video is playing and the user is inactive  */
+/* line 106, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  /* transition */
+  -webkit-transition: visibility 1s, opacity 1s;
+  -moz-transition: visibility 1s, opacity 1s;
+  -o-transition: visibility 1s, opacity 1s;
+  transition: visibility 1s, opacity 1s;
+}
+
+/* line 116, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin.vjs-controls-disabled .vjs-control-bar {
+  display: none;
+}
+
+/* line 119, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin.vjs-using-native-controls .vjs-control-bar {
+  display: none;
+}
+
+/* The control bar shouldn't show after an error */
+/* line 123, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin.vjs-error .vjs-control-bar {
+  display: none;
+}
+
+/* IE8 is flakey with fonts, and you have to change the actual content to force
+fonts to show/hide properly.
+  - "\9" IE8 hack didn't work for this
+  - Found in XP IE8 from http://modern.ie. Does not show up in "IE8 mode" in IE9
+*/
+@media \0screen {
+  /* line 132, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+  .vjs-default-skin.vjs-user-inactive.vjs-playing .vjs-control-bar :before {
+    content: "";
+  }
+}
+/* General styles for individual controls. */
+/* line 137, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-control {
+  outline: none;
+  position: relative;
+  float: left;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 3.0em;
+  width: 4em;
+}
+
+/* FontAwsome button icons */
+/* line 148, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-control:before {
+  font-family: VideoJS;
+  font-size: 1.5em;
+  line-height: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* Replacement for focus outline */
+/* line 161, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-control:focus:before,
+.vjs-default-skin .vjs-control:hover:before {
+  text-shadow: 0em 0em 1em #ffffff;
+}
+
+/* line 165, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-control:focus {
+  /*  outline: 0; */
+  /* keyboard-only users cannot see the focus on several of the UI elements when
+  this is set to 0 */
+}
+
+/* Hide control text visually, but have it available for screenreaders */
+/* line 172, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-control-text {
+  /* hide-visually */
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* Play/Pause
+--------------------------------------------------------------------------------
+*/
+/* line 186, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-play-control {
+  width: 5em;
+  cursor: pointer;
+}
+
+/* line 190, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-play-control:before {
+  content: "\e001";
+}
+
+/* line 193, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin.vjs-playing .vjs-play-control:before {
+  content: "\e002";
+}
+
+/* Playback toggle
+--------------------------------------------------------------------------------
+*/
+/* line 199, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-playback-rate .vjs-playback-rate-value {
+  font-size: 1.5em;
+  line-height: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* line 210, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-playback-rate.vjs-menu-button .vjs-menu .vjs-menu-content {
+  width: 4em;
+  left: -2em;
+  list-style: none;
+}
+
+/* Volume/Mute
+-------------------------------------------------------------------------------- */
+/* line 217, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-mute-control,
+.vjs-default-skin .vjs-volume-menu-button {
+  cursor: pointer;
+  float: right;
+}
+
+/* line 222, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-mute-control:before,
+.vjs-default-skin .vjs-volume-menu-button:before {
+  content: "\e006";
+}
+
+/* line 226, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-mute-control.vjs-vol-0:before,
+.vjs-default-skin .vjs-volume-menu-button.vjs-vol-0:before {
+  content: "\e003";
+}
+
+/* line 230, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-mute-control.vjs-vol-1:before,
+.vjs-default-skin .vjs-volume-menu-button.vjs-vol-1:before {
+  content: "\e004";
+}
+
+/* line 234, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-mute-control.vjs-vol-2:before,
+.vjs-default-skin .vjs-volume-menu-button.vjs-vol-2:before {
+  content: "\e005";
+}
+
+/* line 238, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-volume-control {
+  width: 5em;
+  float: right;
+}
+
+/* line 242, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-volume-bar {
+  width: 5em;
+  height: 0.6em;
+  margin: 1.1em auto 0;
+}
+
+/* line 247, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-volume-menu-button .vjs-menu-content {
+  height: 2.9em;
+}
+
+/* line 250, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-volume-level {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0.5em;
+  /* assuming volume starts at 1.0 */
+  width: 100%;
+  background: #66a8cc url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQVQIHWWMAQoAIAgDR/QJ/Ub//04+w7ZICBwcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat;
+}
+
+/* line 261, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-volume-bar .vjs-volume-handle {
+  width: 0.5em;
+  height: 0.5em;
+  /* Assumes volume starts at 1.0. If you change the size of the
+     handle relative to the volume bar, you'll need to update this value
+     too. */
+  left: 4.5em;
+}
+
+/* line 270, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-volume-handle:before {
+  font-size: 0.9em;
+  top: -0.2em;
+  left: -0.2em;
+  width: 1em;
+  height: 1em;
+}
+
+/* line 277, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-volume-menu-button .vjs-menu .vjs-menu-content {
+  width: 6em;
+  left: -4em;
+}
+
+/* Progress
+--------------------------------------------------------------------------------
+*/
+/* line 284, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-progress-control {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: auto;
+  font-size: 0.3em;
+  height: 1em;
+  /* Set above the rest of the controls. */
+  top: -1em;
+  /* Shrink the bar slower than it grows. */
+  /* transition */
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+/* On hover, make the progress bar grow to something that's more clickable.
+    This simply changes the overall font for the progress bar, and this
+    updates both the em-based widths and heights, as wells as the icon font */
+/* line 303, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin:hover .vjs-progress-control {
+  font-size: .9em;
+  /* Even though we're not changing the top/height, we need to include them in
+      the transition so they're handled correctly. */
+  /* transition */
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+/* Box containing play and load progresses. Also acts as seek scrubber. */
+/* line 315, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-progress-holder {
+  height: 100%;
+}
+
+/* Progress Bars */
+/* line 319, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-progress-holder .vjs-play-progress,
+.vjs-default-skin .vjs-progress-holder .vjs-load-progress,
+.vjs-default-skin .vjs-progress-holder .vjs-load-progress div {
+  position: absolute;
+  display: block;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* updated by javascript during playback */
+  width: 0;
+  /* Needed for IE6 */
+  left: 0;
+  top: 0;
+}
+
+/* line 334, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-play-progress {
+  /*
+    Using a data URI to create the white diagonal lines with a transparent
+      background. Surprisingly works in IE8.
+      Created using http://www.patternify.com
+    Changing the first color value will change the bar color.
+    Also using a paralax effect to make the lines move backwards.
+      The -50% left position makes that happen.
+  */
+  background: #66a8cc url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQVQIHWWMAQoAIAgDR/QJ/Ub//04+w7ZICBwcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat;
+}
+
+/* line 346, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-load-progress {
+  background: #646464;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* there are child elements of the load progress bar that represent the
+   specific time ranges that have been buffered */
+/* line 352, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-load-progress div {
+  background: #787878;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* line 356, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-seek-handle {
+  width: 1.5em;
+  height: 100%;
+}
+
+/* line 360, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-seek-handle:before {
+  padding-top: 0.1em;
+}
+
+/* Live Mode
+--------------------------------------------------------------------------------
+*/
+/* line 366, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin.vjs-live .vjs-time-controls,
+.vjs-default-skin.vjs-live .vjs-time-divider,
+.vjs-default-skin.vjs-live .vjs-progress-control {
+  display: none;
+}
+
+/* line 371, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin.vjs-live .vjs-live-display {
+  display: block;
+}
+
+/* Live Display
+--------------------------------------------------------------------------------
+*/
+/* line 377, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-live-display {
+  display: none;
+  font-size: 1em;
+  line-height: 3em;
+}
+
+/* Time Display
+--------------------------------------------------------------------------------
+*/
+/* line 385, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-time-controls {
+  font-size: 1em;
+  /* Align vertically by making the line height the same as the control bar */
+  line-height: 3em;
+}
+
+/* line 390, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-current-time {
+  float: left;
+}
+
+/* line 393, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-duration {
+  float: left;
+}
+
+/* Remaining time is in the HTML, but not included in default design */
+/* line 397, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-remaining-time {
+  display: none;
+  float: left;
+}
+
+/* line 401, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-time-divider {
+  float: left;
+  line-height: 3em;
+}
+
+/* Fullscreen
+--------------------------------------------------------------------------------
+*/
+/* line 408, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-fullscreen-control {
+  width: 3.8em;
+  cursor: pointer;
+  float: right;
+}
+
+/* line 413, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-fullscreen-control:before {
+  content: "\e000";
+}
+
+/* Switch to the exit icon when the player is in fullscreen */
+/* line 417, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin.vjs-fullscreen .vjs-fullscreen-control:before {
+  content: "\e00b";
+}
+
+/* Big Play Button (play button at start)
+--------------------------------------------------------------------------------
+Positioning of the play button in the center or other corners can be done more
+easily in the skin designer. http://designer.videojs.com/
+*/
+/* line 425, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-big-play-button {
+  left: 50%;
+  top: 50%;
+  font-size: 3em;
+  display: block;
+  z-index: 2;
+  position: absolute;
+  width: 2em;
+  height: 2em;
+  margin-left: -1em;
+  margin-top: -1em;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  opacity: 1;
+  /* Need a slightly gray bg so it can be seen on black backgrounds */
+  /* background-color-with-alpha */
+  background-color: #07141e;
+  background-color: rgba(7, 20, 30, 0.7);
+  border: 0.1em solid #3b4249;
+  /* border-radius */
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
+  /* box-shadow */
+  -webkit-box-shadow: 0px 0px 1em rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: 0px 0px 1em rgba(255, 255, 255, 0.25);
+  box-shadow: 0px 0px 1em rgba(255, 255, 255, 0.25);
+  /* transition */
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+/* Optionally center */
+/* line 460, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin.vjs-big-play-centered .vjs-big-play-button {
+  /* Center it horizontally */
+  left: 50%;
+  margin-left: -2.1em;
+  /* Center it vertically */
+  top: 50%;
+  margin-top: -1.4000000000000001em;
+}
+
+/* Hide if controls are disabled */
+/* line 469, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin.vjs-controls-disabled .vjs-big-play-button {
+  display: none;
+}
+
+/* Hide when video starts playing */
+/* line 473, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin.vjs-has-started .vjs-big-play-button {
+  display: none;
+}
+
+/* Hide on mobile devices. Remove when we stop using native controls
+    by default on mobile  */
+/* line 478, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin.vjs-using-native-controls .vjs-big-play-button {
+  display: none;
+}
+
+/* line 481, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin:hover .vjs-big-play-button,
+.vjs-default-skin .vjs-big-play-button:focus {
+  outline: 0;
+  border-color: #fff;
+  /* IE8 needs a non-glow hover state */
+  background-color: #505050;
+  background-color: rgba(50, 50, 50, 0.75);
+  /* box-shadow */
+  -webkit-box-shadow: 0 0 3em #ffffff;
+  -moz-box-shadow: 0 0 3em #ffffff;
+  box-shadow: 0 0 3em #ffffff;
+  /* transition */
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  transition: all 0s;
+}
+
+/* line 498, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-big-play-button:before {
+  content: "\e001";
+  font-family: VideoJS;
+  line-height: 1.9em;
+  text-shadow: 0.05em 0.05em 0.1em #000;
+  text-align: center;
+  position: absolute;
+  left: 3%;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 509, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-error .vjs-big-play-button {
+  display: none;
+}
+
+/* Error Display
+--------------------------------------------------------------------------------
+*/
+/* Loading Spinner
+--------------------------------------------------------------------------------
+*/
+/* line 562, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-loading-spinner {
+  /* Should be hidden by default */
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 4em;
+  line-height: 1;
+  width: 1em;
+  height: 1em;
+  margin-left: -0.5em;
+  margin-top: -0.5em;
+  opacity: 0.75;
+}
+
+/* Show the spinner when waiting for data and seeking to a new time */
+/* line 577, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-waiting .vjs-loading-spinner,
+.vjs-seeking .vjs-loading-spinner {
+  display: block;
+  /* only animate when showing because it can be processor heavy */
+  /* animation */
+  -webkit-animation: spin 1.5s infinite linear;
+  -moz-animation: spin 1.5s infinite linear;
+  -o-animation: spin 1.5s infinite linear;
+  animation: spin 1.5s infinite linear;
+}
+
+/* Errors are unrecoverable without user interaction so hide the spinner */
+/* line 588, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-error .vjs-loading-spinner {
+  display: none;
+  /* ensure animation doesn't continue while hidden */
+  /* animation */
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
+  animation: none;
+}
+
+/* line 597, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-loading-spinner:before {
+  content: "\e01e";
+  font-family: VideoJS;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  text-shadow: 0em 0em 0.1em #000;
+}
+
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+/* Menu Buttons (Captions/Subtitles/etc.)
+--------------------------------------------------------------------------------
+*/
+/* line 643, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-menu-button {
+  float: right;
+  cursor: pointer;
+}
+
+/* line 647, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-menu {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0em;
+  /* (Width of vjs-menu - width of button) / 2 */
+  width: 0em;
+  height: 0em;
+  margin-bottom: 3em;
+  border-left: 2em solid transparent;
+  border-right: 2em solid transparent;
+  border-top: 1.55em solid #000000;
+  /* Same width top as ul bottom */
+  border-top-color: rgba(7, 40, 50, 0.5);
+  /* Same as ul background */
+}
+
+/* Button Pop-up Menu */
+/* line 667, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-menu-button .vjs-menu .vjs-menu-content {
+  display: block;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width: 10em;
+  bottom: 1.5em;
+  /* Same bottom as vjs-menu border-top */
+  max-height: 15em;
+  overflow: auto;
+  left: -5em;
+  /* Width of menu - width of button / 2 */
+  /* background-color-with-alpha */
+  background-color: #07141e;
+  background-color: rgba(7, 20, 30, 0.7);
+  /* box-shadow */
+  -webkit-box-shadow: -0.2em -0.2em 0.3em rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: -0.2em -0.2em 0.3em rgba(255, 255, 255, 0.2);
+  box-shadow: -0.2em -0.2em 0.3em rgba(255, 255, 255, 0.2);
+}
+
+/* line 689, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-menu-button:hover .vjs-menu {
+  display: block;
+}
+
+/* line 692, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-menu-button ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0.3em 0 0.3em 0;
+  line-height: 1.4em;
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+/* line 701, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-menu-button ul li.vjs-selected {
+  background-color: #000;
+}
+
+/* line 704, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-menu-button ul li:focus,
+.vjs-default-skin .vjs-menu-button ul li:hover,
+.vjs-default-skin .vjs-menu-button ul li.vjs-selected:focus,
+.vjs-default-skin .vjs-menu-button ul li.vjs-selected:hover {
+  outline: 0;
+  color: #111;
+  /* background-color-with-alpha */
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.75);
+  /* box-shadow */
+  -webkit-box-shadow: 0 0 1em #ffffff;
+  -moz-box-shadow: 0 0 1em #ffffff;
+  box-shadow: 0 0 1em #ffffff;
+}
+
+/* line 718, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-menu-button ul li.vjs-menu-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 2em;
+  padding: 0;
+  margin: 0 0 0.3em 0;
+  font-weight: bold;
+  cursor: default;
+}
+
+/* Subtitles Button */
+/* line 729, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-subtitles-button:before {
+  content: "\e00c";
+}
+
+/* Captions Button */
+/* line 733, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-captions-button:before {
+  content: "\e008";
+}
+
+/* Chapters Button */
+/* line 737, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-chapters-button:before {
+  content: "\e00c";
+}
+
+/* line 740, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-chapters-button.vjs-menu-button .vjs-menu .vjs-menu-content {
+  width: 24em;
+  left: -12em;
+}
+
+/* Replacement for focus outline */
+/* line 745, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-captions-button:focus .vjs-control-content:before,
+.vjs-default-skin .vjs-captions-button:hover .vjs-control-content:before {
+  /* box-shadow */
+  -webkit-box-shadow: 0 0 1em #ffffff;
+  -moz-box-shadow: 0 0 1em #ffffff;
+  box-shadow: 0 0 1em #ffffff;
+}
+
+/*
+REQUIRED STYLES (be careful overriding)
+================================================================================
+When loading the player, the video tag is replaced with a DIV,
+that will hold the video tag or object tag for other playback methods.
+The div contains the video playback element (Flash or HTML5) and controls,
+and sets the width and height of the video.
+
+** If you want to add some kind of border/padding (e.g. a frame), or special
+positioning, use another containing element. Otherwise you risk messing up
+control positioning and full window mode. **
+*/
+/* line 764, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.video-js {
+  position: relative;
+  padding: 0;
+  /* Start with 10px for base font size so other dimensions can be em based and
+     easily calculable. */
+  font-size: 10px;
+  /* Allow poster to be vertially aligned. */
+  vertical-align: middle;
+  /*  display: table-cell; */
+  /*This works in Safari but not Firefox.*/
+  /* Provide some basic defaults for fonts */
+  font-weight: normal;
+  font-style: normal;
+  /* Avoiding helvetica: issue #376 */
+  font-family: Arial, sans-serif;
+  /* Turn off user selection (text highlighting) by default.
+     The majority of player components will not be text blocks.
+     Text areas will need to turn user selection back on. */
+  /* user-select */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Playback technology elements expand to the width/height of the containing div
+    <video> or <object> */
+/* line 797, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.video-js .vjs-tech {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Fix for Firefox 9 fullscreen (only if it is enabled). Not needed when
+   checking fullScreenEnabled. */
+/* line 806, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.video-js:-moz-full-screen {
+  position: absolute;
+}
+
+/* Fullscreen Styles */
+/* line 810, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+body.vjs-full-window {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  /* Fix for IE6 full-window. http://www.cssplay.co.uk/layouts/fixed.html */
+  overflow-y: auto;
+}
+
+/* line 817, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.video-js.vjs-fullscreen {
+  position: fixed;
+  overflow: hidden;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+  /* IE6 full-window (underscore hack) */
+  _position: absolute;
+}
+
+/* line 830, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.video-js:-webkit-full-screen {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* line 834, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.video-js.vjs-fullscreen.vjs-user-inactive {
+  cursor: none;
+}
+
+/* Poster Styles */
+/* line 838, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-poster {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  cursor: pointer;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+/* line 849, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-poster img {
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+/* Hide the poster when native controls are used otherwise it covers them */
+/* line 857, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.video-js.vjs-using-native-controls .vjs-poster {
+  display: none;
+}
+
+/* Text Track Styles */
+/* Overall track holder for both captions and subtitles */
+/* line 862, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.video-js .vjs-text-track-display {
+  text-align: center;
+  position: absolute;
+  bottom: 4em;
+  /* Leave padding on left and right */
+  left: 1em;
+  right: 1em;
+}
+
+/* Move captions down when controls aren't being shown */
+/* line 871, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.video-js.vjs-user-inactive.vjs-playing .vjs-text-track-display {
+  bottom: 1em;
+}
+
+/* Individual tracks */
+/* line 875, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.video-js .vjs-text-track {
+  display: none;
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 0.1em;
+  /* Transparent black background, or fallback to all black (oldIE) */
+  /* background-color-with-alpha */
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 885, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.video-js .vjs-subtitles {
+  color: #ffffff;
+}
+
+/* line 888, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.video-js .vjs-captions {
+  color: #ffcc66;
+}
+
+/* line 891, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-tt-cue {
+  display: block;
+}
+
+/* Hide disabled or unsupported controls */
+/* line 895, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-default-skin .vjs-hidden {
+  display: none;
+}
+
+/* line 898, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-lock-showing {
+  display: block !important;
+  opacity: 1;
+  visibility: visible;
+}
+
+/*  In IE8 w/ no JavaScript (no HTML5 shim), the video tag doesn't register.
+    The .video-js classname on the video tag also isn't considered.
+    This optional paragraph inside the video tag can provide a message to users
+    about what's required to play video. */
+/* line 907, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-no-js {
+  padding: 20px;
+  color: #ccc;
+  background-color: #333;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  width: 300px;
+  height: 150px;
+  margin: 0px auto;
+}
+
+/* line 918, ../../../_baseClient/_base/css/sass/others/_videojs.scss */
+.vjs-no-js a,
+.vjs-no-js a:visited {
+  color: #F4A460;
+}
+
+/* -----------------------------------------------------------------------------
+The original source of this file lives at
+https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
+/* line 4, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+.resource div.video, .resource div.video2 {
+  min-width: 286px;
+  min-height: 141.5px;
+  background: #000000;
+}
+/* line 8, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+.resource div.video .glyphicon, .resource div.video2 .glyphicon {
+  display: none;
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+}
+/* line 19, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+.resource div.video .video-js .vjs-control-bar .vjs-mute-control, .resource div.video .video-js .vjs-control-bar .vjs-fullscreen-control, .resource div.video .video-js .vjs-control-bar .vjs-quality-button, .resource div.video .video-js .vjs-control-bar .vjs-live-controls, .resource div.video .video-js .vjs-control-bar .vjs-play-control, .resource div.video2 .video-js .vjs-control-bar .vjs-mute-control, .resource div.video2 .video-js .vjs-control-bar .vjs-fullscreen-control, .resource div.video2 .video-js .vjs-control-bar .vjs-quality-button, .resource div.video2 .video-js .vjs-control-bar .vjs-live-controls, .resource div.video2 .video-js .vjs-control-bar .vjs-play-control {
+  width: 3em;
+}
+/* line 24, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+.resource div.video.fullscreen, .resource div.video2.fullscreen {
+  z-index: 1000 !important;
+}
+/* line 30, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+.resource div.noContent.video, .resource div.noContent.video2 {
+  background: #e7e7e7;
+}
+/* line 36, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+.resource div.noContent .video, .resource div.noContent .video2 {
+  background: #e7e7e7;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+.resource div.noContent .glyphicon {
+  display: block;
+}
+/* line 43, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+.resource div.noContent .vjs-loading-spinner, .resource div.noContent .vjs-big-play-button, .resource div.noContent .vjs-control-bar, .resource div.noContent .vjs-error-display {
+  display: none;
+}
+/* line 47, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+.resource div.noContent .bgVideoIEfix {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #e7e7e7;
+  top: 0px;
+}
+/* line 57, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+.resource.noContent .video, .resource.noContent .video2 {
+  background: #e7e7e7;
+}
+/* line 59, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+.resource.noContent .video .glyphicon, .resource.noContent .video2 .glyphicon {
+  display: block;
+}
+/* line 64, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+.resource.noContent .vjs-loading-spinner, .resource.noContent .vjs-big-play-button, .resource.noContent .vjs-control-bar, .resource.noContent .vjs-error-display {
+  display: none;
+}
+
+/* line 73, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+.resource div.video .iframeblocker, .resource div.video2 .iframeblocker {
+  display: none;
+}
+/* line 76, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+.resource div.video .vjs-default-skin .vjs-big-play-button:focus, .resource div.video2 .vjs-default-skin .vjs-big-play-button:focus {
+  border-color: none;
+}
+
+/* line 3, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
+.resource .imagem {
+  position: absolute;
+  min-width: 100px;
+  min-height: 100px;
+  display: table;
+}
+/* line 11, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
+.resource .imagem.zoomActive .trow .tcell #imageWrapper {
+  visibility: hidden;
+}
+/* line 18, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
+.resource .imagem .trow {
+  display: table-row;
+}
+/* line 21, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
+.resource .imagem .trow:first-child {
+  height: 100%;
+}
+/* line 25, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
+.resource .imagem .tcell {
+  display: table-cell;
+  height: inherit;
+}
+/* line 30, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
+.resource .imagem img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+/* line 42, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
+.resource .imagem .glyphicon {
+  display: none;
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -30px;
+}
+/* line 52, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
+.resource .imagem .noContent {
+  background: #e7e7e7;
+  border: 1px solid #dcd7d5;
+}
+/* line 55, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
+.resource .imagem .noContent .glyphicon {
+  display: block;
+}
+/* line 60, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
+.resource .imagem #imageWrapper {
+  position: relative;
+  height: 100%;
+  min-height: 100px;
+}
+/* line 66, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
+.resource .imagem #recImglegendaContent {
+  text-align: center;
+  padding-top: 3px;
+  font-size: 12px;
+  display: block;
+}
+
+/* line 74, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
+.resource .imagem.borda {
+  padding: 5px;
+}
+
+/* line 82, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
+.mbCanvas .imagem.zoomImg:after {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 34px;
+  background: url(assets/images/zoom.png);
+  top: 0px;
+  right: -1px;
+  z-index: 20;
+}
+
+/* line 96, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
+.middle .imagem.zoomImg, #modal .imagem.zoomImg {
+  cursor: url(../css/assets/images/zoomPointer.png), -moz-zoom-in;
+}
+/* line 98, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
+.middle .imagem.zoomImg:after, #modal .imagem.zoomImg:after {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 34px;
+  background: url(../css/assets/images/zoom.png);
+  top: 0px;
+  right: -1px;
+  z-index: 20;
+}
+
+/* line 1, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+.resource div.audio {
+  background: #e7e7e7;
+  border: 1px solid #b3b3b3;
+  min-width: 286px;
+  min-height: 33px;
+}
+/* line 6, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+.resource div.audio .glyphicon {
+  display: none;
+}
+/* line 11, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+.resource div.audio .video-js.vjs-error .vjs-control-bar {
+  display: none;
+}
+/* line 17, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+.resource div.audio .video-js .vjs-big-play-button {
+  width: 1em;
+  height: 1em;
+  width: 1em;
+  height: 1em;
+  left: 50%;
+  bottom: 0px;
+  top: auto;
+  margin-left: -15px;
+}
+/* line 26, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+.resource div.audio .video-js .vjs-big-play-button:before {
+  font-size: 15px;
+  top: -1px;
+}
+/* line 33, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+.resource div.audio .video-js .vjs-control-bar .vjs-fullscreen-control {
+  visibility: hidden;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+.resource div.audio .video-js .vjs-control-bar .vjs-mute-control, .resource div.audio .video-js .vjs-control-bar .vjs-fullscreen-control, .resource div.audio .video-js .vjs-control-bar .vjs-quality-button, .resource div.audio .video-js .vjs-control-bar .vjs-live-controls, .resource div.audio .video-js .vjs-control-bar .vjs-play-control {
+  width: 3em;
+}
+/* line 42, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+.resource div.audio .video-js .vjs-control-bar .vjs-fullscreen-control:before {
+  content: none;
+}
+/* line 47, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+.resource div.audio .video-js .vjs-control-bar .vjs-volume-control {
+  width: 3em;
+}
+/* line 54, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+.resource div.audio .vjs-default-skin.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+/* line 60, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+.resource div.audio .vjs-default-skin .vjs-control-bar {
+  display: block;
+}
+/* line 65, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+.resource div.audio .vjs-default-skin .vjs-big-play-button {
+  display: none;
+}
+
+/* line 75, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+.resource div.audio.noContent .glyphicon {
+  display: block;
+  position: absolute;
+  font-size: 20px;
+  margin-left: -10px;
+  left: 50%;
+  top: 4px;
+}
+/* line 84, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+.resource div.audio.noContent .video-js {
+  display: none;
+}
+/* line 88, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+.resource div.audio.noContent .vjs-poster,
+.resource div.audio.noContent .vjs-text-track-display,
+.resource div.audio.noContent .vjs-loading-spinner,
+.resource div.audio.noContent .vjs-big-play-button,
+.resource div.audio.noContent .vjs-control-bar,
+.resource div.audio.noContent .vjs-error-display {
+  display: none;
+}
+/* line 98, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+.resource div.audio .audioName {
+  display: none;
+}
+
+/* line 109, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+#mbResources .resource.noContent div.audio {
+  background: #e7e7e7;
+  border: 1px solid #b3b3b3;
+}
+/* line 112, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+#mbResources .resource.noContent div.audio .glyphicon {
+  display: block;
+  position: absolute;
+  font-size: 20px;
+  margin-left: -10px;
+  left: 50%;
+  top: 4px;
+}
+/* line 120, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+#mbResources .resource.noContent div.audio .video-js {
+  display: none;
+}
+/* line 124, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+#mbResources .resource.noContent div.audio .video-js,
+#mbResources .resource.noContent div.audio .vjs-poster,
+#mbResources .resource.noContent div.audio .vjs-text-track-display,
+#mbResources .resource.noContent div.audio .vjs-loading-spinner,
+#mbResources .resource.noContent div.audio .vjs-big-play-button,
+#mbResources .resource.noContent div.audio .vjs-control-bar,
+#mbResources .resource.noContent div.audio .vjs-error-display {
+  display: none;
+}
+/* line 134, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+#mbResources .resource.noContent div.audio .audioName {
+  display: none;
+}
+
+/* line 142, ../../../_baseClient/_base/css/sass/resources/audio/_style.scss */
+#mbResources .resource .audio .audioName {
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-clip: padding-box;
+  position: absolute;
+  right: 0px;
+  padding: 3px 5px 3px 5px;
+  display: block;
+  color: #FFFFFF;
+  background: #144b41;
+}
+
+/* line 1, ../../../_baseClient/_base/css/sass/resources/multimedia/_style.scss */
+.resource .multimedia {
+  min-width: 141.5px;
+  min-height: 141.5px;
+}
+/* line 4, ../../../_baseClient/_base/css/sass/resources/multimedia/_style.scss */
+.resource .multimedia .glyphicon {
+  display: none;
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -30px;
+}
+
+/* line 15, ../../../_baseClient/_base/css/sass/resources/multimedia/_style.scss */
+.resource .multimedia.noContent {
+  border: 1px solid #b3b3b3;
+}
+/* line 16, ../../../_baseClient/_base/css/sass/resources/multimedia/_style.scss */
+.resource .multimedia.noContent .glyphicon {
+  display: block;
+}
+/* line 20, ../../../_baseClient/_base/css/sass/resources/multimedia/_style.scss */
+.resource .multimedia.noContent .bgMultimediaIEfix {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #e7e7e7;
+  top: 0px;
+}
+
+/* line 30, ../../../_baseClient/_base/css/sass/resources/multimedia/_style.scss */
+.multimedia.mobile {
+  position: relative;
+  margin: 10px;
+}
+
+/* line 3, ../../../_baseClient/_base/css/sass/resources/personagem/_style.scss */
+.resource .personagem {
+  position: absolute;
+  min-width: 100px;
+  min-height: 100px;
+  display: table;
+}
+/* line 9, ../../../_baseClient/_base/css/sass/resources/personagem/_style.scss */
+.resource .personagem img {
+  display: block;
+  margin: 0;
+  line-height: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+/* line 18, ../../../_baseClient/_base/css/sass/resources/personagem/_style.scss */
+.resource .personagem .glyphicon {
+  display: none;
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -30px;
+}
+/* line 28, ../../../_baseClient/_base/css/sass/resources/personagem/_style.scss */
+.resource .personagem .noContent {
+  background: #e7e7e7;
+}
+/* line 30, ../../../_baseClient/_base/css/sass/resources/personagem/_style.scss */
+.resource .personagem .noContent .glyphicon {
+  display: block;
+}
+/* line 35, ../../../_baseClient/_base/css/sass/resources/personagem/_style.scss */
+.resource .personagem #imageWrapper {
+  height: 100%;
+  min-height: 100px;
+}
+/* line 40, ../../../_baseClient/_base/css/sass/resources/personagem/_style.scss */
+.resource .personagem.flip {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+/* line 1, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+#indice {
+  position: absolute;
+  top: 50px;
+  width: 980px;
+  max-width: 30630px;
+  height: 430px;
+  padding: 1px 1px 1px 40px;
+}
+
+/* line 10, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol > li {
+  position: relative;
+  list-style: none;
+  margin-bottom: 20px;
+  padding-left: 5px;
+}
+
+/* line 2, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.resource .atividade {
+  min-width: 284px;
+}
+/* line 4, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.resource .atividade .pergunta_atividade {
+  padding: 30px 20px 15px 20px;
+}
+/* line 6, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.resource .atividade .pergunta_atividade .tagP {
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 15, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.resource .atividade .alternativa_atividade {
+  font-size: 14px;
+  margin-top: 10px;
+}
+/* line 18, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.resource .atividade .alternativa_atividade ul {
+  margin: 0px;
+}
+/* line 20, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.resource .atividade .alternativa_atividade ul li {
+  position: relative;
+  padding: 15px 30px 15px 70px;
+}
+/* line 23, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.resource .atividade .alternativa_atividade ul li .addRemoveTemplate {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: none;
+  z-index: 1;
+}
+/* line 30, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.resource .atividade .alternativa_atividade ul li .checkOnDiv {
+  display: table-row;
+}
+/* line 32, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.resource .atividade .alternativa_atividade ul li .checkOnDiv .tagP {
+  cursor: pointer;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.resource .atividade .alternativa_atividade ul li .checkOnDiv .chkOrRadio {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  width: 25px;
+  height: 25px;
+  margin: 0px;
+  margin-top: -12.5px;
+}
+/* line 48, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.resource .atividade .alternativa_atividade ul li:nth-child(2) .addRemoveTemplate #mbRemoveAlternative {
+  display: none;
+}
+/* line 51, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.resource .atividade .alternativa_atividade ul li:nth-child(5) .addRemoveTemplate #mbAddAlternative {
+  display: none;
+}
+/* line 57, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.resource .atividade .enviaResposta {
+  margin: 10px 20px 20px 0px;
+}
+/* line 60, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.resource .atividade .enviaResposta strong {
+  display: block;
+  padding: 12px;
+  text-align: center;
+  line-height: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 75, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.onEdition2 > .atividade .alternativa_atividade li:last-child .addRemoveTemplate {
+  display: block;
+}
+
+/* line 80, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.caixaResposta {
+  position: absolute;
+  width: 316px;
+  min-height: 80px;
+  display: table;
+}
+/* line 85, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.caixaResposta h2 {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* line 1, ../../../_baseClient/_base/css/sass/slide/default/_style.scss */
+.slideBackground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+}
+/* line 6, ../../../_baseClient/_base/css/sass/slide/default/_style.scss */
+.slideBackground .glyphicon {
+  display: none;
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+}
+/* line 16, ../../../_baseClient/_base/css/sass/slide/default/_style.scss */
+.slideBackground .noContent {
+  border: 1px solid #b3b3b3;
+  background: #e7e7e7;
+}
+/* line 17, ../../../_baseClient/_base/css/sass/slide/default/_style.scss */
+.slideBackground .noContent .glyphicon {
+  display: block;
+}
+
+/* line 25, ../../../_baseClient/_base/css/sass/slide/default/_style.scss */
+.slideBackground.noContent {
+  background: #e7e7e7;
+}
+/* line 27, ../../../_baseClient/_base/css/sass/slide/default/_style.scss */
+.slideBackground.noContent .glyphicon {
+  display: block;
+}
+
+/* line 34, ../../../_baseClient/_base/css/sass/slide/default/_style.scss */
+.swipe-wrap .slideBackground.noContent {
+  display: none;
+}
+/* line 36, ../../../_baseClient/_base/css/sass/slide/default/_style.scss */
+.swipe-wrap .slideBackground.noContent .glyphicon {
+  display: none;
+}
+
+/* @import "slide/textoImagem/style"; */
+/* line 17, ../../../_baseClient/_base/css/sass/base.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 23, ../../../_baseClient/_base/css/sass/base.scss */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 31, ../../../_baseClient/_base/css/sass/base.scss */
+.tagP {
+  cursor: default;
+}
+
+/* line 35, ../../../_baseClient/_base/css/sass/base.scss */
+.texto, .primeiroPlano .tituloPrimeiroPlano, .atividade, .caixaDestaque, .imagem {
+  word-spacing: 5px;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/base.scss */
+.texto .tagP, .primeiroPlano .tituloPrimeiroPlano .tagP, .atividade .tagP, .caixaDestaque .tagP, .imagem .tagP {
+  margin: 0;
+  margin-bottom: 10px;
+  line-height: 17px;
+}
+
+/* line 44, ../../../_baseClient/_base/css/sass/base.scss */
+.texto ul, .caixaDestaque ul {
+  padding-left: 20px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+}
+/* line 50, ../../../_baseClient/_base/css/sass/base.scss */
+.texto ul li, .caixaDestaque ul li {
+  padding: 1px;
+}
+
+/* line 55, ../../../_baseClient/_base/css/sass/base.scss */
+.texto ol, .caixaDestaque ol {
+  list-style-type: none;
+  counter-reset: list;
+  margin-bottom: 10px;
+  margin-left: 12px;
+}
+/* line 60, ../../../_baseClient/_base/css/sass/base.scss */
+.texto ol li, .caixaDestaque ol li {
+  padding: 1px;
+}
+/* line 62, ../../../_baseClient/_base/css/sass/base.scss */
+.texto ol li:before, .caixaDestaque ol li:before {
+  font-weight: bold;
+  counter-increment: list 1;
+  content: counter(list) ".";
+  margin-right: 6px;
+}
+
+/* line 73, ../../../_baseClient/_base/css/sass/base.scss */
+.mbTooltip {
+  font-weight: bold;
+  font-style: italic;
+  cursor: help;
+}
+
+/* .swipe-wrap > div:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+  /* Adjusts for spacing /
+} */
+/* line 12, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+.resource .atividade {
+  -webkit-box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  background: #eeedea transparent;
+  background: rgba(238, 237, 234, 0.6);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEDEA', endColorstr='#FFEEEDEA');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFEEEDEA, endColorstr=#FFEEEDEA)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCeeedea, endColorstr=#CCeeedea);
+  border: solid 1px #ffffff;
+  position: absolute;
+  top: 18%;
+  left: 20%;
+  width: 581px;
+  font-family: VWHeadlineOTBook, sans-serif;
+}
+/* line 23, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+.resource .atividade .pergunta_atividade {
+  background: #cbcac7 transparent;
+  background: rgba(203, 202, 199, 0.4);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFCBCAC7', endColorstr='#FFCBCAC7');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFCBCAC7, endColorstr=#FFCBCAC7)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCcbcac7, endColorstr=#CCcbcac7);
+  border-bottom: 1px solid #dddddf;
+  color: #ff871f;
+}
+/* line 30, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+.resource .atividade .alternativa_atividade {
+  padding: 0px;
+}
+/* line 32, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+.resource .atividade .alternativa_atividade ul {
+  padding-left: 0px;
+}
+/* line 34, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+.resource .atividade .alternativa_atividade ul li {
+  list-style-type: none;
+}
+/* line 37, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+.resource .atividade .alternativa_atividade ul li.certo {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #528042;
+  margin: 4px;
+}
+/* line 38, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+.resource .atividade .alternativa_atividade ul li.errado {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #ff0000;
+  margin: 4px;
+}
+/* line 42, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+.resource .atividade .enviaResposta {
+  background: #ff871f transparent;
+  background: rgba(255, 135, 31, 0.6);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF058B9B', endColorstr='#FF058B9B');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF058B9B, endColorstr=#FF058B9B)";
+  position: relative;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC48a8b3, endColorstr=#CC48a8b3);
+  border: solid 1px #ffffff;
+  float: right;
+  cursor: pointer;
+  color: #ffffff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+/* line 54, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+.resource .atividade .enviaResposta:hover {
+  background: #ff871f transparent;
+  background: rgba(255, 135, 31, 0.5);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF006470', endColorstr='#FF006470');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF006470, endColorstr=#FF006470)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC459ba5, endColorstr=#CC459ba5);
+}
+/* line 58, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+.resource .atividade .enviaResposta:active {
+  -webkit-box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
+  -moz-box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
+  box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
+}
+/* line 61, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+.resource .atividade .enviaResposta strong {
+  padding: 14px;
+}
+/* line 65, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+.resource .atividade .enviaResposta.desativado {
+  background: #646464 transparent;
+  background: rgba(100, 100, 100, 0.6);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF636363', endColorstr='#FF636363');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF636363, endColorstr=#FF636363)";
+}
+
+/* line 77, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+.caixaResposta {
+  background: #ffffff;
+  z-index: 10000;
+  border: 1px solid #e2e2e2;
+  font-family: VWHeadlineOTBook, sans-serif;
+}
+/* line 83, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+.caixaResposta .detalheCaixa {
+  position: absolute;
+  display: block;
+  height: 30px;
+  width: 30px;
+  left: 10px;
+  border: 2px solid #9c9c9c;
+}
+
+/* line 94, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+.respostaCerta:after {
+  content: "";
+  position: absolute;
+  top: -18px;
+  left: -13px;
+  height: 52px;
+  width: 91px;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -671px;
+  z-index: 10;
+}
+
+/* line 107, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+.respostaErrada:after {
+  content: "";
+  position: absolute;
+  top: -18px;
+  left: -13px;
+  height: 52px;
+  width: 91px;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -617px;
+  z-index: 10;
+}
+
+/* line 119, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+.serverMsg {
+  font-size: 10px;
+  bottom: 10px;
+  left: 10px;
+  display: none;
+  padding: 10px;
+}
+
+/* line 1, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice {
+  /* default fallback */
+  background: white transparent;
+  /* nice browsers */
+  background: rgba(255, 255, 255, 0.8);
+  /* IE 6/7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF);
+  /* IE8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF)";
+  border: #ffffff solid 1px;
+  behavior: url(PIE.htc);
+  border: solid 1px #ffffff;
+}
+/* line 6, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice .indiceButton {
+  position: absolute;
+  height: 25px;
+  width: 16px;
+  top: 50%;
+  margin-top: -13px;
+  cursor: pointer;
+}
+/* line 15, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice .indiceAvancar {
+  right: -9px;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -1167px;
+}
+/* line 18, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice .indiceAvancar:hover {
+  top: 50.5%;
+  right: -10px;
+  height: 21px;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -1234px;
+}
+/* line 24, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice .indiceAvancar:active {
+  opacity: 0.8;
+}
+/* line 29, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice .indiceVoltar {
+  left: -9px;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -1193px;
+}
+/* line 32, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice .indiceVoltar:hover {
+  top: 50.5%;
+  left: -8px;
+  height: 22px;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -1255px;
+}
+/* line 38, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice .indiceVoltar:active {
+  opacity: 0.8;
+}
+/* line 43, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice .indiceAvancarDesativado {
+  right: -9px;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -1167px;
+  opacity: 0.6;
+  cursor: auto;
+}
+/* line 50, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice .indiceVoltarDesativado {
+  left: -9px;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -1193px;
+  opacity: 0.6;
+  cursor: auto;
+}
+/* line 59, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice ol {
+  padding-left: 84px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  counter-reset: li;
+  /* Initiate a counter */
+  list-style: none;
+  /* Remove default numbering */
+  *list-style: decimal;
+  /* Keep using default numbering for IE6/7 */
+}
+/* line 70, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice ol li {
+  line-height: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+/* line 76, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice ol .column1 {
+  margin-left: 0;
+}
+/* line 77, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice ol .column2 {
+  margin-left: 260px;
+}
+/* line 78, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice ol .column3 {
+  margin-left: 520px;
+}
+/* line 80, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice ol .reset {
+  margin-top: -18.4em;
+}
+/* line 85, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice ol .topicoFinalizado {
+  text-decoration: line-through;
+}
+/* line 89, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice ol .topicoDesativado {
+  color: #9a9a9a;
+  pointer-events: none;
+  cursor: auto;
+}
+/* line 93, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice ol .topicoDesativado:before {
+  background: #a9a9a9;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#a9a9a9 0%), color-stop(#c7c7c7 50%), color-stop(#afafaf 40%), color-stop(#9f9f9f 100%));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#c7c7c7, #a9a9a9);
+}
+/* line 97, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice ol .topicoDesativado:hover:before {
+  background: #a9a9a9;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#a9a9a9 0%), color-stop(#c7c7c7 50%), color-stop(#afafaf 40%), color-stop(#9f9f9f 100%));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#c7c7c7, #a9a9a9);
+}
+/* line 102, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice ol .topicoDesativado:active:before {
+  background: #a9a9a9;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#a9a9a9 0%), color-stop(#c7c7c7 50%), color-stop(#afafaf 40%), color-stop(#9f9f9f 100%));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #a9a9a9 0%, #c7c7c7 50%, #afafaf 40%, #9f9f9f 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#c7c7c7, #a9a9a9);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 111, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice ol a {
+  position: relative;
+  display: block;
+  width: 185px;
+  margin: 23px 0;
+  text-decoration: none;
+  color: #000000;
+}
+/* line 119, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice ol a:before {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #b9b8b8;
+  background: #ff871f;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ff871f 0%, #ff9233 50%, #ff8215 40%, #ff7c0b 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#ff871f 0%), color-stop(#ff9233 50%), color-stop(#ff8215 40%), color-stop(#ff7c0b 100%));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ff871f 0%, #ff9233 50%, #ff8215 40%, #ff7c0b 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ff871f 0%, #ff9233 50%, #ff8215 40%, #ff7c0b 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ff871f 0%, #ff9233 50%, #ff8215 40%, #ff7c0b 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ff871f 0%, #ff9233 50%, #ff8215 40%, #ff7c0b 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#ff9233, #ff871f);
+  position: absolute;
+  left: -35px;
+  top: 73%;
+  border: none;
+  content: counter(li);
+  counter-increment: li;
+  margin-top: -18px;
+  height: 21px;
+  width: 21px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+/* line 140, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice ol a:hover:before {
+  background: #ff7c0b;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ff7c0b 0%, #ff8215 50%, #ff9233 40%, #ff871f 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#ff7c0b 0%), color-stop(#ff8215 50%), color-stop(#ff9233 40%), color-stop(#ff871f 100%));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ff7c0b 0%, #ff8215 50%, #ff9233 40%, #ff871f 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ff7c0b 0%, #ff8215 50%, #ff9233 40%, #ff871f 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ff7c0b 0%, #ff8215 50%, #ff9233 40%, #ff871f 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ff7c0b 0%, #ff8215 50%, #ff9233 40%, #ff871f 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#ff8215, #ff7c0b);
+}
+/* line 145, ../../../_baseClient/padrao2/css/sass/slide/_indice.scss */
+.indice ol a:active:before {
+  background: #ff7c0b;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ff7c0b 0%, #ff8215 50%, #ff9233 40%, #ff871f 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#ff7c0b 0%), color-stop(#ff8215 50%), color-stop(#ff9233 40%), color-stop(#ff871f 100%));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ff7c0b 0%, #ff8215 50%, #ff9233 40%, #ff871f 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ff7c0b 0%, #ff8215 50%, #ff9233 40%, #ff871f 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ff7c0b 0%, #ff8215 50%, #ff9233 40%, #ff871f 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ff7c0b 0%, #ff8215 50%, #ff9233 40%, #ff871f 100%);
+  /* W3C */
+  -pie-background: linear-gradient(#ff8215, #ff7c0b);
+  -webkit-box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
+  -moz-box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
+  box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
+}
+
+/* line 1, ../../../_baseClient/padrao2/css/sass/slide/_capa.scss */
+.faixaCapa {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+/* line 8, ../../../_baseClient/padrao2/css/sass/slide/_capa.scss */
+.faixaCapa .texto {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border: none;
+  width: inherit;
+  height: inherit;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0px;
+}
+/* line 21, ../../../_baseClient/padrao2/css/sass/slide/_capa.scss */
+.faixaCapa .texto .tagP {
+  /* default fallback */
+  background: white transparent;
+  /* nice browsers */
+  background: rgba(255, 255, 255, 0.4);
+  /* IE 6/7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF);
+  /* IE8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF)";
+  border: #ffffff solid 1px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border: 1px solid #b9b8b8;
+  border: none;
+  position: relative;
+  font-family: OpenSansBold;
+  color: #777777;
+  vertical-align: middle;
+  font-size: 32px;
+  line-height: 40px;
+  padding: 70px 348px 70px 90px;
+  margin: 0px;
+}
+/* line 36, ../../../_baseClient/padrao2/css/sass/slide/_capa.scss */
+.faixaCapa .texto .tagP border {
+  top: 1px solid #FFF;
+  bottom: 1px solid #FFF;
+}
+
+/* line 2, ../../../_baseClient/padrao2/css/sass/slide/_slideFinal.scss */
+.caixaFinalAtividade {
+  -webkit-box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  background: #eeedea transparent;
+  background: rgba(238, 237, 234, 0.6);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEDEA', endColorstr='#FFEEEDEA');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFEEEDEA, endColorstr=#FFEEEDEA)";
+  border: 1px solid #ffffff;
+  width: 450px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -225px;
+  margin-top: -110px;
+}
+/* line 12, ../../../_baseClient/padrao2/css/sass/slide/_slideFinal.scss */
+.caixaFinalAtividade .tituloFinalAtividade {
+  font-family: VWHeadlineOTBook, sans-serif;
+  background: #cbcac7 transparent;
+  background: rgba(203, 202, 199, 0.4);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFCBCAC7', endColorstr='#FFCBCAC7');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFCBCAC7, endColorstr=#FFCBCAC7)";
+  border-bottom: 1px solid #dddddf;
+  color: #ff871f;
+}
+/* line 17, ../../../_baseClient/padrao2/css/sass/slide/_slideFinal.scss */
+.caixaFinalAtividade .tituloFinalAtividade h2 {
+  color: #ff871f;
+  font-family: VWHeadlineOTBook, sans-serif;
+  margin: 0px;
+  padding: 15px 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+/* line 27, ../../../_baseClient/padrao2/css/sass/slide/_slideFinal.scss */
+.caixaFinalAtividade .textoFinalAtividade {
+  font-family: VWHeadlineOTBook, sans-serif;
+  padding: 30px;
+  font-size: 14px;
+}
+
+/* line 5, ../../../_baseClient/padrao2/css/sass/resources/texto/_style.scss */
+.resource .texto {
+  font-family: VWHeadlineOTBook, sans-serif;
+  width: 582px;
+  color: #000000;
+}
+/* line 9, ../../../_baseClient/padrao2/css/sass/resources/texto/_style.scss */
+.resource .texto p {
+  margin-top: 0px;
+}
+/* line 19, ../../../_baseClient/padrao2/css/sass/resources/texto/_style.scss */
+.resource .normal.comFundo {
+  /* default fallback */
+  background: white transparent;
+  /* nice browsers */
+  background: rgba(255, 255, 255, 0.8);
+  /* IE 6/7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF);
+  /* IE8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF)";
+  border: #ffffff solid 1px;
+}
+/* line 23, ../../../_baseClient/padrao2/css/sass/resources/texto/_style.scss */
+.resource .normal.semFundo {
+  background: none;
+  padding: 0;
+}
+/* line 30, ../../../_baseClient/padrao2/css/sass/resources/texto/_style.scss */
+.resource .titulo {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+/* line 47, ../../../_baseClient/padrao2/css/sass/resources/texto/_style.scss */
+.resource .balao {
+  -webkit-box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  box-shadow: 4px 4px 11px rgba(50, 50, 50, 0.2);
+  position: absolute;
+  padding: 20px 33px;
+  background: #FFFFFF;
+  border: #b9b8b8 solid 1px;
+}
+/* line 53, ../../../_baseClient/padrao2/css/sass/resources/texto/_style.scss */
+.resource .balao:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+}
+/* line 63, ../../../_baseClient/padrao2/css/sass/resources/texto/_style.scss */
+.resource .balao:before {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-color: #b8b8b8 transparent;
+  display: block;
+  width: 0;
+  z-index: 0;
+}
+/* line 75, ../../../_baseClient/padrao2/css/sass/resources/texto/_style.scss */
+.resource .balao.left:after {
+  border-width: 23px 0 0 23px;
+  left: -23px;
+  bottom: 15px;
+}
+/* line 80, ../../../_baseClient/padrao2/css/sass/resources/texto/_style.scss */
+.resource .balao.left:before {
+  border-width: 25px 0 0 25px;
+  left: -25px;
+  bottom: 14px;
+}
+/* line 88, ../../../_baseClient/padrao2/css/sass/resources/texto/_style.scss */
+.resource .balao.right:after {
+  border-width: 23px 23px 0px 0px;
+  right: -23px;
+  bottom: 17px;
+}
+/* line 93, ../../../_baseClient/padrao2/css/sass/resources/texto/_style.scss */
+.resource .balao.right:before {
+  border-width: 26px 25px 0px 0px;
+  right: -25px;
+  bottom: 15px;
+}
+
+/* line 12, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .caixaDestaque {
+  position: absolute;
+  border: #ffffff solid 1px;
+  color: #414141;
+  width: 262px;
+  font-family: VWHeadlineOTBook, sans-serif;
+}
+/* line 19, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .caixaDestaque .tituloCaixaDestaque {
+  background: #eeedea transparent;
+  background: rgba(238, 237, 234, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEDEA', endColorstr='#FFEEEDEA');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFEEEDEA, endColorstr=#FFEEEDEA)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCeeedea, endColorstr=#CCeeedea);
+  border: none;
+  padding-left: 50px;
+  padding-right: 15px;
+}
+/* line 27, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .caixaDestaque .tituloCaixaDestaque h2 {
+  padding: 7px 0px 7px 0px;
+}
+/* line 32, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .caixaDestaque .textoCaixaDestaque {
+  background: #cbcac7 transparent;
+  background: rgba(203, 202, 199, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFCBCAC7', endColorstr='#FFCBCAC7');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFCBCAC7, endColorstr=#FFCBCAC7)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCcbcac7, endColorstr=#CCcbcac7);
+}
+/* line 37, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .caixaDestaque .iconDestaque {
+  position: absolute;
+  height: 55px;
+  width: 59px;
+  top: -13px;
+  left: -15px;
+}
+/* line 66, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .destaque .iconDestaque:after {
+  content: "";
+  position: absolute;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -168px;
+  height: 52px;
+  width: 58px;
+  top: 3px;
+  left: -6px;
+}
+/* line 80, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .exemplo .iconDestaque:after {
+  content: "";
+  position: absolute;
+  height: 52px;
+  width: 58px;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -57px;
+  top: 5px;
+  left: -6px;
+}
+/* line 94, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .informacao .iconDestaque:after {
+  content: "";
+  position: absolute;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -225px;
+  height: 52px;
+  width: 58px;
+  top: 3px;
+  left: -6px;
+}
+/* line 108, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .objetivo .iconDestaque:after {
+  content: "";
+  position: absolute;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -503px;
+  height: 52px;
+  width: 58px;
+  top: 1px;
+  left: -6px;
+}
+/* line 122, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .pratique .iconDestaque:after {
+  content: "";
+  position: absolute;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -560px;
+  height: 52px;
+  width: 58px;
+  top: 3px;
+  left: -6px;
+}
+/* line 136, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .prepare-se .iconDestaque:after {
+  content: "";
+  position: absolute;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -111px;
+  height: 52px;
+  width: 58px;
+  top: 3px;
+  left: -6px;
+}
+/* line 151, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .saibaMais .tituloCaixaDestaque {
+  background: #cbcac7 transparent;
+  background: rgba(203, 202, 199, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFCBCAC7', endColorstr='#FFCBCAC7');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFCBCAC7, endColorstr=#FFCBCAC7)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCcbcac7, endColorstr=#CCcbcac7);
+}
+/* line 155, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .saibaMais .textoCaixaDestaque {
+  background: #eeedea transparent;
+  background: rgba(238, 237, 234, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEDEA', endColorstr='#FFEEEDEA');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFEEEDEA, endColorstr=#FFEEEDEA)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCeeedea, endColorstr=#CCeeedea);
+}
+/* line 160, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .saibaMais .iconDestaque:after {
+  content: "";
+  position: absolute;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -282px;
+  height: 55px;
+  width: 58px;
+  top: 1px;
+  left: -6px;
+}
+/* line 173, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .dica .tituloCaixaDestaque {
+  background: #cbcac7 transparent;
+  background: rgba(203, 202, 199, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFCBCAC7', endColorstr='#FFCBCAC7');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFCBCAC7, endColorstr=#FFCBCAC7)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCcbcac7, endColorstr=#CCcbcac7);
+}
+/* line 177, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .dica .textoCaixaDestaque {
+  background: #eeedea transparent;
+  background: rgba(238, 237, 234, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEDEA', endColorstr='#FFEEEDEA');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFEEEDEA, endColorstr=#FFEEEDEA)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCeeedea, endColorstr=#CCeeedea);
+}
+/* line 182, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .dica .iconDestaque:after {
+  content: "";
+  position: absolute;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -339px;
+  height: 53px;
+  width: 58px;
+  top: 1px;
+  left: -6px;
+}
+/* line 195, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .importante .tituloCaixaDestaque {
+  background: #cbcac7 transparent;
+  background: rgba(203, 202, 199, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFCBCAC7', endColorstr='#FFCBCAC7');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFCBCAC7, endColorstr=#FFCBCAC7)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCcbcac7, endColorstr=#CCcbcac7);
+}
+/* line 199, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .importante .textoCaixaDestaque {
+  background: #eeedea transparent;
+  background: rgba(238, 237, 234, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEDEA', endColorstr='#FFEEEDEA');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFEEEDEA, endColorstr=#FFEEEDEA)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCeeedea, endColorstr=#CCeeedea);
+}
+/* line 204, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .importante .iconDestaque:after {
+  content: "";
+  position: absolute;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -396px;
+  height: 50px;
+  width: 58px;
+  top: 6px;
+  left: -6px;
+}
+/* line 218, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .programe-se {
+  width: 192px;
+}
+/* line 220, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .programe-se .tituloCaixaDestaque {
+  position: absolute;
+  width: 120px;
+  left: -15px;
+  bottom: -16px;
+  padding: 8px 15px;
+  text-align: right;
+  background: #787878;
+  color: #cfcfcf;
+  -webkit-box-shadow: 3px 3px 0px rgba(50, 50, 50, 0.3);
+  -moz-box-shadow: 3px 3px 0px rgba(50, 50, 50, 0.3);
+  box-shadow: 3px 3px 0px rgba(50, 50, 50, 0.3);
+}
+/* line 232, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .programe-se .tituloCaixaDestaque strong {
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 238, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .programe-se .tituloCaixaDestaque span {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 247, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .programe-se .textoCaixaDestaque {
+  background: #eeedea transparent;
+  background: rgba(238, 237, 234, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEDEA', endColorstr='#FFEEEDEA');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFEEEDEA, endColorstr=#FFEEEDEA)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCeeedea, endColorstr=#CCeeedea);
+  padding-bottom: 37px;
+}
+/* line 251, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .programe-se .textoCaixaDestaque strong {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+/* line 259, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .programe-se .textoCaixaDestaque span {
+  display: block;
+  padding-bottom: 28px;
+}
+/* line 265, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .programe-se .iconDestaque {
+  position: absolute;
+  z-index: 100;
+  left: -40px;
+  top: auto;
+  bottom: -20px;
+  height: 42px;
+  width: 42px;
+}
+/* line 273, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .programe-se .iconDestaque:after {
+  content: "";
+  position: absolute;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 0;
+  z-index: 100;
+  height: 57px;
+  width: 59px;
+  top: -16px;
+  left: 0px;
+}
+/* line 289, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .atencao {
+  border: #fecd08 solid 1px;
+  width: 392px;
+}
+/* line 292, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .atencao .tituloCaixaDestaque {
+  background: #faac47 transparent;
+  background: rgba(250, 172, 71, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFAAC47', endColorstr='#FFFAAC47');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFAAC47, endColorstr=#FFFAAC47)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCfaac47, endColorstr=#CCfaac47);
+  font-size: 18px;
+  padding-left: 65px;
+}
+/* line 298, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .atencao .textoCaixaDestaque {
+  background: #f9ecba transparent;
+  background: rgba(249, 236, 186, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF9ECBA', endColorstr='#FFF9ECBA');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFF9ECBA, endColorstr=#FFF9ECBA)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCf9ecba, endColorstr=#CCf9ecba);
+}
+/* line 302, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .atencao .iconDestaque {
+  top: -16px;
+  left: -19px;
+  height: 50px;
+  width: 50px;
+}
+/* line 309, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
+.resource .atencao .iconDestaque:after {
+  content: "";
+  position: absolute;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0 -446px;
+  height: 56px;
+  width: 63px;
+  top: 1px;
+  left: 11px;
+}
+
+/* line 2, ../../../_baseClient/padrao2/css/sass/resources/imagem/_style.scss */
+.resource .imagem.borda {
+  /* default fallback */
+  background: #f1f1ec transparent;
+  /* nice browsers */
+  background: rgba(241, 241, 236, 0.5);
+  /* IE 6/7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF);
+  /* IE8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF)";
+  border: #ffffff solid 1px;
+  padding: 5px;
+}
+
+/* line 13, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.primeiroPlano {
+  font-family: VWHeadlineOTBook, sans-serif;
+  position: absolute;
+  border: solid 1px #ffffff;
+  background: #eeedea transparent;
+  background: rgba(238, 237, 234, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCeeedea, endColorstr=#CCeeedea);
+}
+
+/* line 22, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.tituloPrimeiroPlano {
+  background: #cbcac7 transparent;
+  background: rgba(203, 202, 199, 0.4);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCcbcac7, endColorstr=#CCcbcac7);
+  border-bottom: 1px solid #dddddf;
+  color: #ff871f;
+}
+
+/* line 29, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.btnFechar {
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  padding: 2px;
+  border: solid 1px #b2b2b2;
+  cursor: pointer;
+  right: 5px;
+  top: 5px;
+  background: none;
+  padding: 0px;
+  z-index: 1000;
+}
+/* line 41, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.btnFechar:hover {
+  background: #efefef;
+}
+/* line 44, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.btnFechar:active {
+  background: #dddddd;
+}
+/* line 47, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.btnFechar:after {
+  content: "";
+  position: absolute;
+  -webkit-box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.4);
+  -moz-box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.4);
+  box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.4);
+  height: 100%;
+  width: 100%;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat -2px -1304px;
+}
+
+/* line 60, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.resource .botaoPP {
+  background: #ff871f transparent;
+  background: rgba(255, 135, 31, 0.7);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #b9b8b8;
+  font-family: VWHeadlineOTBook, sans-serif;
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.35);
+  -moz-box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.35);
+  box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.35);
+  behavior: url(css/PIE.htc);
+}
+/* line 72, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.resource .botaoPP:hover {
+  background: #ff871f transparent;
+  background: rgba(255, 135, 31, 0.6);
+}
+/* line 75, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.resource .botaoPP:active {
+  -webkit-box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
+  -moz-box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
+  box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
+}
+/* line 80, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.resource .btnSmallCircle {
+  height: 25px;
+  width: 25px;
+}
+/* line 83, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.resource .btnSmallCircle .tagP {
+  display: none;
+}
+/* line 87, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.resource .btnSmallCircle strong {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -7px;
+  margin-left: -4px;
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 103, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.resource .btnSmallCircle .plus:after {
+  content: '';
+  position: absolute;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat -24px -806px;
+  height: 10px;
+  width: 4px;
+  top: 8px;
+  left: 11px;
+  border-radius: 30%;
+  background: #ffffff;
+}
+/* line 114, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.resource .btnSmallCircle .plus:before {
+  content: '';
+  position: absolute;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat -24px -806px;
+  height: 4px;
+  width: 10px;
+  top: 11px;
+  left: 8px;
+  border-radius: 30%;
+  background: #ffffff;
+}
+/* line 128, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.resource .btnMediumCircle {
+  height: 50px;
+  width: 50px;
+}
+/* line 131, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.resource .btnMediumCircle .tagP {
+  display: none;
+}
+/* line 135, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.resource .btnMediumCircle strong {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -13px;
+  margin-left: -7px;
+  display: block;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+/* line 151, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.resource .btnMediumCircle .plus:after {
+  content: '';
+  position: absolute;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat -24px -806px;
+  height: 23px;
+  width: 7px;
+  top: 14px;
+  left: 22px;
+  border-radius: 30%;
+  background: #ffffff;
+}
+/* line 162, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.resource .btnMediumCircle .plus:before {
+  content: '';
+  position: absolute;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat -24px -806px;
+  height: 7px;
+  width: 23px;
+  top: 22px;
+  left: 14px;
+  border-radius: 30%;
+  background: #ffffff;
+}
+/* line 176, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.resource .btnRetangle {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  position: relative;
+  display: table;
+  height: 51px;
+  width: 280px;
+  border: 1px solid #FFFFFF;
+}
+/* line 183, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.resource .btnRetangle .btnPPRight {
+  position: relative;
+  height: 56px;
+  vertical-align: middle;
+  display: table-cell;
+}
+/* line 188, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+.resource .btnRetangle .btnPPRight .tagP {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  font-family: VWHeadlineOTBook, sans-serif;
+}
+
+/* line 203, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+#mbResources .resource .botaoPP {
+  background: #ff871f transparent;
+  background: rgba(255, 135, 31, 0.7);
+}
+/* line 205, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+#mbResources .resource .botaoPP:hover {
+  background: #ff871f transparent;
+  background: rgba(255, 135, 31, 0.7);
+}
+/* line 208, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
+#mbResources .resource .botaoPP:active {
+  -webkit-box-shadow: inset 0 0 0 rgba(50, 50, 50, 0);
+  -moz-box-shadow: inset 0 0 0 rgba(50, 50, 50, 0);
+  box-shadow: inset 0 0 0 rgba(50, 50, 50, 0);
+  -webkit-box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
+  box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
+}
+
+/* line 7, ../../../_baseClient/padrao2/css/sass/resources/gaveta/_style.scss */
+.atividadeGaveta {
+  /* default fallback */
+  background: #f1f1ec transparent;
+  /* nice browsers */
+  background: rgba(241, 241, 236, 0.5);
+  /* IE 6/7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF);
+  /* IE8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF)";
+  border: #ffffff solid 1px;
+  position: absolute;
+  margin: 0 auto;
+  width: 811px;
+  min-width: 500px;
+  padding: 15px 15px 0px 15px;
+  font-family: VWHeadlineOTBook, sans-serif;
+}
+
+/* line 17, ../../../_baseClient/padrao2/css/sass/resources/gaveta/_style.scss */
+.gaveta {
+  display: inline-block;
+}
+/* line 20, ../../../_baseClient/padrao2/css/sass/resources/gaveta/_style.scss */
+.gaveta ul li {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  position: relative;
+  behavior: none;
+  list-style-image: none;
+  display: table;
+  height: 51px;
+  width: 280px;
+  margin-bottom: 10px;
+  background: #969d9d;
+  border: 1px solid #767676;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 33, ../../../_baseClient/padrao2/css/sass/resources/gaveta/_style.scss */
+.gaveta ul li strong {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;
+}
+/* line 41, ../../../_baseClient/padrao2/css/sass/resources/gaveta/_style.scss */
+.gaveta ul li.visited {
+  background: #6c7374;
+}
+/* line 43, ../../../_baseClient/padrao2/css/sass/resources/gaveta/_style.scss */
+.gaveta ul li.visited:after {
+  content: "";
+  height: 16px;
+  width: 16px;
+  background: url("assets/images/icons-s59dee07877.png") no-repeat 0px -1218px;
+  position: absolute;
+  bottom: 7%;
+  left: 260px;
+}
+/* line 54, ../../../_baseClient/padrao2/css/sass/resources/gaveta/_style.scss */
+.gaveta ul li.actived {
+  background: #6c7374;
+}
+/* line 56, ../../../_baseClient/padrao2/css/sass/resources/gaveta/_style.scss */
+.gaveta ul li.actived:before {
+  content: "";
+  width: 296px;
+  background-color: #cfcecc;
+  position: absolute;
+  top: -4px;
+  bottom: -4px;
+  left: -4px;
+  border-bottom: 1px solid #b9b8b8;
+  border-left: 1px solid #b9b8b8;
+  border-top: 1px solid #b9b8b8;
+  z-index: -1;
+}
+/* line 71, ../../../_baseClient/padrao2/css/sass/resources/gaveta/_style.scss */
+.gaveta ul li:last-child {
+  margin-bottom: 15px;
+}
+
+/* line 77, ../../../_baseClient/padrao2/css/sass/resources/gaveta/_style.scss */
+.gavetaTexto {
+  position: absolute;
+  display: inline-block;
+  top: 15px;
+  left: 296px;
+  right: 15px;
+  bottom: 17px;
+  margin-left: 15px;
+  background-color: #b9bbba;
+  border: 1px solid #ffffff;
+  overflow: hidden;
+}
+
+/* line 91, ../../../_baseClient/padrao2/css/sass/resources/gaveta/_style.scss */
+.gavetaTextoSelected:before {
+  content: "";
+  position: absolute;
+  background-color: #cfcecc;
+  border: 1px solid #b9b8b8;
+  top: 11px;
+  left: 307px;
+  bottom: 13px;
+  right: 11px;
+}
+
+/* line 2, ../../../_baseClient/padrao2/css/sass/resources/video/_style.scss */
+.resource div.video {
+  border: 1px solid #ffffff;
+}
+/* line 7, ../../../_baseClient/padrao2/css/sass/resources/video/_style.scss */
+.resource div.video .vjs-control-bar .vjs-play-progress, .resource div.video .vjs-control-bar .vjs-volume-level {
+  background: #ff871f url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQVQIHWWMAQoAIAgDR/QJ/Ub//04+w7ZICBwcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat;
+}
+
+/* line 3, ../../../_baseClient/padrao2/css/sass/resources/audio/_style.scss */
+div.audio .vjs-error {
+  border: 1px solid #ffffff;
+}
+/* line 8, ../../../_baseClient/padrao2/css/sass/resources/audio/_style.scss */
+div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-volume-level {
+  background: #ff871f url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQVQIHWWMAQoAIAgDR/QJ/Ub//04+w7ZICBwcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat;
+}
+
+/* line 6, ../../../_baseClient/padrao2/css/sass/resources/multimedia/_style.scss */
+.resource .multimedia.noContent {
+  border: 1px solid #ffffff;
+}
+
+/* This is the default Tooltipster theme (feel free to modify or duplicate and create multiple themes!): */
+/* line 2, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-default {
+  border: 1px solid #FFF;
+  color: #FFF;
+  background-color: #A9A9A9;
+}
+
+/* Use this next selector to style things like font-size and line-height: */
+/* line 9, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-default .tooltipster-content {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 6px 8px;
+  overflow: hidden;
+}
+
+/* This next selector defines the color of the border on the outside of the arrow. This will automatically match the color and size of the border set on the main tooltip styles. Set display: none; if you would like a border around the tooltip but no border around the arrow */
+/* line 18, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-default .tooltipster-arrow .tooltipster-arrow-border {
+  /* border-color: ... !important; */
+}
+
+/* If you're using the icon option, use this next selector to style them */
+/* line 24, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-icon {
+  cursor: help;
+  margin-left: 4px;
+}
+
+/* This is the base styling required to make all Tooltipsters work */
+/* line 32, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-base {
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9999999;
+  pointer-events: none;
+  width: auto;
+  overflow: visible;
+}
+
+/* line 44, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-base .tooltipster-content {
+  overflow: hidden;
+}
+
+/* These next classes handle the styles for the little arrow attached to the tooltip. By default, the arrow will inherit the same colors and border as what is set on the main tooltip itself. */
+/* line 50, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-arrow {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* line 60, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-arrow span, .tooltipster-arrow-border {
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+/* line 66, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-arrow-top span, .tooltipster-arrow-top-right span, .tooltipster-arrow-top-left span {
+  border-left: 8px solid transparent !important;
+  border-right: 8px solid transparent !important;
+  border-top: 8px solid;
+  bottom: -7px;
+}
+
+/* line 72, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-top-left .tooltipster-arrow-border {
+  border-left: 9px solid transparent !important;
+  border-right: 9px solid transparent !important;
+  border-top: 9px solid;
+  bottom: -7px;
+}
+
+/* line 79, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-arrow-bottom span, .tooltipster-arrow-bottom-right span, .tooltipster-arrow-bottom-left span {
+  border-left: 8px solid transparent !important;
+  border-right: 8px solid transparent !important;
+  border-bottom: 8px solid;
+  top: -7px;
+}
+
+/* line 85, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-arrow-bottom .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+  border-left: 9px solid transparent !important;
+  border-right: 9px solid transparent !important;
+  border-bottom: 9px solid;
+  top: -7px;
+}
+
+/* line 91, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-arrow-top span, .tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-bottom span, .tooltipster-arrow-bottom .tooltipster-arrow-border {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+/* line 96, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-arrow-top-left span, .tooltipster-arrow-bottom-left span {
+  left: 6px;
+}
+
+/* line 99, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-arrow-top-left .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+  left: 5px;
+}
+
+/* line 102, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-arrow-top-right span, .tooltipster-arrow-bottom-right span {
+  right: 6px;
+}
+
+/* line 105, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border {
+  right: 5px;
+}
+
+/* line 108, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-arrow-left span, .tooltipster-arrow-left .tooltipster-arrow-border {
+  border-top: 8px solid transparent !important;
+  border-bottom: 8px solid transparent !important;
+  border-left: 8px solid;
+  top: 50%;
+  margin-top: -7px;
+  right: -7px;
+}
+
+/* line 116, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-arrow-left .tooltipster-arrow-border {
+  border-top: 9px solid transparent !important;
+  border-bottom: 9px solid transparent !important;
+  border-left: 9px solid;
+  margin-top: -8px;
+}
+
+/* line 122, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-arrow-right span, .tooltipster-arrow-right .tooltipster-arrow-border {
+  border-top: 8px solid transparent !important;
+  border-bottom: 8px solid transparent !important;
+  border-right: 8px solid;
+  top: 50%;
+  margin-top: -7px;
+  left: -7px;
+}
+
+/* line 130, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-arrow-right .tooltipster-arrow-border {
+  border-top: 9px solid transparent !important;
+  border-bottom: 9px solid transparent !important;
+  border-right: 9px solid;
+  margin-top: -8px;
+}
+
+/* Some CSS magic for the awesome animations - feel free to make your own custom animations and reference it in your Tooltipster settings! */
+/* line 140, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-fade {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  -ms-transition-property: opacity;
+  transition-property: opacity;
+}
+
+/* line 148, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-fade-show {
+  opacity: 1;
+}
+
+/* line 152, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-grow {
+  -webkit-transform: scale(0, 0);
+  -moz-transform: scale(0, 0);
+  -o-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  transform: scale(0, 0);
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  -ms-transition-property: -ms-transform;
+  transition-property: transform;
+  -webkit-backface-visibility: hidden;
+}
+
+/* line 165, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-grow-show {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+}
+
+/* line 179, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-swing {
+  opacity: 0;
+  -webkit-transform: rotateZ(4deg);
+  -moz-transform: rotateZ(4deg);
+  -o-transform: rotateZ(4deg);
+  -ms-transform: rotateZ(4deg);
+  transform: rotateZ(4deg);
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  -ms-transition-property: -ms-transform;
+  transition-property: transform;
+}
+
+/* line 192, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-swing-show {
+  opacity: 1;
+  -webkit-transform: rotateZ(0deg);
+  -moz-transform: rotateZ(0deg);
+  -o-transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+  -webkit-transition-timing-function: cubic-bezier(0.23, 0.635, 0.495, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.23, 0.635, 0.495, 2.4);
+  -moz-transition-timing-function: cubic-bezier(0.23, 0.635, 0.495, 2.4);
+  -ms-transition-timing-function: cubic-bezier(0.23, 0.635, 0.495, 2.4);
+  -o-transition-timing-function: cubic-bezier(0.23, 0.635, 0.495, 2.4);
+  transition-timing-function: cubic-bezier(0.23, 0.635, 0.495, 2.4);
+}
+
+/* line 207, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-fall {
+  top: 0;
+  -webkit-transition-property: top;
+  -moz-transition-property: top;
+  -o-transition-property: top;
+  -ms-transition-property: top;
+  transition-property: top;
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+}
+
+/* line 223, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-fall.tooltipster-dying {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -ms-transition-property: all;
+  transition-property: all;
+  top: 0px !important;
+  opacity: 0;
+}
+
+/* line 233, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-slide {
+  left: -40px;
+  -webkit-transition-property: left;
+  -moz-transition-property: left;
+  -o-transition-property: left;
+  -ms-transition-property: left;
+  transition-property: left;
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.15);
+}
+
+/* line 249, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-slide.tooltipster-dying {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -ms-transition-property: all;
+  transition-property: all;
+  left: 0px !important;
+  opacity: 0;
+}
+
+/* CSS transition for when contenting is changing in a tooltip that is still open. The only properties that will NOT transition are: width, height, top, and left */
+/* line 261, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
+.tooltipster-content-changing {
+  opacity: 0.5;
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+
+/* line 1, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice {
+  /* default fallback */
+  background: #7e7e7e transparent;
+  /* nice browsers */
+  background: rgba(126, 126, 126, 0.6);
+  /* IE 6/7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF);
+  /* IE8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF)";
+  border: #ffffff solid 1px;
+  overflow: hidden;
+  display: block;
+  position: absolute;
+  width: 980px;
+  height: 540px;
+  top: 63px;
+  left: 21px;
+  z-index: 15;
+}
+/* line 12, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice .avancarIndice {
+  position: absolute;
+  cursor: pointer;
+  right: 5px;
+  top: 50%;
+  margin-top: -12.5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 25px 25px;
+  border-color: transparent transparent transparent #ff871f;
+  z-index: 9999;
+}
+/* line 24, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice .avancarIndice:hover {
+  border-color: transparent transparent transparent #ff9a43;
+}
+/* line 27, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice .avancarIndice:active {
+  border-color: transparent transparent transparent #ff9539;
+}
+/* line 32, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice .voltarIndice {
+  position: absolute;
+  cursor: pointer;
+  left: 5px;
+  top: 50%;
+  margin-top: -12.5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 25px 25px 0;
+  border-color: transparent #ff871f transparent transparent;
+  z-index: 9999;
+}
+/* line 44, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice .voltarIndice:hover {
+  border-color: transparent #ff9a43 transparent transparent;
+}
+/* line 47, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice .voltarIndice:active {
+  border-color: transparent #ff9539 transparent transparent;
+}
+/* line 53, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice ol {
+  float: left;
+  position: relative;
+  counter-reset: li;
+  /* Initiate a counter */
+  list-style: none;
+  /* Remove default numbering */
+  *list-style: decimal-leading-zero;
+  -moz-column-width: 245px;
+  /* Firefox */
+  -webkit-column-width: 245px;
+  /* Safari and Chrome */
+  column-width: 245px;
+  -moz-column-gap: 40px;
+  -webkit-column-gap: 40px;
+  column-gap: 40px;
+}
+/* line 68, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice ol .indiceDesativado {
+  pointer-events: none;
+  cursor: default;
+}
+/* line 71, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice ol .indiceDesativado h3 {
+  color: #ccc;
+}
+/* line 76, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice ol .indiceVisitado {
+  background: #ff9539;
+}
+/* line 78, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice ol .indiceVisitado h3 {
+  color: black;
+}
+/* line 83, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice ol .indiceAtual {
+  background: #ff871f;
+}
+/* line 85, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice ol .indiceAtual h3 {
+  color: white;
+}
+/* line 91, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice ol li {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 6px;
+  width: 246px;
+  height: 30px;
+  background: #efefef;
+  margin-bottom: 8px;
+  margin-left: 0px;
+  border-radius: 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+/* line 104, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice ol li h3 {
+  font-family: VWHeadlineOTBook, sans-serif;
+  font-size: 13px;
+  margin: 0;
+  font-weight: normal;
+  padding-left: 35px;
+}
+/* line 112, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice ol li:before {
+  color: #0F3B69;
+  width: 35px;
+  height: 30px;
+  content: counter(li);
+  counter-increment: li;
+  background: #fff;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  text-align: center;
+  padding-top: 5px;
+  box-sizing: border-box;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.6);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.6);
+  box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.6);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+/* line 133, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice ol li:hover {
+  margin-left: 10px;
+  border: 1px solid #89A8C8;
+}
+/* line 137, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
+.menuIndice ol li:hover:before {
+  border: 1px solid #89A8C8;
+}
+
+/* line 4, ../../../_baseClient/padrao2/css/sass/resources/tabs/_style.scss */
+.theTab ul.tabs-nav li .anchor {
+  font-family: VWHeadlineOTBook, sans-serif;
+  font-weight: bold;
+}
+/* line 10, ../../../_baseClient/padrao2/css/sass/resources/tabs/_style.scss */
+.theTab:before {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #b8b8b8;
+}
+/* line 15, ../../../_baseClient/padrao2/css/sass/resources/tabs/_style.scss */
+.theTab .tab-prev, .theTab .tab-next {
+  background: #ff871f;
+}
+
+/* line 24, ../../../_baseClient/padrao2/css/sass/resources/tabs/_style.scss */
+.theTab.vertical ul.tabs-nav li {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  height: 51px;
+  margin-bottom: 10px;
+}
+/* line 28, ../../../_baseClient/padrao2/css/sass/resources/tabs/_style.scss */
+.theTab.vertical ul.tabs-nav li .anchor {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 37, ../../../_baseClient/padrao2/css/sass/resources/tabs/_style.scss */
+.theTab.vertical.left li.ui-tabs-active > * {
+  background: #eaeaea;
+}
+/* line 44, ../../../_baseClient/padrao2/css/sass/resources/tabs/_style.scss */
+.theTab.vertical .tabs-content {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 54, ../../../_baseClient/padrao2/css/sass/resources/tabs/_style.scss */
+.theTab.horizontal.top {
+  margin-top: 0px;
+  border: 0px;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("assets/fonts/glyphicon/glyphicons-halflings-regular.eot");
+  src: url("assets/fonts/glyphicon/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/glyphicon/glyphicons-halflings-regular.woff") format("woff"), url("assets/fonts/glyphicon/glyphicons-halflings-regular.ttf") format("truetype"), url("assets/fonts/glyphicon/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg");
+}
+/* line 7, ../../../_baseClient/_base/css/sass/others/_glyphicon.scss */
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+/* line 18, ../../../_baseClient/_base/css/sass/others/_glyphicon.scss */
+.glyphicon-picture:before {
+  content: "\e060";
+}
+
+/* line 22, ../../../_baseClient/_base/css/sass/others/_glyphicon.scss */
+.glyphicon-facetime-video:before {
+  content: "\e059";
+}
+
+/* line 26, ../../../_baseClient/_base/css/sass/others/_glyphicon.scss */
+.glyphicon-edit:before {
+  content: "\e065";
+}
+
+/* line 30, ../../../_baseClient/_base/css/sass/others/_glyphicon.scss */
+.glyphicon-music:before {
+  content: "\e002";
+}
+
+/* line 15, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.texto, .primeiroPlano .tituloPrimeiroPlano, .atividade, .caixaDestaque, .imagem, .respostaCerta, .respostaErrada {
+  font-family: VWHeadlineOTBook, sans-serif;
+}
+
+/* line 19, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.texto ul, .caixaDestaque ul {
+  list-style-type: none;
+}
+/* line 22, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.texto ul li:before, .caixaDestaque ul li:before {
+  content: ">>";
+  color: #ff871f;
+  margin-right: 10px;
+  font-weight: bolder;
+}
+
+/* line 33, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.texto ol li:before, .caixaDestaque ol li:before {
+  color: #ff871f;
+}
+
+/* line 314, icons/*.png */
+/* line 40, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-sprite, .icons-atencao, .icons-avancar, .icons-avancarHover, .icons-bulletAzul, .icons-check, .icons-checkGaveta, .icons-checkGrande, .icons-destaque, .icons-dica, .icons-errado, .icons-erradoGrande, .icons-exemplo, .icons-importante, .icons-indiceAvancar, .icons-indiceAvancarHover, .icons-indiceVoltar, .icons-indiceVoltarHover, .icons-informacao, .icons-maisCircle, .icons-modal_fechar, .icons-objetivo, .icons-pratique, .icons-preparese, .icons-programese, .icons-saibamais, .icons-seta-direita-lista-slide, .icons-seta-direita-lista-slideHover, .icons-seta-esquerda-lista-slide, .icons-seta-esquerda-lista-slideHover, .icons-seta-menu-baixo, .icons-seta-menu-cima, .icons-setaDuplaDireita, .icons-setaDuplaEsquerda, .icons-voltar, .icons-voltarHover {
+  background: url("assets/images/icons-s59dee07877.png") no-repeat;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 45, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-atencao {
+  background-position: 0 -446px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 50, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-avancar {
+  background-position: -29px -769px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 55, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-avancarHover {
+  background-position: -29px -917px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-bulletAzul {
+  background-position: 0 -1326px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 65, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-check {
+  background-position: 0 -1105px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 70, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-checkGaveta {
+  background-position: 0 -1219px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 75, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-checkGrande {
+  background-position: 0 -671px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 80, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-destaque {
+  background-position: 0 -168px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 85, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-dica {
+  background-position: 0 -339px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 90, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-errado {
+  background-position: 0 -1125px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 95, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-erradoGrande {
+  background-position: 0 -617px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 100, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-exemplo {
+  background-position: 0 -57px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 105, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-importante {
+  background-position: 0 -396px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 110, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-indiceAvancar {
+  background-position: 0 -1167px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 115, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-indiceAvancarHover {
+  background-position: 0 -1234px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 120, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-indiceVoltar {
+  background-position: 0 -1193px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 125, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-indiceVoltarHover {
+  background-position: 0 -1255px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 130, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-informacao {
+  background-position: 0 -225px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 135, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-maisCircle {
+  background-position: 0 -1142px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 140, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-modal_fechar {
+  background-position: 0 -1302px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 145, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-objetivo {
+  background-position: 0 -503px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 150, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-pratique {
+  background-position: 0 -560px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 155, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-preparese {
+  background-position: 0 -111px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 160, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-programese {
+  background-position: 0 0;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 165, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-saibamais {
+  background-position: 0 -282px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 170, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-seta-direita-lista-slide {
+  background-position: 0 -1011px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 175, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-seta-direita-lista-slideHover {
+  background-position: 0 -725px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 180, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-seta-esquerda-lista-slide {
+  background-position: 0 -987px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 185, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-seta-esquerda-lista-slideHover {
+  background-position: 0 -747px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 190, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-seta-menu-baixo {
+  background-position: 0 -1336px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 195, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-seta-menu-cima {
+  background-position: 0 -1350px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 200, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-setaDuplaDireita {
+  background-position: 0 -1290px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 205, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-setaDuplaEsquerda {
+  background-position: 0 -1276px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 210, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-voltar {
+  background-position: 0 -843px;
+}
+
+/* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 215, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.icons-voltarHover {
+  background-position: 0 -1035px;
+}
+
+/* line 1, ../../../_baseClient/padrao2/css/sass/_clientsToEditor.scss */
+#imgPadraoSample {
+  position: absolute;
+  top: -67px;
+  left: -21px;
+}
+
+/* line 2, sass/_changes.scss */
+.top .topLogo {
+  position: absolute;
+  right: 0px;
+  bottom: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+/* line 11, sass/_changes.scss */
+.topText span {
+  font-weight: bold;
+}
+
+/* line 15, sass/_changes.scss */
+.topText .tituloNegrito {
+  font-weight: normal;
+}
+
+/* line 20, sass/_changes.scss */
+.menuListaSlides .botaoIndice .botao-menu-texto {
+  top: 12px;
+}
+
+/* line 25, sass/_changes.scss */
+.caixaDestaque .tituloCaixaDestaque h2 {
+  font-family: VWHeadlineOTBook, sans-serif;
+  padding: 9px 0px 7px 0px;
+}
+
+/* line 30, sass/_changes.scss */
+.menuIndice ol h3 {
+  padding-top: 3px;
+}
+
+/* line 5, sass/resources/texto/_style.scss */
+.Textocomlista .texto.titulo.secundario .tagP {
+  color: #003C65;
+  font-size: 18px;
+}
+/* line 10, sass/resources/texto/_style.scss */
+.Textocomlista .texto.titulo.primario .tagP {
+  color: #003C65;
+  font-size: 24px;
+}
+/* line 15, sass/resources/texto/_style.scss */
+.Textocomlista .texto.normal .tagP {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 20px;
+  color: #33434C;
+}
+
+/* line 26, sass/resources/texto/_style.scss */
+.texto.normal .tagP {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 20px;
+  color: #33434C;
+}
+
+/* line 36, sass/resources/texto/_style.scss */
+.texto.titulo.secundario .tagP {
+  color: #003C65;
+  font-size: 18px;
+}
+
+/* line 41, sass/resources/texto/_style.scss */
+.texto.titulo.primario .tagP {
+  color: #003C65;
+  font-size: 24px;
+}
+
+/* line 46, sass/resources/texto/_style.scss */
+.texto.normal.comFundo {
+  background: rgba(187, 194, 197, 0.5);
+  border: 1px solid #ffffff;
+}
+
+/* line 52, sass/resources/texto/_style.scss */
+.texto.titulo.customizado .tagP {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+/* line 60, sass/resources/texto/_style.scss */
+.texto.titulo.customColor .tagP {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+/* line 67, sass/resources/texto/_style.scss */
+a {
+  color: #ff871f;
+}
+/* line 69, sass/resources/texto/_style.scss */
+a:hover {
+  color: #ff871f;
+}
+/* line 72, sass/resources/texto/_style.scss */
+a:active {
+  color: #ff871f;
+}
+/* line 75, sass/resources/texto/_style.scss */
+a:focus {
+  color: #ff871f;
+}
+
+/* line 3, sass/resources/introducaoAula/_style.scss */
+.IntroducaoAula .texto.normal .tagP {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+/* line 11, sass/resources/introducaoAula/_style.scss */
+.IntroducaoAula .texto.titulo.secundario .tagP {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+/* line 3, sass/resources/capaGeral/_style.scss */
+.CapaGeral .texto.titulo.secundario .tagP {
+  color: #003c65;
+  font-size: 18px;
+}
+/* line 11, sass/resources/capaGeral/_style.scss */
+.CapaGeral .texto.titulo.primario .tagP {
+  color: #003c65;
+  font-size: 40px;
+  line-height: 46px;
+}
+
+/* line 2, sass/resources/capaGeralAula/_style.scss */
+.CapaGeralAula .texto.titulo.secundario .tagP {
+  color: #ffffff;
+  font-size: 36px;
+}
+/* line 7, sass/resources/capaGeralAula/_style.scss */
+.CapaGeralAula .texto.titulo.primario .tagP {
+  color: #ffffff;
+  font-size: 122px;
+}
+/* line 12, sass/resources/capaGeralAula/_style.scss */
+.CapaGeralAula .texto.normal.semFundo .tagP {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin: 7px;
+  line-height: 46px;
+}
+
+/* line 1, sass/resources/botaoPP/_style.scss */
+.botaoPP.btnCapture {
+  background: url("assets/images/VW38_botao_captura_normal.png") no-repeat !important;
+  width: 284px;
+  height: 241px;
+  border-radius: 0px;
+  box-shadow: none;
+  border: none;
+}
+/* line 10, sass/resources/botaoPP/_style.scss */
+.botaoPP.btnCapture:hover {
+  background: url("assets/images/VW38_botao_captura_hover.png") no-repeat !important;
+}
+/* line 14, sass/resources/botaoPP/_style.scss */
+.botaoPP.btnCapture .btnPPRight {
+  color: #ffffff;
+  margin-top: 202px;
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* line 26, sass/resources/botaoPP/_style.scss */
+.botaoPP.btnRetangle {
+  background: #FF871F;
+}
+/* line 29, sass/resources/botaoPP/_style.scss */
+.botaoPP.btnRetangle:hover {
+  background: #2274AC;
+}
+
+/* line 35, sass/resources/botaoPP/_style.scss */
+#mbResources.resource.botaoPP {
+  background: #FF871F;
+}
+/* line 38, sass/resources/botaoPP/_style.scss */
+#mbResources.resource.botaoPP:hover {
+  background: #2274AC;
+}
+
+/* line 46, sass/resources/botaoPP/_style.scss */
+.botaoPP.btnSmallCircle .plus {
+  top: -1px;
+  position: relative;
+  left: -1px;
+}
+
+/* line 2, sass/resources/primeiroPlano/_style.scss */
+.primeiroPlano {
+  background: #eaeeed;
+  border: 1px solid #ffffff;
+}
+
+/* line 10, sass/resources/primeiroPlano/_style.scss */
+.ppGrande {
+  width: 982px;
+  height: 615px;
+}
+
+/* line 15, sass/resources/primeiroPlano/_style.scss */
+.ppMedio {
+  width: 880px;
+  height: 500px;
+}
+
+/* line 5, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.atencao {
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+}
+/* line 11, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.atencao .textoCaixaDestaque {
+  background: #bbc2c5;
+}
+/* line 14, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.atencao .textoCaixaDestaque .tagP {
+  color: #33434C;
+  font-size: 12px;
+  font-family: Arial;
+}
+/* line 21, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.atencao .tituloCaixaDestaque {
+  background: #ececec;
+  color: #003c65;
+  font-size: 18px;
+}
+/* line 27, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.atencao .iconDestaque {
+  top: -27px;
+  left: -33px;
+  height: 50px;
+  width: 50px;
+}
+/* line 32, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.atencao .iconDestaque:after {
+  background: url("assets/images/VW38_atencao.png") no-repeat;
+}
+
+/* line 40, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.informacao {
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+}
+/* line 46, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.informacao .textoCaixaDestaque {
+  background: #bbc2c5;
+}
+/* line 49, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.informacao .textoCaixaDestaque .tagP {
+  color: #33434C;
+  font-size: 12px;
+  font-family: Arial;
+}
+/* line 56, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.informacao .tituloCaixaDestaque {
+  background: #ececec;
+  color: #003c65;
+  font-size: 18px;
+}
+/* line 62, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.informacao .iconDestaque {
+  top: -27px;
+  left: -33px;
+  height: 50px;
+  width: 50px;
+}
+/* line 67, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.informacao .iconDestaque:after {
+  background: url("assets/images/VW38_informacao.png") no-repeat;
+  height: 61px;
+  width: 58px;
+  top: 7px;
+  left: 12px;
+}
+
+/* line 80, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.objetivo {
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+}
+/* line 86, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.objetivo .textoCaixaDestaque {
+  background: #bbc2c5;
+}
+/* line 89, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.objetivo .textoCaixaDestaque .tagP {
+  color: #33434C;
+  font-size: 12px;
+  font-family: Arial;
+}
+/* line 96, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.objetivo .tituloCaixaDestaque {
+  background: #ececec;
+  color: #003c65;
+  font-size: 18px;
+}
+/* line 102, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.objetivo .iconDestaque {
+  top: -27px;
+  left: -33px;
+  height: 50px;
+  width: 50px;
+}
+/* line 107, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.objetivo .iconDestaque:after {
+  background: url("assets/images/VW38_abjetivo.png") no-repeat;
+  height: 69px;
+  width: 68px;
+  top: 4px;
+  left: 11px;
+}
+
+/* line 119, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.importante {
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+}
+/* line 125, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.importante .textoCaixaDestaque {
+  background: #bbc2c5;
+}
+/* line 128, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.importante .textoCaixaDestaque .tagP {
+  color: #33434C;
+  font-size: 12px;
+  font-family: Arial;
+}
+/* line 135, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.importante .tituloCaixaDestaque {
+  background: #ececec;
+  color: #003c65;
+  font-size: 18px;
+}
+/* line 141, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.importante .iconDestaque {
+  top: -39px;
+  left: -12px;
+  height: 50px;
+  width: 50px;
+}
+/* line 146, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.importante .iconDestaque:after {
+  background: url("assets/images/VW38_importante.png") no-repeat;
+  height: 61px;
+  width: 58px;
+  top: 7px;
+  left: 12px;
+}
+
+/* line 158, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.saibaMais {
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+}
+/* line 164, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.saibaMais .textoCaixaDestaque {
+  background: #bbc2c5;
+}
+/* line 167, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.saibaMais .textoCaixaDestaque .tagP {
+  color: #33434C;
+  font-size: 12px;
+  font-family: Arial;
+}
+/* line 174, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.saibaMais .tituloCaixaDestaque {
+  background: #ececec;
+  color: #003c65;
+  font-size: 18px;
+}
+/* line 180, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.saibaMais .iconDestaque {
+  top: -27px;
+  left: -33px;
+  height: 50px;
+  width: 50px;
+}
+/* line 185, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.saibaMais .iconDestaque:after {
+  background: url("assets/images/VW38_saiba_mais.png") no-repeat;
+  height: 61px;
+  width: 58px;
+  top: 7px;
+  left: 12px;
+}
+
+/* line 197, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.pratique {
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+}
+/* line 203, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.pratique .textoCaixaDestaque {
+  background: #bbc2c5;
+}
+/* line 206, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.pratique .textoCaixaDestaque .tagP {
+  color: #33434C;
+  font-size: 12px;
+  font-family: Arial;
+}
+/* line 213, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.pratique .tituloCaixaDestaque {
+  background: #ececec;
+  color: #003c65;
+  font-size: 18px;
+}
+/* line 219, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.pratique .iconDestaque {
+  top: -27px;
+  left: -24px;
+  height: 50px;
+  width: 50px;
+}
+/* line 224, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.pratique .iconDestaque:after {
+  background: url("assets/images/VW38_pratique.png") no-repeat;
+  height: 61px;
+  width: 58px;
+  top: 7px;
+  left: 12px;
+}
+
+/* line 236, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.dica {
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+}
+/* line 242, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.dica .textoCaixaDestaque {
+  background: #bbc2c5;
+}
+/* line 245, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.dica .textoCaixaDestaque .tagP {
+  color: #33434C;
+  font-size: 12px;
+  font-family: Arial;
+}
+/* line 252, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.dica .tituloCaixaDestaque {
+  background: #ececec;
+  color: #003c65;
+  font-size: 18px;
+}
+/* line 258, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.dica .iconDestaque {
+  top: -27px;
+  left: -33px;
+  height: 50px;
+  width: 50px;
+}
+/* line 263, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.dica .iconDestaque:after {
+  background: url("assets/images/VW38_exemplo.png") no-repeat;
+  height: 61px;
+  width: 58px;
+  top: 7px;
+  left: 12px;
+}
+
+/* line 276, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.programe-se {
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+}
+/* line 282, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.programe-se .textoCaixaDestaque {
+  background: #bbc2c5;
+}
+/* line 285, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.programe-se .textoCaixaDestaque .tagP {
+  color: #33434C;
+  font-size: 12px;
+  font-family: Arial;
+}
+/* line 292, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.programe-se .tituloCaixaDestaque {
+  background: #ececec;
+  color: #003c65;
+  font-size: 18px;
+}
+/* line 298, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.programe-se .iconDestaque {
+  top: 44px;
+  left: -54px;
+  height: 50px;
+  width: 50px;
+}
+/* line 303, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.programe-se .iconDestaque:after {
+  background: url("assets/images/VW38_dica.png") no-repeat;
+  height: 62px;
+  width: 58px;
+  top: 20px;
+  background-size: 37px;
+  left: 43px;
+}
+
+/* line 1, sass/resources/gaveta/_style.scss */
+.theTab ul.tabs-nav li {
+  color: red;
+}
+
+/* line 5, sass/resources/gaveta/_style.scss */
+.theTab ul.tabs-nav li.ui-tabs-active > * {
+  background: #FF871F;
+  color: #ffffff;
+}
+
+/* line 10, sass/resources/gaveta/_style.scss */
+.theTab ul.tabs-nav li .anchor {
+  background: #003C65;
+  color: #ffffff;
+}
+/* line 14, sass/resources/gaveta/_style.scss */
+.theTab ul.tabs-nav li .anchor:hover {
+  background: #FF871F;
+}
+
+/* line 20, sass/resources/gaveta/_style.scss */
+.theTab ul.tabs-nav li.visited:before {
+  background: #FF871F;
+}
+
+/* line 2, sass/resources/introducaoGeral/_style.scss */
+.IntroducaoGeral .texto.normal .tagP {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* line 10, sass/resources/introducaoGeral/_style.scss */
+.IntroducaoGeral .texto.titulo.primario .tagP {
+  color: #003c65;
+  font-size: 36px;
+}
+
+/* line 8, sass/resources/caixaLateral/_style.scss */
+.DestaqueLateralAzul .texto.normal.semFundo .tagP {
+  font-size: 14px;
+  font-family: Arial;
+}
+/* line 13, sass/resources/caixaLateral/_style.scss */
+.DestaqueLateralAzul .texto.normalModelo2 .tagP {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* line 22, sass/resources/caixaLateral/_style.scss */
+.texto.normalModelo2 .tagP {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* line 1, sass/main/style.scss */
+.middle {
+  background: url("assets/images/VW38_background.png") no-repeat;
+}
+
+/* line 5, sass/main/style.scss */
+.botaoIndice {
+  background: none;
+  width: 45px;
+  height: 16px;
+  border-radius: 6px;
+  background: trasparent;
+  border: 1px solid;
+  top: 14px;
+  right: 31px;
+  color: #a2a2a2;
+  -webkit-box-shadow: 1px 1px 5px 0px #c7c7c7;
+  -moz-box-shadow: 1px 1px 5px 0px #c7c7c7;
+  box-shadow: 1px 1px 5px 0px #c7c7c7;
+}
+/* line 19, sass/main/style.scss */
+.botaoIndice .botao-menu-texto {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0px 5px 3px 7px;
+  left: 0px;
+  top: 0px !important;
+}
+
+/* line 29, sass/main/style.scss */
+.botaoAjuda {
+  z-index: 19;
+}
+
+/* line 34, sass/main/style.scss */
+#indice {
+  position: absolute;
+  top: 50px;
+  width: 975px;
+  max-width: 30630px;
+  height: 439px;
+  padding: 1px 1px 1px 1px;
+}
+
+/* line 45, sass/main/style.scss */
+.menuIndice {
+  background: url("assets/images/VW38_background.png") no-repeat;
+  position: absolute;
+  left: 20px;
+  width: 100%;
+}
+/* line 51, sass/main/style.scss */
+.menuIndice ol {
+  column-width: 245px;
+  -moz-column-gap: 1px;
+  -webkit-column-gap: 1px;
+  column-gap: 1px;
+}
+
+/* line 59, sass/main/style.scss */
+.menuIndice .avancarIndice {
+  position: absolute;
+  cursor: pointer;
+  right: 42px;
+  top: 50%;
+  margin-top: -12.5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 25px 25px;
+  border-color: transparent transparent transparent #ff871f;
+  z-index: 9999;
+}
+
+/* line 74, sass/main/style.scss */
+.menuIndice ol .indiceVisitado {
+  background: #f3f3f3;
+  border-radius: 0px;
+  border: 1px solid #dadada;
+}
+/* line 79, sass/main/style.scss */
+.menuIndice ol .indiceVisitado h3 {
+  color: #5a646b;
+  font-family: 'Open Sans', sans-serif;
+}
+/* line 85, sass/main/style.scss */
+.menuIndice ol .indiceVisitado:before {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  width: 35px;
+  height: 34px;
+  content: counter(li);
+  counter-increment: li;
+  background: #ff871f;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  padding-top: 8px;
+  box-sizing: border-box;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0px;
+  border: 1px solid #ffffff;
+}
+/* line 107, sass/main/style.scss */
+.menuIndice ol .indiceVisitado:hover {
+  border: 1px solid #ff871f;
+}
+/* line 110, sass/main/style.scss */
+.menuIndice ol .indiceVisitado:hover:before {
+  border: none;
+}
+
+/* line 116, sass/main/style.scss */
+.menuIndice ol li {
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 246px;
+  height: 36px;
+  background: #f3f3f3;
+  margin-bottom: 8px;
+  margin-left: 0px;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border: 1px solid #dadada;
+}
+/* line 131, sass/main/style.scss */
+.menuIndice ol li:before {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #969696;
+  width: 35px;
+  height: 34px;
+  content: counter(li);
+  counter-increment: li;
+  background: #cccccc;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  padding-top: 8px;
+  box-sizing: border-box;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0px;
+  border: 1px solid #969696;
+}
+
+/* line 154, sass/main/style.scss */
+.menuIndice ol .indiceAtual {
+  background: #fbcba2;
+  border: 1px solid #ff871f;
+}
+/* line 158, sass/main/style.scss */
+.menuIndice ol .indiceAtual:before {
+  border: none;
+}
+
+/* line 163, sass/main/style.scss */
+.menuIndice ol li h3 {
+  font-size: 13px;
+  margin: -6px;
+  font-weight: normal;
+  padding-left: 36px;
+  width: 234px;
+}

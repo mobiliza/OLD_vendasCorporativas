@@ -23,7 +23,7 @@ define([], function() {
 			- hiding: Ao final das funções de escondeimento do painel de edição
 			- positioning: Ao final das funções de posicionamento
 		*/
-		var me = this;
+
 		initializating: function(e) {
 			console.log('initialization imagem -------', this);
 			var me = this;
