@@ -1,7 +1,7 @@
 define([], function() {
 
 	var multimedia = function(template, data) {
-		var me = this;
+		// var me = this;
 		this.init = function() {
 			/*Checar Função compile para observar que objetos são atrelados ao objeto principal
 			- this.template
@@ -17,7 +17,7 @@ define([], function() {
 				$multimedia = multimedia.$el.find('iframe'),
 				src = $multimedia.attr('src');
 
-			 this.iframe = $multimedia.attr('src', 'about:blank');
+			 this.iframe = $multimedia.attr('src');
 			 this.src = src;
 
 		
@@ -30,13 +30,13 @@ define([], function() {
 		this['in'] = function() {
 
 			
-			me.iframe.attr('src', me.src);
+			iframe.attr('src', src);
 		}
 
 		this['out'] = function() {
 
 			
-			me.iframe.attr('src', 'about:blank');
+			iframe.attr('src', 'about:blank');
 			
 		}
 	}
