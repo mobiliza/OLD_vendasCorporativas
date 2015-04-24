@@ -63,6 +63,7 @@ require.config({
 						"baseURL": "resources/multimedia",
 						"paths": [
 							"text!template.html",
+							"text!edition.html",
 							"editor",
 							"player"
 						]
