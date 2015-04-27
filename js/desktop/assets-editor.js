@@ -74,6 +74,12 @@ require.config({
 							"text!edition.html",
 							"text!template.html"
 						]
+					},
+					"caixaDestaque": {
+						"baseURL": "resources/caixaDestaque",
+						"paths": [
+							"text!template.html"
+						]
 					}
 
 				}

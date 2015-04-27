@@ -1,39 +1,49 @@
 
 
+.resource .caixaDestaque .textoCaixaDestaque {
+	
+	float: right;
+	border-left: 1px solid #2274ac;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	 width: 303px;
 
+}
 
+.resource .atencao {
+  border: none;
+  
+}
+
+.caixaDestaque{
+  width: 360px !important;
+}
 .caixaDestaque.atencao {
-	border: 1px solid #ffffff;
-	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	background: #ffffff;
 
 	.textoCaixaDestaque{
 		background: #ffffff;
+		
+		h2{
+			color: #2274ac;
+			font-size: 19px;
+		}
 
 		.tagP{
 			color: #33434C;
 			font-size: 12px;
 			font-family: Arial;
+			
 		}
 
 	}
-	.tituloCaixaDestaque{
-		background: #2274ac;
-		color: #ffffff;
-		font-size: 19px;
-	}
 
 	.iconDestaque{
-		top: -27px;
-		left: -33px;
-		height: 50px;
-		width: 50px;
+		top: 36%;
+		left: -5px;
 		&:after{
-			  background: url("assets/images/VW38_atencao.png") no-repeat;
-			  background-size: 42px;
-			  top: 22px;
-			  left: 37px;
+			background: url("assets/images/VW38_atencao.png") no-repeat;
+			background-size: 47px;
 
 		}
 	}
@@ -41,37 +51,31 @@
 
 
 .caixaDestaque.informacao {
-	border: 1px solid #ffffff;
-	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	background: #ffffff;
 
 	.textoCaixaDestaque{
 		background: #ffffff;
+		
+		h2{
+			color: #2274ac;
+			font-size: 19px;
+		}
 
 		.tagP{
 			color: #33434C;
 			font-size: 12px;
 			font-family: Arial;
+			
 		}
 
 	}
-	.tituloCaixaDestaque{
-		background: #2274ac;
-		color: #ffffff;
-		font-size: 19px;
-	}
 
 	.iconDestaque{
-		top: -27px;
-		left: -33px;
-		height: 50px;
-		width: 50px;
+		top: 36%;
+		left: 11px;
 		&:after{
-			  background: url("assets/images/VW38_informacao.png") no-repeat;
-			  top: 21px;
-			  left: 39px;
-			  background-size: 40px;
+			background: url("assets/images/VW38_informacao.png") no-repeat;
+			background-size: 47px;
 
 
 		}
@@ -81,188 +85,154 @@
 
 
 .caixaDestaque.objetivo {
-	border: 1px solid #ffffff;
-	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	background: #ffffff;
 
 	.textoCaixaDestaque{
 		background: #ffffff;
+		
+		h2{
+			color: #2274ac;
+			font-size: 19px;
+		}
 
 		.tagP{
 			color: #33434C;
 			font-size: 12px;
 			font-family: Arial;
+			
 		}
 
 	}
-	.tituloCaixaDestaque{
-		background: #2274ac;
-		color: #ffffff;
-		font-size: 19px;
-	}
 
 	.iconDestaque{
-		top: -27px;
-		left: -33px;
-		height: 50px;
-		width: 50px;
+		top: 36%;
+		left: 11px;
 		&:after{
-
-			   background: url("assets/images/VW38_abjetivo.png") no-repeat;
-			  top: 20px;
-			  left: 38px;
-			  background-size: 42px;
+			background: url("assets/images/VW38_abjetivo.png") no-repeat;
+			background-size: 47px;	
 		}
 	}
 }
 
 .caixaDestaque.importante {
-	border: 1px solid #ffffff;
-	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	background: #ffffff;
 
 	.textoCaixaDestaque{
 		background: #ffffff;
+		
+		h2{
+			color: #2274ac;
+			font-size: 19px;
+		}
 
 		.tagP{
 			color: #33434C;
 			font-size: 12px;
 			font-family: Arial;
+			
 		}
 
 	}
-	.tituloCaixaDestaque{
-		background: #2274ac;
-		color: #ffffff;
-		font-size: 19px;
-	}
-	
-	.iconDestaque{
-		top: -39px;
-		left: -12px;
-		height: 50px;
-		width: 50px;
-		&:after{
-			  background: url("assets/images/VW38_importante.png") no-repeat;
-			  top: 27px;
-			  left: 20px;
-			  background-size: 40px;
 
+	.iconDestaque{
+		top: 36%;
+		left: 11px;
+		&:after{
+			background: url("assets/images/VW38_importante.png") no-repeat;
+			background-size: 47px;
 		}
 	}
 }
 
 
 .caixaDestaque.saibaMais {
-	border: 1px solid #ffffff;
-	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	background: #ffffff;
 
 	.textoCaixaDestaque{
 		background: #ffffff;
+		
+		h2{
+			color: #2274ac;
+			font-size: 19px;
+		}
 
 		.tagP{
 			color: #33434C;
 			font-size: 12px;
 			font-family: Arial;
+			
 		}
 
 	}
-	.tituloCaixaDestaque{
-		background: #2274ac;
-		color: #ffffff;
-		font-size: 19px;
-	}
 
 	.iconDestaque{
-		top: -27px;
-		left: -33px;
-		height: 50px;
-		width: 50px;
+		top: 36%;
+		left: 11px;
 		&:after{
-			  background: url("assets/images/VW38_saiba_mais.png") no-repeat;
-			  top: 22px;
-			  left: 39px;
-			  background-size: 40px;
-
+			background: url("assets/images/VW38_saiba_mais.png") no-repeat;
+			background-size: 47px;
 		}
 	}
 }
 
 
 .caixaDestaque.pratique {
-	border: 1px solid #ffffff;
-	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	background: #ffffff;
 
 	.textoCaixaDestaque{
 		background: #ffffff;
+		
+		h2{
+			color: #2274ac;
+			font-size: 19px;
+		}
 
 		.tagP{
 			color: #33434C;
 			font-size: 12px;
 			font-family: Arial;
+			
 		}
 
 	}
-	.tituloCaixaDestaque{
-		background: #2274ac;
-		color: #ffffff;
-		font-size: 19px;
-	}
 
 	.iconDestaque{
-		top: -27px;
-		left: -24px;
-		height: 50px;
-		width: 50px;
+		top: 36%;
+		left: 11px;
 		&:after{
-			  background: url("assets/images/VW38_pratique.png") no-repeat;
-			  top: 20px;
-			  left: 30px;
-			  background-size: 40px;
-
+			background: url("assets/images/VW38_pratique.png") no-repeat;
+			background-size: 47px;
 		}
 	}
 }
 
 
 .caixaDestaque.dica {
-	border: 1px solid #ffffff;
-	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	background: #ffffff;
 
 	.textoCaixaDestaque{
 		background: #ffffff;
+		
+		h2{
+			color: #2274ac;
+			font-size: 19px;
+		}
 
 		.tagP{
 			color: #33434C;
 			font-size: 12px;
 			font-family: Arial;
+			
 		}
 
 	}
-	.tituloCaixaDestaque{
-		background: #2274ac;
-		color: #ffffff;
-		font-size: 19px;
-	}
 
 	.iconDestaque{
-		top: -27px;
-		left: -33px;
-		height: 50px;
-		width: 50px;
+		top: 36%;
+		left: 11px;
 		&:after{
-			  background: url("assets/images/VW38_exemplo.png") no-repeat;
-			  top: 18px;
-			  left: 40px;
-			  background-size: 35px;
+			background: url("assets/images/VW38_exemplo.png") no-repeat;
+			background-size: 47px;
 
 		}
 	}
@@ -271,40 +241,45 @@
 
 
 .caixaDestaque.programe-se {
-	border: 1px solid #ffffff;
-	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+background: #ffffff;
 
 	.textoCaixaDestaque{
 		background: #ffffff;
+		
+		h2{
+			color: #2274ac;
+			font-size: 19px;
+		}
 
 		.tagP{
 			color: #33434C;
 			font-size: 12px;
 			font-family: Arial;
+			
 		}
 
 	}
-	.tituloCaixaDestaque{
-		background: #2274ac;
-		color: #ffffff;
-		font-size: 19px;
-	}
 
 	.iconDestaque{
-		top: 44px;
-		left: -54px;
-		height: 50px;
-		width: 50px;
+		  top: 45%;
+ 		 left: 5px;
 		&:after{
-			  background: url("assets/images/VW38_dica.png") no-repeat;
-			  height: 62px;
-			  width: 58px;
-			  top: 20px;
-			  background-size: 37px;
-			  left: 43px;
+			background: url("assets/images/VW38_dica.png") no-repeat;
+			background-size: 47px;
 
 		}
 	}
 }
+
+.resource .programe-se .tituloCaixaDestaque {
+  position: absolute;
+  width: none;
+  left: none;
+  bottom: none;
+  padding: none;
+  text-align: right;
+  background: none;
+ color: none;
+ box-shadow: none;
+
+  }

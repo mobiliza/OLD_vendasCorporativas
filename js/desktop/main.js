@@ -112,6 +112,12 @@ require.config({
 							"editor",
 							"player"
 						]
+					},
+					"caixaDestaque": {
+						"baseURL": "resources/caixaDestaque",
+						"paths": [
+							"text!template.html"
+						]
 					}
 				},
 

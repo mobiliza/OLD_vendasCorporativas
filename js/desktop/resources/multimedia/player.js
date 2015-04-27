@@ -20,9 +20,6 @@ define([], function() {
 			 this.iframe = $multimedia.attr('src', 'about:blank');
 			 this.src = src;
 
-		
-
-			
 		}
 
 	
