@@ -30,7 +30,10 @@
 		height: 50px;
 		width: 50px;
 		&:after{
-			background: url("assets/images/VW38_atencao.png") no-repeat;
+			  background: url("assets/images/VW38_atencao.png") no-repeat;
+			  background-size: 42px;
+			  top: 22px;
+			  left: 37px;
 
 		}
 	}
