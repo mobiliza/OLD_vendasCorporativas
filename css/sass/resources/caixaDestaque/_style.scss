@@ -6,14 +6,16 @@
 
 }
 
-.caixaDestaque.atencao {
-	border: 1px solid #ffffff;
-	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+.resource .atencao {
+  border: none;
+  width: 392px;
+}
 
+.caixaDestaque.atencao {
+	
+	
 	.textoCaixaDestaque{
-		background: #ffffff;
+	  background: transparent;
 
 		.tagP{
 			color: #33434C;
@@ -24,8 +26,12 @@
 	}
 	.tituloCaixaDestaque{
 		background: #51ae30;
+		h2{
+			background: #51ae30;
 		color: #ffffff;
 		font-size: 19px;
+		}
+		
 	}
 
 	.iconDestaque{
@@ -35,7 +41,7 @@
 		width: 50px;
 		&:after{
 			background: url("assets/images/VW38_atencao.png") no-repeat;
-			background-size: 42px;
+			  background-size: 55px;
 			top: 22px;
 			left: 37px;
 
@@ -45,13 +51,10 @@
 
 
 .caixaDestaque.informacao {
-	border: 1px solid #ffffff;
-	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+
 
 	.textoCaixaDestaque{
-		background: #ffffff;
+		background: transparent;
 
 		.tagP{
 			color: #33434C;
@@ -62,8 +65,12 @@
 	}
 	.tituloCaixaDestaque{
 		background: #51ae30;
+		h2{
+			background: #51ae30;
 		color: #ffffff;
 		font-size: 19px;
+		}
+		
 	}
 
 	.iconDestaque{
@@ -75,7 +82,7 @@
 			background: url("assets/images/VW38_informacao.png") no-repeat;
 			top: 21px;
 			left: 39px;
-			background-size: 40px;
+			background-size: 46px;
 
 
 		}
@@ -85,13 +92,10 @@
 
 
 .caixaDestaque.objetivo {
-	border: 1px solid #ffffff;
-	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	
 
 	.textoCaixaDestaque{
-		background: #ffffff;
+		background: transparent;
 
 		.tagP{
 			color: #33434C;
@@ -102,8 +106,12 @@
 	}
 	.tituloCaixaDestaque{
 		background: #51ae30;
+		h2{
+			background: #51ae30;
 		color: #ffffff;
 		font-size: 19px;
+		}
+		
 	}
 
 	.iconDestaque{
@@ -116,19 +124,15 @@
 			background: url("assets/images/VW38_abjetivo.png") no-repeat;
 			top: 20px;
 			left: 38px;
-			background-size: 42px;
+			background-size: 46px;
 		}
 	}
 }
 
 .caixaDestaque.importante {
-	border: 1px solid #ffffff;
-	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-
+	
 	.textoCaixaDestaque{
-		background: #ffffff;
+		background: transparent;
 
 		.tagP{
 			color: #33434C;
@@ -139,8 +143,12 @@
 	}
 	.tituloCaixaDestaque{
 		background: #51ae30;
+		h2{
+			background: #51ae30;
 		color: #ffffff;
 		font-size: 19px;
+		}
+		
 
 	}
 	
@@ -153,7 +161,7 @@
 			background: url("assets/images/VW38_importante.png") no-repeat;
 			  top: 34px;
 			  left: 10px;
-			  background-size: 53px;
+			  background-size: 60px;
 
 		}
 	}
@@ -161,10 +169,10 @@
 
 
 .caixaDestaque.saibaMais {
-	background: #ffffff;
+	background: transparent;
 
 	.textoCaixaDestaque{
-		background: #ffffff;
+		background: transparent;
 
 
 		.tagP{
@@ -177,8 +185,12 @@
 	}
 	.tituloCaixaDestaque{
 		background: #51ae30;
+		h2{
+			background: #51ae30;
 		color: #ffffff;
 		font-size: 19px;
+		}
+		
 
 	}
 	.iconDestaque{
@@ -190,7 +202,7 @@
 			background: url("assets/images/VW38_saiba_mais.png") no-repeat;
 			top: 22px;
 			left: 39px;
-			background-size: 40px;
+			background-size: 46px;
 
 		}
 	}
@@ -198,13 +210,10 @@
 
 
 .caixaDestaque.pratique {
-	border: 1px solid #ffffff;
-	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	
 
 	.textoCaixaDestaque{
-		background: #ffffff;
+		background: transparent;
 
 		.tagP{
 			color: #33434C;
@@ -215,8 +224,12 @@
 	}
 	.tituloCaixaDestaque{
 		background: #51ae30;
+		h2{
+			background: #51ae30;
 		color: #ffffff;
 		font-size: 19px;
+		}
+		
 	}
 
 	.iconDestaque{
@@ -228,7 +241,7 @@
 			background: url("assets/images/VW38_pratique.png") no-repeat;
 			top: 20px;
 			left: 30px;
-			background-size: 40px;
+			background-size: 46px;
 
 		}
 	}
@@ -236,13 +249,9 @@
 
 
 .caixaDestaque.dica {
-	border: 1px solid #ffffff;
-	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-
+	
 	.textoCaixaDestaque{
-		background: #ffffff;
+		background: transparent;
 
 		.tagP{
 			color: #33434C;
@@ -253,8 +262,12 @@
 	}
 	.tituloCaixaDestaque{
 		background: #51ae30;
+		h2{
+			background: #51ae30;
 		color: #ffffff;
 		font-size: 19px;
+		}
+		
 	}
 
 	.iconDestaque{
@@ -266,7 +279,7 @@
 			background: url("assets/images/VW38_exemplo.png") no-repeat;
 			top: 18px;
 			left: 40px;
-			background-size: 35px;
+			background-size: 42px;
 
 		}
 	}
@@ -275,14 +288,10 @@
 
 
 .caixaDestaque.programe-se {
-	border: 1px solid #ffffff;
-	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
-	  width: 0px !important;
+	
 
 	.textoCaixaDestaque{
-		background: #ffffff;
+		background: transparent;
 
 		.tagP{
 			color: #33434C;
@@ -293,8 +302,12 @@
 	}
 	.tituloCaixaDestaque{
 		background: #51ae30;
+		h2{
+			background: #51ae30;
 		color: #ffffff;
 		font-size: 19px;
+		}
+		
 	}
 
 	.iconDestaque{
