@@ -1,49 +1,43 @@
 
 
 .resource .caixaDestaque .textoCaixaDestaque {
-	
+	padding: 15px 20px 15px 15px;
 	float: right;
-	border-left: 1px solid #2274ac;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	width: 290px;
 
 }
 
-.resource .atencao {
-	border: none;
-	
-}
-
-.caixaDestaque{
-	width: 360px !important;
-}
 .caixaDestaque.atencao {
-	background: #ffffff;
+	border: 1px solid #ffffff;
+	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
 
 	.textoCaixaDestaque{
 		background: #ffffff;
-		
-		h2{
-			color: #2274ac;
-			font-size: 19px;
-		}
 
 		.tagP{
 			color: #33434C;
 			font-size: 12px;
 			font-family: Arial;
-			
 		}
 
 	}
+	.tituloCaixaDestaque{
+		background: #51ae30;
+		color: #ffffff;
+		font-size: 19px;
+	}
 
 	.iconDestaque{
-		top: 36%;
-		left: 1px;
+		top: -27px;
+		left: -33px;
+		height: 50px;
+		width: 50px;
 		&:after{
 			background: url("assets/images/VW38_atencao.png") no-repeat;
-			background-size: 47px;
+			background-size: 42px;
+			top: 22px;
+			left: 37px;
 
 		}
 	}
@@ -51,31 +45,37 @@
 
 
 .caixaDestaque.informacao {
-	background: #ffffff;
+	border: 1px solid #ffffff;
+	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
 
 	.textoCaixaDestaque{
 		background: #ffffff;
-		
-		h2{
-			color: #2274ac;
-			font-size: 19px;
-		}
 
 		.tagP{
 			color: #33434C;
 			font-size: 12px;
 			font-family: Arial;
-			
 		}
 
 	}
+	.tituloCaixaDestaque{
+		background: #51ae30;
+		color: #ffffff;
+		font-size: 19px;
+	}
 
 	.iconDestaque{
-		top: 36%;
-		left: 16px;
+		top: -27px;
+		left: -33px;
+		height: 50px;
+		width: 50px;
 		&:after{
 			background: url("assets/images/VW38_informacao.png") no-repeat;
-			background-size: 47px;
+			top: 21px;
+			left: 39px;
+			background-size: 40px;
 
 
 		}
@@ -85,61 +85,76 @@
 
 
 .caixaDestaque.objetivo {
-	background: #ffffff;
+	border: 1px solid #ffffff;
+	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
 
 	.textoCaixaDestaque{
 		background: #ffffff;
-		
-		h2{
-			color: #2274ac;
-			font-size: 19px;
-		}
 
 		.tagP{
 			color: #33434C;
 			font-size: 12px;
 			font-family: Arial;
-			
 		}
 
 	}
+	.tituloCaixaDestaque{
+		background: #51ae30;
+		color: #ffffff;
+		font-size: 19px;
+	}
 
 	.iconDestaque{
-		top: 36%;
-		left: 16px;
+		top: -27px;
+		left: -33px;
+		height: 50px;
+		width: 50px;
 		&:after{
+
 			background: url("assets/images/VW38_abjetivo.png") no-repeat;
-			background-size: 47px;	
+			top: 20px;
+			left: 38px;
+			background-size: 42px;
 		}
 	}
 }
 
 .caixaDestaque.importante {
-	background: #ffffff;
+	border: 1px solid #ffffff;
+	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
 
 	.textoCaixaDestaque{
 		background: #ffffff;
-		
-		h2{
-			color: #2274ac;
-			font-size: 19px;
-		}
 
 		.tagP{
 			color: #33434C;
 			font-size: 12px;
 			font-family: Arial;
-			
 		}
 
 	}
+	.tituloCaixaDestaque{
+		background: #51ae30;
+		color: #ffffff;
+		font-size: 19px;
 
+	}
+	
 	.iconDestaque{
-		top: 36%;
-		left: 16px;
+		top: -39px;
+		left: -12px;
+		height: 50px;
+		width: 50px;
 		&:after{
 			background: url("assets/images/VW38_importante.png") no-repeat;
-			background-size: 47px;
+			  top: 34px;
+			  left: 10px;
+			  background-size: 53px;
+
 		}
 	}
 }
@@ -150,89 +165,108 @@
 
 	.textoCaixaDestaque{
 		background: #ffffff;
-		
-		h2{
-			color: #2274ac;
-			font-size: 19px;
-		}
+
 
 		.tagP{
 			color: #33434C;
 			font-size: 12px;
 			font-family: Arial;
-			
+	
 		}
 
 	}
+	.tituloCaixaDestaque{
+		background: #51ae30;
+		color: #ffffff;
+		font-size: 19px;
 
+	}
 	.iconDestaque{
-		top: 36%;
-		left: 16px;
+		  top: -28px;
+		  left: -34px;
+		  height: 50px;
+		  width: 50px;
 		&:after{
 			background: url("assets/images/VW38_saiba_mais.png") no-repeat;
-			background-size: 47px;
+			top: 22px;
+			left: 39px;
+			background-size: 40px;
+
 		}
 	}
 }
 
 
 .caixaDestaque.pratique {
-	background: #ffffff;
+	border: 1px solid #ffffff;
+	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
 
 	.textoCaixaDestaque{
 		background: #ffffff;
-		
-		h2{
-			color: #2274ac;
-			font-size: 19px;
-		}
 
 		.tagP{
 			color: #33434C;
 			font-size: 12px;
 			font-family: Arial;
-			
 		}
 
 	}
+	.tituloCaixaDestaque{
+		background: #51ae30;
+		color: #ffffff;
+		font-size: 19px;
+	}
 
 	.iconDestaque{
-		top: 36%;
-		left: 16px;
+		top: -27px;
+		left: -24px;
+		height: 50px;
+		width: 50px;
 		&:after{
 			background: url("assets/images/VW38_pratique.png") no-repeat;
-			background-size: 47px;
+			top: 20px;
+			left: 30px;
+			background-size: 40px;
+
 		}
 	}
 }
 
 
 .caixaDestaque.dica {
-	background: #ffffff;
+	border: 1px solid #ffffff;
+	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
 
 	.textoCaixaDestaque{
 		background: #ffffff;
-		
-		h2{
-			color: #2274ac;
-			font-size: 19px;
-		}
 
 		.tagP{
 			color: #33434C;
 			font-size: 12px;
 			font-family: Arial;
-			
 		}
 
 	}
+	.tituloCaixaDestaque{
+		background: #51ae30;
+		color: #ffffff;
+		font-size: 19px;
+	}
 
 	.iconDestaque{
-		top: 36%;
-		left: 16px;
+		top: -27px;
+		left: -33px;
+		height: 50px;
+		width: 50px;
 		&:after{
 			background: url("assets/images/VW38_exemplo.png") no-repeat;
-			background-size: 47px;
+			top: 18px;
+			left: 40px;
+			background-size: 35px;
 
 		}
 	}
@@ -241,56 +275,39 @@
 
 
 .caixaDestaque.programe-se {
-	background: #ffffff;
+	border: 1px solid #ffffff;
+	-webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
+	  width: 0px !important;
 
 	.textoCaixaDestaque{
 		background: #ffffff;
-		
-		h2{
-			color: #2274ac;
-			font-size: 19px;
-			float: right;
-			width: 97px;
-			text-align: center;
-			padding-top: 7px;
-		}
 
 		.tagP{
-			color: #2274ac;
-			font-size: 19px;
+			color: #33434C;
+			font-size: 12px;
 			font-family: Arial;
-			float: left;
-			width: 150px;
-			padding-top: 19px;
-			
 		}
 
+	}
+	.tituloCaixaDestaque{
+		background: #51ae30;
+		color: #ffffff;
+		font-size: 19px;
 	}
 
 	.iconDestaque{
-		top: 43%;
-		left: 10px;
+		top: 44px;
+		left: -54px;
 		&:after{
 			background: url("assets/images/VW38_dica.png") no-repeat;
-			background-size: 47px;
+			height: 62px;
+			width: 58px;
+			top: 20px;
+			background-size: 37px;
+			left: 43px;
 
 		}
 	}
-}
-
-.resource .programe-se .tituloCaixaDestaque {
-	position: absolute;
-	width: none;
-	left: none;
-	bottom: none;
-	padding: none;
-	text-align: right;
-	background: none;
-	color: none;
-	box-shadow: none;
-
-}
-
-.resource .caixaDestaque .textoCaixaDestaque {
-	padding: 0px 15px 0px 15px;
 }
