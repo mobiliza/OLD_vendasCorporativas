@@ -5671,7 +5671,7 @@ a:focus {
 }
 /* line 11, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.atencao .textoCaixaDestaque {
-  background: #bbc2c5;
+  background: #ffffff;
 }
 /* line 14, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.atencao .textoCaixaDestaque .tagP {
@@ -5683,7 +5683,7 @@ a:focus {
 .caixaDestaque.atencao .tituloCaixaDestaque {
   background: #2274ac;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 19px;
 }
 /* line 27, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.atencao .iconDestaque {
@@ -5706,7 +5706,7 @@ a:focus {
 }
 /* line 46, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.informacao .textoCaixaDestaque {
-  background: #bbc2c5;
+  background: #ffffff;
 }
 /* line 49, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.informacao .textoCaixaDestaque .tagP {
@@ -5718,7 +5718,7 @@ a:focus {
 .caixaDestaque.informacao .tituloCaixaDestaque {
   background: #2274ac;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 19px;
 }
 /* line 62, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.informacao .iconDestaque {
@@ -5730,10 +5730,9 @@ a:focus {
 /* line 67, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.informacao .iconDestaque:after {
   background: url("assets/images/VW38_informacao.png") no-repeat;
-  height: 61px;
-  width: 58px;
-  top: 7px;
-  left: 12px;
+  top: 21px;
+  left: 39px;
+  background-size: 40px;
 }
 
 /* line 80, sass/resources/caixaDestaque/_style.scss */
@@ -5745,7 +5744,7 @@ a:focus {
 }
 /* line 86, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.objetivo .textoCaixaDestaque {
-  background: #bbc2c5;
+  background: #ffffff;
 }
 /* line 89, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.objetivo .textoCaixaDestaque .tagP {
@@ -5757,7 +5756,7 @@ a:focus {
 .caixaDestaque.objetivo .tituloCaixaDestaque {
   background: #2274ac;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 19px;
 }
 /* line 102, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.objetivo .iconDestaque {
@@ -5769,199 +5768,194 @@ a:focus {
 /* line 107, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.objetivo .iconDestaque:after {
   background: url("assets/images/VW38_abjetivo.png") no-repeat;
-  height: 69px;
-  width: 68px;
-  top: 4px;
-  left: 11px;
+  top: 20px;
+  left: 38px;
+  background-size: 42px;
 }
 
-/* line 119, sass/resources/caixaDestaque/_style.scss */
+/* line 117, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.importante {
   border: 1px solid #ffffff;
   -webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
   box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
 }
-/* line 125, sass/resources/caixaDestaque/_style.scss */
+/* line 123, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.importante .textoCaixaDestaque {
-  background: #bbc2c5;
+  background: #ffffff;
 }
-/* line 128, sass/resources/caixaDestaque/_style.scss */
+/* line 126, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.importante .textoCaixaDestaque .tagP {
   color: #33434C;
   font-size: 12px;
   font-family: Arial;
 }
-/* line 135, sass/resources/caixaDestaque/_style.scss */
+/* line 133, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.importante .tituloCaixaDestaque {
   background: #2274ac;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 19px;
 }
-/* line 141, sass/resources/caixaDestaque/_style.scss */
+/* line 139, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.importante .iconDestaque {
   top: -39px;
   left: -12px;
   height: 50px;
   width: 50px;
 }
-/* line 146, sass/resources/caixaDestaque/_style.scss */
+/* line 144, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.importante .iconDestaque:after {
   background: url("assets/images/VW38_importante.png") no-repeat;
-  height: 61px;
-  width: 58px;
-  top: 7px;
-  left: 12px;
+  top: 27px;
+  left: 20px;
+  background-size: 40px;
 }
 
-/* line 158, sass/resources/caixaDestaque/_style.scss */
+/* line 155, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.saibaMais {
   border: 1px solid #ffffff;
   -webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
   box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
 }
-/* line 164, sass/resources/caixaDestaque/_style.scss */
+/* line 161, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.saibaMais .textoCaixaDestaque {
-  background: #bbc2c5;
+  background: #ffffff;
 }
-/* line 167, sass/resources/caixaDestaque/_style.scss */
+/* line 164, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.saibaMais .textoCaixaDestaque .tagP {
   color: #33434C;
   font-size: 12px;
   font-family: Arial;
 }
-/* line 174, sass/resources/caixaDestaque/_style.scss */
+/* line 171, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.saibaMais .tituloCaixaDestaque {
   background: #2274ac;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 19px;
 }
-/* line 180, sass/resources/caixaDestaque/_style.scss */
+/* line 177, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.saibaMais .iconDestaque {
   top: -27px;
   left: -33px;
   height: 50px;
   width: 50px;
 }
-/* line 185, sass/resources/caixaDestaque/_style.scss */
+/* line 182, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.saibaMais .iconDestaque:after {
   background: url("assets/images/VW38_saiba_mais.png") no-repeat;
-  height: 61px;
-  width: 58px;
-  top: 7px;
-  left: 12px;
+  top: 22px;
+  left: 39px;
+  background-size: 40px;
 }
 
-/* line 197, sass/resources/caixaDestaque/_style.scss */
+/* line 193, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.pratique {
   border: 1px solid #ffffff;
   -webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
   box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
 }
-/* line 203, sass/resources/caixaDestaque/_style.scss */
+/* line 199, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.pratique .textoCaixaDestaque {
-  background: #bbc2c5;
+  background: #ffffff;
 }
-/* line 206, sass/resources/caixaDestaque/_style.scss */
+/* line 202, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.pratique .textoCaixaDestaque .tagP {
   color: #33434C;
   font-size: 12px;
   font-family: Arial;
 }
-/* line 213, sass/resources/caixaDestaque/_style.scss */
+/* line 209, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.pratique .tituloCaixaDestaque {
   background: #2274ac;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 19px;
 }
-/* line 219, sass/resources/caixaDestaque/_style.scss */
+/* line 215, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.pratique .iconDestaque {
   top: -27px;
   left: -24px;
   height: 50px;
   width: 50px;
 }
-/* line 224, sass/resources/caixaDestaque/_style.scss */
+/* line 220, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.pratique .iconDestaque:after {
   background: url("assets/images/VW38_pratique.png") no-repeat;
-  height: 61px;
-  width: 58px;
-  top: 7px;
-  left: 12px;
+  top: 20px;
+  left: 30px;
+  background-size: 40px;
 }
 
-/* line 236, sass/resources/caixaDestaque/_style.scss */
+/* line 231, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.dica {
   border: 1px solid #ffffff;
   -webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
   box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
 }
-/* line 242, sass/resources/caixaDestaque/_style.scss */
+/* line 237, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.dica .textoCaixaDestaque {
-  background: #bbc2c5;
+  background: #ffffff;
 }
-/* line 245, sass/resources/caixaDestaque/_style.scss */
+/* line 240, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.dica .textoCaixaDestaque .tagP {
   color: #33434C;
   font-size: 12px;
   font-family: Arial;
 }
-/* line 252, sass/resources/caixaDestaque/_style.scss */
+/* line 247, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.dica .tituloCaixaDestaque {
   background: #2274ac;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 19px;
 }
-/* line 258, sass/resources/caixaDestaque/_style.scss */
+/* line 253, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.dica .iconDestaque {
   top: -27px;
   left: -33px;
   height: 50px;
   width: 50px;
 }
-/* line 263, sass/resources/caixaDestaque/_style.scss */
+/* line 258, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.dica .iconDestaque:after {
   background: url("assets/images/VW38_exemplo.png") no-repeat;
-  height: 61px;
-  width: 58px;
-  top: 7px;
-  left: 12px;
+  top: 18px;
+  left: 40px;
+  background-size: 35px;
 }
 
-/* line 276, sass/resources/caixaDestaque/_style.scss */
+/* line 270, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se {
   border: 1px solid #ffffff;
   -webkit-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
   box-shadow: 2px 2px 8px -3px rgba(0, 0, 0, 0.75);
 }
-/* line 282, sass/resources/caixaDestaque/_style.scss */
+/* line 276, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .textoCaixaDestaque {
-  background: #bbc2c5;
+  background: #ffffff;
 }
-/* line 285, sass/resources/caixaDestaque/_style.scss */
+/* line 279, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .textoCaixaDestaque .tagP {
   color: #33434C;
   font-size: 12px;
   font-family: Arial;
 }
-/* line 292, sass/resources/caixaDestaque/_style.scss */
+/* line 286, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .tituloCaixaDestaque {
   background: #2274ac;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 19px;
 }
-/* line 298, sass/resources/caixaDestaque/_style.scss */
+/* line 292, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .iconDestaque {
   top: 44px;
   left: -54px;
   height: 50px;
   width: 50px;
 }
-/* line 303, sass/resources/caixaDestaque/_style.scss */
+/* line 297, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .iconDestaque:after {
   background: url("assets/images/VW38_dica.png") no-repeat;
   height: 62px;
