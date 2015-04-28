@@ -4991,20 +4991,20 @@ a:focus {
 }
 /* line 307, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .tituloCaixaDestaque {
-  width: 135px;
-  left: 75px;
-  bottom: -52px;
+  width: 119px;
+  left: 183px;
+  bottom: -51px;
   background: white;
 }
 /* line 312, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .tituloCaixaDestaque h2 {
-  font-size: 19px;
+  font-size: 15px;
   color: #51ae30;
 }
 /* line 319, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .iconDestaque {
   top: 50px;
-  left: 161px;
+  left: 153px;
 }
 /* line 322, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .iconDestaque:after {
