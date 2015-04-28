@@ -7,19 +7,19 @@
 }
 
 .resource .atencao {
-  border: none;
-  width: 392px;
+	border: none;
+	width: 392px;
 }
 
 .caixaDestaque.atencao {
 	
 	
 	.textoCaixaDestaque{
-	  background: transparent;
+		background: transparent;
 
 		.tagP{
 			color: #33434C;
-			font-size: 12px;
+			font-size: 15px;
 			font-family: Arial;
 		}
 
@@ -28,22 +28,22 @@
 		background: #51ae30;
 		h2{
 			background: #51ae30;
-		color: #ffffff;
-		font-size: 19px;
+			color: #ffffff;
+			font-size: 19px;
 		}
 		
 	}
 
 	.iconDestaque{
 		top: -27px;
-		left: -33px;
+		 left: -22px;
 		height: 50px;
 		width: 50px;
 		&:after{
-			background: url("assets/images/VW38_atencao.png") no-repeat;
-			  background-size: 55px;
-			top: 22px;
-			left: 37px;
+			  background: url("assets/images/VW38_atencao.png") no-repeat;
+			  background-size: 61px;
+			  top: 19px;
+			  left: 37px;
 
 		}
 	}
@@ -58,7 +58,7 @@
 
 		.tagP{
 			color: #33434C;
-			font-size: 12px;
+			font-size: 15px;
 			font-family: Arial;
 		}
 
@@ -67,15 +67,15 @@
 		background: #51ae30;
 		h2{
 			background: #51ae30;
-		color: #ffffff;
-		font-size: 19px;
+			color: #ffffff;
+			font-size: 19px;
 		}
 		
 	}
 
 	.iconDestaque{
 		top: -27px;
-		left: -33px;
+		left: -25px;
 		height: 50px;
 		width: 50px;
 		&:after{
@@ -99,7 +99,7 @@
 
 		.tagP{
 			color: #33434C;
-			font-size: 12px;
+			font-size: 15px;
 			font-family: Arial;
 		}
 
@@ -108,23 +108,22 @@
 		background: #51ae30;
 		h2{
 			background: #51ae30;
-		color: #ffffff;
-		font-size: 19px;
+			color: #ffffff;
+			font-size: 19px;
 		}
 		
 	}
 
 	.iconDestaque{
 		top: -27px;
-		left: -33px;
+		 left: -25px;
 		height: 50px;
 		width: 50px;
 		&:after{
-
-			background: url("assets/images/VW38_abjetivo.png") no-repeat;
-			top: 20px;
-			left: 38px;
-			background-size: 46px;
+			  background: url("assets/images/VW38_abjetivo.png") no-repeat;
+			  top: 18px;
+			  left: 38px;
+			  background-size: 54px;
 		}
 	}
 }
@@ -136,7 +135,7 @@
 
 		.tagP{
 			color: #33434C;
-			font-size: 12px;
+			font-size: 15px;
 			font-family: Arial;
 		}
 
@@ -145,8 +144,8 @@
 		background: #51ae30;
 		h2{
 			background: #51ae30;
-		color: #ffffff;
-		font-size: 19px;
+			color: #ffffff;
+			font-size: 19px;
 		}
 		
 
@@ -154,14 +153,14 @@
 	
 	.iconDestaque{
 		top: -39px;
-		left: -12px;
+		left: 0px;
 		height: 50px;
 		width: 50px;
 		&:after{
 			background: url("assets/images/VW38_importante.png") no-repeat;
-			  top: 34px;
-			  left: 10px;
-			  background-size: 60px;
+			top: 34px;
+			left: 10px;
+			background-size: 60px;
 
 		}
 	}
@@ -177,9 +176,9 @@
 
 		.tagP{
 			color: #33434C;
-			font-size: 12px;
+			font-size: 15px;
 			font-family: Arial;
-	
+
 		}
 
 	}
@@ -187,17 +186,17 @@
 		background: #51ae30;
 		h2{
 			background: #51ae30;
-		color: #ffffff;
-		font-size: 19px;
+			color: #ffffff;
+			font-size: 19px;
 		}
 		
 
 	}
 	.iconDestaque{
-		  top: -28px;
-		  left: -34px;
-		  height: 50px;
-		  width: 50px;
+		top: -28px;
+		  left: -23px;
+		height: 50px;
+		width: 50px;
 		&:after{
 			background: url("assets/images/VW38_saiba_mais.png") no-repeat;
 			top: 22px;
@@ -217,7 +216,7 @@
 
 		.tagP{
 			color: #33434C;
-			font-size: 12px;
+			font-size: 15px;
 			font-family: Arial;
 		}
 
@@ -226,8 +225,8 @@
 		background: #51ae30;
 		h2{
 			background: #51ae30;
-		color: #ffffff;
-		font-size: 19px;
+			color: #ffffff;
+			font-size: 19px;
 		}
 		
 	}
@@ -255,7 +254,7 @@
 
 		.tagP{
 			color: #33434C;
-			font-size: 12px;
+			font-size: 15px;
 			font-family: Arial;
 		}
 
@@ -264,15 +263,15 @@
 		background: #51ae30;
 		h2{
 			background: #51ae30;
-		color: #ffffff;
-		font-size: 19px;
+			color: #ffffff;
+			font-size: 19px;
 		}
 		
 	}
 
 	.iconDestaque{
 		top: -27px;
-		left: -33px;
+		left: -20px;
 		height: 50px;
 		width: 50px;
 		&:after{
@@ -295,7 +294,7 @@
 
 		.tagP{
 			color: #33434C;
-			font-size: 12px;
+			font-size: 15px;
 			font-family: Arial;
 		}
 
@@ -304,8 +303,8 @@
 		background: #51ae30;
 		h2{
 			background: #51ae30;
-		color: #ffffff;
-		font-size: 19px;
+			color: #ffffff;
+			font-size: 19px;
 		}
 		
 	}
@@ -323,4 +322,8 @@
 
 		}
 	}
+}
+
+.resource .caixaDestaque .tituloCaixaDestaque h2 {
+	padding: 7px 0px 7px 25px;
 }
