@@ -4977,30 +4977,36 @@ a:focus {
 
 /* line 293, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .textoCaixaDestaque {
-  background: transparent;
+  border: none;
+  padding: 15px 20px 15px 15px;
+  background: #51ae30;
 }
-/* line 296, sass/resources/caixaDestaque/_style.scss */
+/* line 298, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .textoCaixaDestaque .tagP {
-  color: #33434C;
-  font-size: 15px;
-  font-family: Arial;
-}
-/* line 303, sass/resources/caixaDestaque/_style.scss */
-.caixaDestaque.programe-se .tituloCaixaDestaque {
-  background: #51ae30;
-}
-/* line 305, sass/resources/caixaDestaque/_style.scss */
-.caixaDestaque.programe-se .tituloCaixaDestaque h2 {
-  background: #51ae30;
   color: #ffffff;
   font-size: 19px;
+  font-family: VWHeadlineOTBook, sans-serif;
+  width: 150px;
+  height: 30px;
 }
-/* line 313, sass/resources/caixaDestaque/_style.scss */
+/* line 307, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.programe-se .tituloCaixaDestaque {
+  width: 135px;
+  left: 75px;
+  bottom: -52px;
+  background: white;
+}
+/* line 312, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.programe-se .tituloCaixaDestaque h2 {
+  font-size: 19px;
+  color: #51ae30;
+}
+/* line 319, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .iconDestaque {
-  top: 44px;
-  left: -54px;
+  top: 50px;
+  left: 161px;
 }
-/* line 316, sass/resources/caixaDestaque/_style.scss */
+/* line 322, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .iconDestaque:after {
   background: url("assets/images/VW38_dica.png") no-repeat;
   height: 62px;
@@ -5010,7 +5016,7 @@ a:focus {
   left: 43px;
 }
 
-/* line 328, sass/resources/caixaDestaque/_style.scss */
+/* line 334, sass/resources/caixaDestaque/_style.scss */
 .resource .caixaDestaque .tituloCaixaDestaque h2 {
   padding: 7px 0px 7px 25px;
 }

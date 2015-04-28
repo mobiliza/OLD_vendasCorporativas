@@ -291,28 +291,34 @@
 	
 
 	.textoCaixaDestaque{
-		background: transparent;
+		border: none;
+		padding: 15px 20px 15px 15px;
+		background: #51ae30 ;
 
 		.tagP{
-			color: #33434C;
-			font-size: 15px;
-			font-family: Arial;
+			color: #ffffff;
+			  font-size: 19px;
+			  font-family: VWHeadlineOTBook, sans-serif;
+			  width: 150px;
+			  height: 30px;
 		}
 
 	}
 	.tituloCaixaDestaque{
-		background: #51ae30;
+			width: 135px;
+			left: 75px;
+			bottom: -52px;
+			background: white;
 		h2{
-			background: #51ae30;
-			color: #ffffff;
-			font-size: 19px;
+		  font-size: 19px;
+		  color: #51ae30;
 		}
 		
 	}
 
 	.iconDestaque{
-		top: 44px;
-		left: -54px;
+		top: 50px;
+		  left: 161px;
 		&:after{
 			background: url("assets/images/VW38_dica.png") no-repeat;
 			height: 62px;
