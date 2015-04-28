@@ -5927,6 +5927,10 @@ a:focus {
   background-size: 42px;
 }
 
+/* line 290, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.programe-se {
+  border: 1px solid transparent;
+}
 /* line 293, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .textoCaixaDestaque {
   border: none;
@@ -5943,8 +5947,8 @@ a:focus {
 }
 /* line 307, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .tituloCaixaDestaque {
-  width: 119px;
-  left: 183px;
+  width: 130px;
+  left: 124px;
   bottom: -51px;
   background: white;
 }
@@ -5956,7 +5960,7 @@ a:focus {
 /* line 319, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .iconDestaque {
   top: 50px;
-  left: 153px;
+  left: 90px;
 }
 /* line 322, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .iconDestaque:after {

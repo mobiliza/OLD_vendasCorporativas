@@ -289,7 +289,7 @@
 
 .caixaDestaque.programe-se {
 	
-
+		border: 1px solid transparent;
 	.textoCaixaDestaque{
 		border: none;
 		padding: 15px 20px 15px 15px;
@@ -305,8 +305,8 @@
 
 	}
 	.tituloCaixaDestaque{
-		  width: 119px;
-		  left: 183px;
+		 width: 130px;
+		  left: 124px;
 		  bottom: -51px;
 		  background: white;
 		h2{
@@ -318,7 +318,7 @@
 
 	.iconDestaque{
 	  top: 50px;
-  left: 153px;
+  left: 90px;
 		&:after{
 			background: url("assets/images/VW38_dica.png") no-repeat;
 			height: 62px;
