@@ -72,7 +72,8 @@ require.config({
 						"baseURL": "resources/texto",
 						"paths": [
 							"text!edition.html",
-							"text!template.html"
+							"text!template.html",
+							"editor"
 						]
 					},
 					"caixaDestaque": {
