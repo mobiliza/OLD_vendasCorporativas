@@ -6038,7 +6038,11 @@ a:focus {
 
 /* line 1, sass/resources/multimedia/_style.scss */
 .multimedia {
-  z-index: -1 !important;
+  position: relative;
+}
+/* line 4, sass/resources/multimedia/_style.scss */
+.multimedia iframe {
+  position: absolute;
 }
 
 /* line 1, sass/main/style.scss */

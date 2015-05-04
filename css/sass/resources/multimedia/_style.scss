@@ -1,3 +1,7 @@
 .multimedia{
-	z-index: -1 !important;
+	position: relative;
+
+	iframe{
+		position: absolute; 
+	}
 }
