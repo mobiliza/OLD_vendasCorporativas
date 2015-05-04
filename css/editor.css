@@ -5084,6 +5084,11 @@ a:focus {
   line-height: 20px;
 }
 
+/* line 1, sass/resources/multimedia/_style.scss */
+.multimedia {
+  z-index: -1 !important;
+}
+
 /* line 1, sass/main/style.scss */
 .middle {
   background: url("assets/images/VW38_background.png") no-repeat;
