@@ -1,34 +1,46 @@
 @charset "UTF-8";
+/*
+#start
+
+//-------------------------- COR PADRÃO ------------------------------- 
+$baseColor: {{color}}; 
+
+//-------------------------- FONTE ------------------------------- 
+$fontePadrao: {{font.name}}, sans-serif;
+
+//-------------------------- LOGO ------------------------------- 
+$logo: url("{{logo.url}}") no-repeat;
+
+//-------------------------- BACKGROUND SLIDE  ------------------------------- 
+$background_atividade: url(assets/images/background_atividade.png);
+
+#end
+*/
 @font-face {
   font-family: 'OpenSansRegular';
   src: url("assets/fonts/OpenSans-Regular.eot");
   src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
 }
-
 @font-face {
   font-family: 'OpenSansBold';
   src: url("assets/fonts/OpenSans-Bold.eot");
   src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
 }
-
 @font-face {
   font-family: 'VWHeadlineOTBook';
   src: url("assets/fonts/VWHeadlineOT-Book.eot");
   src: url("assets/fonts/VWHeadlineOT-Book.eot") format("embedded-opentype"), url("assets/fonts/VWHeadlineOT-Book.ttf") format("truetype"), url("assets/fonts/VWHeadlineOT-Book.svg#VWHeadlineOTBook") format("svg");
 }
-
 @font-face {
   font-family: 'VWHeadlineOTSemibold';
   src: url("assets/fonts/VWHeadlineOTSemibold.eot");
   src: url("assets/fonts/VWHeadlineOTSemibold.eot") format("embedded-opentype"), url("assets/fonts/VWHeadlineOTSemibold.ttf") format("truetype"), url("assets/fonts/VWHeadlineOTSemibold.svg#VWHeadlineOTSemibold") format("svg");
 }
-
 @font-face {
   font-family: 'VWHeadlineOTBlack';
   src: url("assets/fonts/VWHeadlineOTBlack.eot");
   src: url("assets/fonts/VWHeadlineOTBlack.eot") format("embedded-opentype"), url("assets/fonts/VWHeadlineOTBlack.ttf") format("truetype"), url("assets/fonts/VWHeadlineOTBlack.svg#VWHeadlineOTBlack") format("svg");
 }
-
 /* line 3, ../../../_baseClient/padrao1/css/sass/ieFix/_primeiroPlano.scss */
 #slider .resource .botaoPP {
   background: #ff871f;

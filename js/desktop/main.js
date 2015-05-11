@@ -13,22 +13,22 @@ require.config({
 
 		jqueryUICore: {
 			deps: [
-				'jquery',
+			'jquery',
 			]
 		},
 
 		jqueryUIWidget: {
 			deps: [
-				'jquery',
-				'jqueryUICore',
+			'jquery',
+			'jqueryUICore',
 			]
 		},
 
 		jqueryUITabs: {
 			deps: [
-				'jquery',
-				'jqueryUICore',
-				'jqueryUIWidget'
+			'jquery',
+			'jqueryUICore',
+			'jqueryUIWidget'
 			]
 		},
 
@@ -42,7 +42,7 @@ require.config({
 
 		tooltipster: {
 			deps: [
-				'jquery'
+			'jquery'
 			]
 		},
 
@@ -53,20 +53,20 @@ require.config({
 		videojsyoutube: {
 			exports: 'videojs.Youtube',
 			deps: [
-				'videojs'
+			'videojs'
 			]
 		},
 
 		videojsvimeo: {
 			exports: 'videojs.Vimeo',
 			deps: [
-				'videojs'
+			'videojs'
 			]
 		},
 
 		zoom: {
 			deps: [
-				'jquery'
+			'jquery'
 			]
 		}
 
@@ -98,8 +98,8 @@ require.config({
 				"config": {
 					"baseURL": "../../config",
 					"paths": [
-						"json!general.json",
-						"json!selectors.json"
+					"json!general.json",
+					"json!selectors.json"
 					]
 				},
 
@@ -107,24 +107,24 @@ require.config({
 					"multimedia": {
 						"baseURL": "resources/multimedia",
 						"paths": [
-							"text!template.html",
-							"text!edition.html",
-							"editor",
-							"player"
+						"text!template.html",
+						"text!edition.html",
+						"editor",
+						"player"
 						]
 					},
 					"caixaDestaque": {
 						"baseURL": "resources/caixaDestaque",
 						"paths": [
-							"text!template.html"
+						"text!template.html"
 						]
 					},
-						"texto": {
+					"texto": {
 						"baseURL": "resources/texto",
 						"paths": [
-							"text!edition.html",
-							"text!template.html",
-							"editor"
+						"text!edition.html",
+						"text!template.html",
+						"editor"
 						]
 					}
 				},
@@ -132,8 +132,8 @@ require.config({
 				"main": {
 					"baseURL": "main",
 					"paths": [
-						"player",
-						"text!template.html"
+					"player",
+					"text!template.html"
 					]
 				}
 			},
@@ -141,103 +141,103 @@ require.config({
 			"functions": {
 				"baseURL": "../../../../../player/_base/js/functions",
 				"paths": [
-					"ajax",
-					"compileTemplate",
-					"compile",
-					"findSlideByVar",
-					"findResource",
-					"buildContent",
-					"animateEl",
-					"generalInit",
-					"delegateEvents",
-					"animate"
+				"ajax",
+				"compileTemplate",
+				"compile",
+				"findSlideByVar",
+				"findResource",
+				"buildContent",
+				"animateEl",
+				"generalInit",
+				"delegateEvents",
+				"animate"
 				]
 			},
 
 			"polyfill": {
 				"baseURL": "../../../../../player/_base/js/polyfill",
 				"paths": [
-					"isArray"
+				"isArray"
 				]
 			},
 
 			"helpers": {
 				"baseURL": "../../../../../player/_base/js/helpers",
 				"paths": [
-					"namespace",
-					"decode",
-					"parser",
-					"isJSON",
-					"isLocked",
-					"resourceExtend",
-					"getQueryVariable",
-					"base64Decode",
-					"serializeJSON",
-					"csslizeJSON",
-					"removeClass",
-					"sortByProperty",
-					"rgbaToHex",
-					"arrayCompare",
-					"findRecbyData"
+				"namespace",
+				"decode",
+				"parser",
+				"isJSON",
+				"isLocked",
+				"resourceExtend",
+				"getQueryVariable",
+				"base64Decode",
+				"serializeJSON",
+				"csslizeJSON",
+				"removeClass",
+				"sortByProperty",
+				"rgbaToHex",
+				"arrayCompare",
+				"findRecbyData"
 				]
 			},
 
 			"components": {
 				"baseURL": "../../../../../player/_base/js/components",
 				"paths": [
-					"recSequentialEntry",
-					"modal",
-					"swipe",
-					"tooltipster"
+				"recSequentialEntry",
+				"modal",
+				"swipe",
+				"tooltipster"
 				]
 			},
 
 			"scorm": {
 				"baseURL": "../../../../../player/_base/js/scorm",
 				"paths": [
-					"initScorm",
-					"getScormValue",
-					"setScormValue",
-					"readScormVars",
-					"saveScormData",
-					"endScorm"
+				"initScorm",
+				"getScormValue",
+				"setScormValue",
+				"readScormVars",
+				"saveScormData",
+				"endScorm"
 				]
 			},
 
 			"scormWrapper": {
 				"baseURL": "../../../../../player/_base/js/scorm/wrapper",
 				"paths": [
-					"options",
-					"doLMSInitialize",
-					"doLMSFinish",
-					"doLMSGetValue",
-					"doLMSSetValue",
-					"doLMSCommit",
-					"doLMSGetLastError",
-					"doLMSGetDiagnostic",
-					"LMSIsInitialized",
-					"ErrorHandler",
-					"getAPIHandle",
-					"findAPI",
-					"getAPI",
-					"computeTime",
-					"convertTotalSeconds"
+				"options",
+				"doLMSInitialize",
+				"doLMSFinish",
+				"doLMSGetValue",
+				"doLMSSetValue",
+				"doLMSCommit",
+				"doLMSGetLastError",
+				"doLMSGetDiagnostic",
+				"LMSIsInitialized",
+				"ErrorHandler",
+				"getAPIHandle",
+				"findAPI",
+				"getAPI",
+				"computeTime",
+				"convertTotalSeconds"
 				]
 			},
 
 			"config": {
 				"baseURL": "../../../../_baseClient/_base/config",
 				"paths": [
-					"json!general.json",
-					"json!selectors.json"
+				"json!general.json",
+				"json!selectors.json"
 				]
 			},
 
 			"main": {
 				"baseURL": "../../../../_baseClient/_base/js/desktop/main",
 				"paths": [
-					"text!template.html",
-					"player"
+				"text!template.html",
+				"player"
 				]
 			},
 
@@ -325,6 +325,14 @@ require.config({
 						"text!template.html",
 						"player"
 					]
+				},
+
+				"botaoRD": {
+					"baseURL": "../../../../_baseClient/_base/js/desktop/resources/botaoRD",
+					"paths": [
+						"text!template.html",
+						"player"
+					]
 				}
 			},
 
@@ -344,14 +352,6 @@ require.config({
 					]
 				},
 
-				"slideFinal": {
-					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/slideFinal",
-					"paths": [
-						"text!template.html",
-						"player"
-					]
-				},
-
 				"slideSubCapa": {
 					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/slideSubCapa",
 					"paths": [
@@ -360,47 +360,11 @@ require.config({
 					]
 				},
 
-				"templateVideo": {
-					"baseURL": "slides/templateVideo",
+				"slideFinal": {
+					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/slideFinal",
 					"paths": [
 						"text!template.html",
 						"player"
-					]
-				},
-
-				"templateAtividade": {
-					"baseURL": "slides/templateAtividade",
-					"paths": [
-						"text!template.html",
-						"player"
-					]
-				},
-
-				"templateTexto": {
-					"baseURL": "slides/templateTexto",
-					"paths": [
-						"text!template.html",
-						"player"
-					]
-				},
-
-				"templateAudio": {
-					"baseURL": "slides/templateAudio",
-					"paths": [
-						"text!template.html",
-						"player"
-					]
-				},
-
-				"slideTextoImagemDir": {
-					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/slideTextoImagemDir",
-					"paths": [
-					]
-				},
-
-				"slideTextoImagemEsq": {
-					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/slideTextoImagemEsq",
-					"paths": [
 					]
 				}
 			}
@@ -411,7 +375,7 @@ require.config({
 require([
 	"player"
 	], function(Player) {
-	'use strict';
+		'use strict';
 
 	/*jQuery(window).load(function() {
 		alert("page finished loading now.");

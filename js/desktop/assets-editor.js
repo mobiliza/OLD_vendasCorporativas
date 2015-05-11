@@ -6,22 +6,22 @@ require.config({
 
 		jqueryUICore: {
 			deps: [
-				'jquery',
+			'jquery',
 			]
 		},
 
 		jqueryUIWidget: {
 			deps: [
-				'jquery',
-				'jqueryUICore',
+			'jquery',
+			'jqueryUICore',
 			]
 		},
 
 		jqueryUITabs: {
 			deps: [
-				'jquery',
-				'jqueryUICore',
-				'jqueryUIWidget'
+			'jquery',
+			'jqueryUICore',
+			'jqueryUIWidget'
 			]
 		}
 	},
@@ -47,7 +47,7 @@ require.config({
 					"stage": {
 						"baseURL": "../../config/stage",
 						"paths": [
-							"json!main.json"
+						"json!main.json"
 						]
 					}
 				},
@@ -56,30 +56,30 @@ require.config({
 					"botaoPP": {
 						"baseURL": "resources/botaoPP",
 						"paths": [
-							"text!edition.html"
+						"text!edition.html"
 						]
 					},
 					"multimedia": {
 						"baseURL": "resources/multimedia",
 						"paths": [
-							"text!template.html",
-							"text!edition.html",
-							"editor",
-							"player"
+						"text!template.html",
+						"text!edition.html",
+						"editor",
+						"player"
 						]
 					},
 					"texto": {
 						"baseURL": "resources/texto",
 						"paths": [
-							"text!edition.html",
-							"text!template.html",
-							"editor"
+						"text!edition.html",
+						"text!template.html",
+						"editor"
 						]
 					},
 					"caixaDestaque": {
 						"baseURL": "resources/caixaDestaque",
 						"paths": [
-							"text!template.html"
+						"text!template.html"
 						]
 					}
 
@@ -90,16 +90,16 @@ require.config({
 				"slides": {
 					"baseURL": "../../config/slides",
 					"paths": [
-						"json!config.json"
+					"json!config.json"
 					]
 				},
 
 				"stage": {
 					"baseURL": "../../../../_baseClient/_base/config/stage",
 					"paths": [
-						"json!main.json",
-						"json!modal.json",
-						"json!tabs.json"
+					"json!main.json",
+					"json!modal.json",
+					"json!tabs.json"
 					]
 				}
 			},
@@ -108,81 +108,98 @@ require.config({
 				"slideCapa": {
 					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/slideCapa",
 					"paths": [
-						"text!template.html",
-						"json!config.json",
-						"editor"
-					]
-				},
-
-				"slideFinal": {
-					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/slideFinal",
-					"paths": [
-						"text!template.html",
-						"json!config.json",
-						"editor"
+					"json!config.json"
 					]
 				},
 
 				"slideSubCapa": {
 					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/slideSubCapa",
 					"paths": [
-						"text!template.html",
-						"json!config.json",
-						"editor"
+					"json!config.json"
 					]
 				},
 
-				"templateVideo": {
-					"baseURL": "slides/templateVideo",
+				"slideFinal": {
+					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/slideFinal",
 					"paths": [
-						"text!template.html",
-						"json!config.json",
-						"editor",
-						"text!edition.html"
+					"json!config.json"
 					]
 				},
 
-				"templateAtividade": {
-					"baseURL": "slides/templateAtividade",
-					"paths": [
-						"text!template.html",
-						"json!config.json",
-						"editor",
-						"text!edition.html"
+				"temp01": {
+					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/standard/pv1-2/temp01",
+					"paths": [						
+					"json!config.json"						
 					]
 				},
 
-				"templateTexto": {
-					"baseURL": "slides/templateTexto",
-					"paths": [
-						"text!template.html",
-						"json!config.json",
-						"editor",
-						"text!edition.html"
+				"temp02": {
+					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/standard/pv1-2/temp02",
+					"paths": [						
+					"json!config.json"						
 					]
 				},
 
-				"templateAudio": {
-					"baseURL": "slides/templateAudio",
-					"paths": [
-						"text!template.html",
-						"json!config.json",
-						"editor",
-						"text!edition.html"
+				"temp03": {
+					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/standard/pv1-2/temp03",
+					"paths": [						
+					"json!config.json"						
 					]
 				},
 
-				"slideTextoImagemDir": {
-					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/slideTextoImagemDir",
-					"paths": [
-						"json!config.json"
+				"temp04": {
+					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/standard/pv1-2/temp04",
+					"paths": [						
+					"json!config.json"						
 					]
 				},
 
-				"slideTextoImagemEsq": {
-					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/slideTextoImagemEsq",
-					"paths": [
-						"json!config.json"
+				"temp05": {
+					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/standard/pv1-2/temp05",
+					"paths": [						
+					"json!config.json"						
+					]
+				},
+
+				"temp06": {
+					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/standard/pv1-2/temp06",
+					"paths": [						
+					"json!config.json"						
+					]
+				},
+
+				"temp07": {
+					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/standard/pv1-2/temp07",
+					"paths": [						
+					"json!config.json"						
+					]
+				},
+
+				"temp08": {
+					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/standard/pv1-2/temp08",
+					"paths": [						
+					"json!config.json"						
+					]
+				},
+
+				"temp09": {
+					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/standard/pv1-2/temp09",
+					"paths": [						
+					"json!config.json"						
+					]
+				},
+
+				"temp10": {
+					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/standard/pv1-2/temp10",
+					"paths": [						
+					"json!config.json"						
+					]
+				},
+
+				"temp11": {
+					"baseURL": "../../../../_baseClient/_base/js/desktop/slides/standard/pv1-2/temp11",
+					"paths": [						
+					"json!config.json"						
 					]
 				}
 			},
@@ -191,104 +208,114 @@ require.config({
 				"audio": {
 					"baseURL": "../../../../_baseClient/_base/js/desktop/resources/audio",
 					"paths": [
-						"text!template.html",
-						"text!edition.html",
-						"json!config.json",
-						"editor",
-						"generalInit"
+					"text!template.html",
+					"text!edition.html",
+					"json!config.json",
+					"editor",
+					"generalInit"
 					]
 				},
 
 				"multimedia": {
 					"baseURL": "../../../../_baseClient/_base/js/desktop/resources/multimedia",
 					"paths": [
-						"text!template.html",
-						"text!edition.html",
-						"json!config.json",
-						"editor"
+					"text!template.html",
+					"text!edition.html",
+					"json!config.json",
+					"editor"
 					]
 				},
 
 				"caixaDestaque": {
 					"baseURL": "../../../../_baseClient/_base/js/desktop/resources/caixaDestaque",
 					"paths": [
-						"text!template.html",
-						"text!edition.html",
-						"json!config.json",
-						"editor"
+					"text!template.html",
+					"text!edition.html",
+					"json!config.json",
+					"editor"
 					]
 				},
 
 				"imagem": {
 					"baseURL": "../../../../_baseClient/_base/js/desktop/resources/imagem",
 					"paths": [
-						"text!template.html",
-						"text!edition.html",
-						"json!config.json",
-						"editor"
+					"text!template.html",
+					"text!edition.html",
+					"json!config.json",
+					"editor"
 					]
 				},
 
 				"video": {
 					"baseURL": "../../../../_baseClient/_base/js/desktop/resources/video",
 					"paths": [
-						"text!template.html",
-						"text!edition.html",
-						"json!config.json",
-						"editor",
-						"generalInit"
+					"text!template.html",
+					"text!edition.html",
+					"json!config.json",
+					"editor",
+					"generalInit"
 					]
 				},
 
 				"texto": {
 					"baseURL": "../../../../_baseClient/_base/js/desktop/resources/texto",
 					"paths": [
-						"text!template.html",
-						"text!edition.html",
-						"json!config.json",
-						"editor"
+					"text!template.html",
+					"text!edition.html",
+					"json!config.json",
+					"editor"
 					]
 				},
 
 				"botaoPP": {
 					"baseURL": "../../../../_baseClient/_base/js/desktop/resources/botaoPP",
 					"paths": [
-						"text!template.html",
-						"text!modal.html",
-						"text!edition.html",
-						"json!config.json",
-						"editor"
+					"text!template.html",
+					"text!modal.html",
+					"text!edition.html",
+					"json!config.json",
+					"editor"
 					]
 				},
 
 				"atividade": {
 					"baseURL": "../../../../_baseClient/_base/js/desktop/resources/atividade",
 					"paths": [
-						"text!template.html",
-						"text!modal.html",
-						"text!edition.html",
-						"json!config.json",
-						"editor"
+					"text!template.html",
+					"text!modal.html",
+					"text!edition.html",
+					"json!config.json",
+					"editor"
 					]
 				},
 				
 				"tabs": {
 					"baseURL": "../../../../_baseClient/_base/js/desktop/resources/tabs",
 					"paths": [
-						"text!template.html",
-						"text!edition.html",
-						"json!config.json",
-						"editor",
-						"generalInit"
+					"text!template.html",
+					"text!edition.html",
+					"json!config.json",
+					"editor",
+					"generalInit"
 					]
 				},
 
 				"personagem": {
 					"baseURL": "../../../../_baseClient/_base/js/desktop/resources/personagem",
 					"paths": [
-						"text!template.html",
-						"text!edition.html",
-						"editor"
+					"text!template.html",
+					"text!edition.html",
+					"editor"
+					]
+				},
+
+				"botaoRD": {
+					"baseURL": "../../../../_baseClient/_base/js/desktop/resources/botaoRD",
+					"paths": [
+					"text!template.html",
+					"text!edition.html",
+					"json!config.json",
+					"editor"
 					]
 				}
 			}
@@ -303,9 +330,9 @@ require([
 	"namespace!config",
 	"namespace!slides",
 	"namespace!resources"
-], function($, jqueryChanges, Overrides, Config, Slides, Resources) {
+	], function($, jqueryChanges, Overrides, Config, Slides, Resources) {
 
-	var namespaces = {
+		var namespaces = {
 			config: Config,
 			slides: Slides,
 			resources: Resources
@@ -318,9 +345,9 @@ require([
 			"Resources": Resources
 		};
 
-	$.extend(true, namespaces, Overrides);
+		$.extend(true, namespaces, Overrides);
 
-	window.Player = Player;
+		window.Player = Player;
 
 	/*
 	Não é a solução mais bonita mais eventos não funcionavam e escutar o carregamento deste
