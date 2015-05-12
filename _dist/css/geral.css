@@ -6318,10 +6318,10 @@ a:focus {
 }
 /* line 326, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .iconDestaque {
-  top: 26px;
+  top: 41px;
   left: 90px;
 }
-/* line 329, sass/resources/caixaDestaque/_style.scss */
+/* line 331, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .iconDestaque:after {
   background: url("assets/images/VW38_dica.png") no-repeat;
   height: 62px;
@@ -6331,7 +6331,7 @@ a:focus {
   left: 43px;
 }
 
-/* line 341, sass/resources/caixaDestaque/_style.scss */
+/* line 343, sass/resources/caixaDestaque/_style.scss */
 .resource .caixaDestaque .tituloCaixaDestaque h2 {
   padding: 7px 0px 7px 25px;
 }
