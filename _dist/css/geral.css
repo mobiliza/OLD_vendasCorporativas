@@ -6308,8 +6308,8 @@ a:focus {
 .caixaDestaque.programe-se .tituloCaixaDestaque {
   width: 130px;
   left: 124px;
-  bottom: -51px;
-  background: white;
+  bottom: -38px;
+  background: #ffffff;
 }
 /* line 319, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .tituloCaixaDestaque h2 {
@@ -6318,7 +6318,7 @@ a:focus {
 }
 /* line 326, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .iconDestaque {
-  top: 50px;
+  top: 26px;
   left: 90px;
 }
 /* line 329, sass/resources/caixaDestaque/_style.scss */
