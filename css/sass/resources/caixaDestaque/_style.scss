@@ -303,11 +303,15 @@
 
 		.tagP #cdContent{
 			color: #ffffff;
-			font-size: 19px;
+			font-size: 19px !important;
 			font-family: VWHeadlineOTBook, sans-serif;
 			width: 150px;
 			height: 30px;
 			display: block !important; 
+		}
+
+		.tagP {
+			font-size: 19px !important;
 		}
 
 	}

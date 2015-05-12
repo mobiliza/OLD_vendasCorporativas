@@ -6298,30 +6298,34 @@ a:focus {
 /* line 304, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .textoCaixaDestaque .tagP #cdContent {
   color: #ffffff;
-  font-size: 19px;
+  font-size: 19px !important;
   font-family: VWHeadlineOTBook, sans-serif;
   width: 150px;
   height: 30px;
   display: block !important;
 }
-/* line 314, sass/resources/caixaDestaque/_style.scss */
+/* line 313, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.programe-se .textoCaixaDestaque .tagP {
+  font-size: 19px !important;
+}
+/* line 318, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .tituloCaixaDestaque {
   width: 130px;
   left: 124px;
   bottom: -38px;
   background: #ffffff;
 }
-/* line 319, sass/resources/caixaDestaque/_style.scss */
+/* line 323, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .tituloCaixaDestaque h2 {
   font-size: 15px;
   color: #51ae30;
 }
-/* line 326, sass/resources/caixaDestaque/_style.scss */
+/* line 330, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .iconDestaque {
   top: 41px;
   left: 90px;
 }
-/* line 331, sass/resources/caixaDestaque/_style.scss */
+/* line 335, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .iconDestaque:after {
   background: url("assets/images/VW38_dica.png") no-repeat;
   height: 62px;
@@ -6331,7 +6335,7 @@ a:focus {
   left: 43px;
 }
 
-/* line 343, sass/resources/caixaDestaque/_style.scss */
+/* line 347, sass/resources/caixaDestaque/_style.scss */
 .resource .caixaDestaque .tituloCaixaDestaque h2 {
   padding: 7px 0px 7px 25px;
 }
