@@ -13,7 +13,7 @@
 
 .caixaDestaque.atencao {
 	
-	 border: #ffffff solid 1px !important;
+	border: #ffffff solid 1px !important;
 	
 	.textoCaixaDestaque{
 		background: transparent;
@@ -37,14 +37,14 @@
 
 	.iconDestaque{
 		top: -27px;
-		 left: -22px;
+		left: -22px;
 		height: 50px;
 		width: 50px;
 		&:after{
-			  background: url("assets/images/VW38_atencao.png") no-repeat;
-			  background-size: 61px;
-			  top: 19px;
-			  left: 37px;
+			background: url("assets/images/VW38_atencao.png") no-repeat;
+			background-size: 61px;
+			top: 19px;
+			left: 37px;
 
 		}
 	}
@@ -117,14 +117,14 @@
 
 	.iconDestaque{
 		top: -27px;
-		 left: -25px;
+		left: -25px;
 		height: 50px;
 		width: 50px;
 		&:after{
-			  background: url("assets/images/VW38_abjetivo.png") no-repeat;
-			  top: 18px;
-			  left: 38px;
-			  background-size: 54px;
+			background: url("assets/images/VW38_abjetivo.png") no-repeat;
+			top: 18px;
+			left: 38px;
+			background-size: 54px;
 		}
 	}
 }
@@ -195,7 +195,7 @@
 	}
 	.iconDestaque{
 		top: -28px;
-		  left: -23px;
+		left: -23px;
 		height: 50px;
 		width: 50px;
 		&:after{
@@ -287,38 +287,45 @@
 
 
 
+
 .caixaDestaque.programe-se {
-	
-		border: 1px solid transparent;
+
+	border: 1px solid transparent;
+
+
+
+
 	.textoCaixaDestaque{
 		border: none;
 		padding: 15px 20px 15px 15px;
 		background: #51ae30 ;
+		color: #ffffff;
 
-		.tagP{
+		.tagP #cdContent{
 			color: #ffffff;
-			  font-size: 19px;
-			  font-family: VWHeadlineOTBook, sans-serif;
-			  width: 150px;
-			  height: 30px;
+			font-size: 19px;
+			font-family: VWHeadlineOTBook, sans-serif;
+			width: 150px;
+			height: 30px;
+			display: block !important; 
 		}
 
 	}
 	.tituloCaixaDestaque{
-		 width: 130px;
-		  left: 124px;
-		  bottom: -51px;
-		  background: white;
+		width: 130px;
+		left: 124px;
+		bottom: -51px;
+		background: white;
 		h2{
-		  font-size: 15px;
-		  color: #51ae30;
+			font-size: 15px;
+			color: #51ae30;
 		}
 		
 	}
 
 	.iconDestaque{
-	  top: 50px;
-  left: 90px;
+		top: 50px;
+		left: 90px;
 		&:after{
 			background: url("assets/images/VW38_dica.png") no-repeat;
 			height: 62px;

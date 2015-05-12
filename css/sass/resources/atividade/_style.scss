@@ -1,0 +1,12 @@
+.atividade .enviaResposta {
+  background: #ff871f !important;
+ 
+ 	&:active{
+ 		background: #2274AC !important;
+ 	}
+
+}
+
+.atividade .enviaResposta.desativado {
+  background: #636363 !important;
+}

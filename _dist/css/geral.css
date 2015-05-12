@@ -6284,42 +6284,44 @@ a:focus {
   background-size: 42px;
 }
 
-/* line 290, sass/resources/caixaDestaque/_style.scss */
+/* line 291, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se {
   border: 1px solid transparent;
 }
-/* line 293, sass/resources/caixaDestaque/_style.scss */
+/* line 298, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .textoCaixaDestaque {
   border: none;
   padding: 15px 20px 15px 15px;
   background: #51ae30;
+  color: #ffffff;
 }
-/* line 298, sass/resources/caixaDestaque/_style.scss */
-.caixaDestaque.programe-se .textoCaixaDestaque .tagP {
+/* line 304, sass/resources/caixaDestaque/_style.scss */
+.caixaDestaque.programe-se .textoCaixaDestaque .tagP #cdContent {
   color: #ffffff;
   font-size: 19px;
   font-family: VWHeadlineOTBook, sans-serif;
   width: 150px;
   height: 30px;
+  display: block !important;
 }
-/* line 307, sass/resources/caixaDestaque/_style.scss */
+/* line 314, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .tituloCaixaDestaque {
   width: 130px;
   left: 124px;
   bottom: -51px;
   background: white;
 }
-/* line 312, sass/resources/caixaDestaque/_style.scss */
+/* line 319, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .tituloCaixaDestaque h2 {
   font-size: 15px;
   color: #51ae30;
 }
-/* line 319, sass/resources/caixaDestaque/_style.scss */
+/* line 326, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .iconDestaque {
   top: 50px;
   left: 90px;
 }
-/* line 322, sass/resources/caixaDestaque/_style.scss */
+/* line 329, sass/resources/caixaDestaque/_style.scss */
 .caixaDestaque.programe-se .iconDestaque:after {
   background: url("assets/images/VW38_dica.png") no-repeat;
   height: 62px;
@@ -6329,7 +6331,7 @@ a:focus {
   left: 43px;
 }
 
-/* line 334, sass/resources/caixaDestaque/_style.scss */
+/* line 341, sass/resources/caixaDestaque/_style.scss */
 .resource .caixaDestaque .tituloCaixaDestaque h2 {
   padding: 7px 0px 7px 25px;
 }
@@ -6400,6 +6402,20 @@ a:focus {
 /* line 4, sass/resources/multimedia/_style.scss */
 .multimedia iframe {
   position: absolute;
+}
+
+/* line 1, sass/resources/atividade/_style.scss */
+.atividade .enviaResposta {
+  background: #ff871f !important;
+}
+/* line 4, sass/resources/atividade/_style.scss */
+.atividade .enviaResposta:active {
+  background: #2274AC !important;
+}
+
+/* line 10, sass/resources/atividade/_style.scss */
+.atividade .enviaResposta.desativado {
+  background: #636363 !important;
 }
 
 /* line 1, sass/main/style.scss */
