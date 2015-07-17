@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/*
+#start
+
+//-------------------------- COR PADRÃO ------------------------------- 
+$baseColor: {{color}}; 
+
+//-------------------------- FONTE ------------------------------- 
+$fontePadrao: {{font.name}}, sans-serif;
+
+//-------------------------- LOGO ------------------------------- 
+$logo: url("{{logo.url}}") no-repeat;
+
+//-------------------------- BACKGROUND SLIDE  ------------------------------- 
+$background_atividade: url(assets/images/background_atividade.png);
+
+#end
+*/
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url("assets/fonts/OpenSans-Regular.eot");
+  src: url("assets/fonts/OpenSans-Regular.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Regular.ttf") format("truetype"), url("assets/fonts/OpenSans-Regular.svg#OpenSansRegular") format("svg");
+}
+@font-face {
+  font-family: 'OpenSansBold';
+  src: url("assets/fonts/OpenSans-Bold.eot");
+  src: url("assets/fonts/OpenSans-Bold.eot") format("embedded-opentype"), url("assets/fonts/OpenSans-Bold.ttf") format("truetype"), url("assets/fonts/OpenSans-Bold.svg#OpenSansRegular") format("svg");
+}
+@font-face {
+  font-family: 'VWHeadlineOTBook';
+  src: url("assets/fonts/VWHeadlineOT-Book.eot");
+  src: url("assets/fonts/VWHeadlineOT-Book.eot") format("embedded-opentype"), url("assets/fonts/VWHeadlineOT-Book.ttf") format("truetype"), url("assets/fonts/VWHeadlineOT-Book.svg#VWHeadlineOTBook") format("svg");
+}
+@font-face {
+  font-family: 'VWHeadlineOTSemibold';
+  src: url("assets/fonts/VWHeadlineOTSemibold.eot");
+  src: url("assets/fonts/VWHeadlineOTSemibold.eot") format("embedded-opentype"), url("assets/fonts/VWHeadlineOTSemibold.ttf") format("truetype"), url("assets/fonts/VWHeadlineOTSemibold.svg#VWHeadlineOTSemibold") format("svg");
+}
+@font-face {
+  font-family: 'VWHeadlineOTBlack';
+  src: url("assets/fonts/VWHeadlineOTBlack.eot");
+  src: url("assets/fonts/VWHeadlineOTBlack.eot") format("embedded-opentype"), url("assets/fonts/VWHeadlineOTBlack.ttf") format("truetype"), url("assets/fonts/VWHeadlineOTBlack.svg#VWHeadlineOTBlack") format("svg");
+}
+/* line 3, ../../../_baseClient/padrao1/css/sass/ieFix/_primeiroPlano.scss */
+#slider .resource .botaoPP {
+  background: #ff871f;
+}
+/* line 5, ../../../_baseClient/padrao1/css/sass/ieFix/_primeiroPlano.scss */
+#slider .resource .botaoPP:hover {
+  background: #ff9233;
+}
+/* line 8, ../../../_baseClient/padrao1/css/sass/ieFix/_primeiroPlano.scss */
+#slider .resource .botaoPP:active {
+  background: #ff9a43;
+}
+
+/* line 4, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol li {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+/* line 7, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol li h3 {
+  padding-left: 0px;
+  display: inline;
+}
+/* line 11, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol li:before {
+  content: none;
+}
+/* line 16, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-0 {
+  margin-left: 0px;
+}
+/* line 18, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-0.resetColumn {
+  margin-top: -380px;
+}
+/* line 16, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-1 {
+  margin-left: 325px;
+}
+/* line 18, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-1.resetColumn {
+  margin-top: -380px;
+}
+/* line 16, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-2 {
+  margin-left: 650px;
+}
+/* line 18, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-2.resetColumn {
+  margin-top: -380px;
+}
+/* line 16, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-3 {
+  margin-left: 975px;
+}
+/* line 18, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-3.resetColumn {
+  margin-top: -380px;
+}
+/* line 16, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-4 {
+  margin-left: 1300px;
+}
+/* line 18, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-4.resetColumn {
+  margin-top: -380px;
+}
+/* line 16, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-5 {
+  margin-left: 1625px;
+}
+/* line 18, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-5.resetColumn {
+  margin-top: -380px;
+}
+/* line 16, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-6 {
+  margin-left: 1950px;
+}
+/* line 18, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-6.resetColumn {
+  margin-top: -380px;
+}
+/* line 16, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-7 {
+  margin-left: 2275px;
+}
+/* line 18, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-7.resetColumn {
+  margin-top: -380px;
+}
+/* line 16, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-8 {
+  margin-left: 2600px;
+}
+/* line 18, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-8.resetColumn {
+  margin-top: -380px;
+}
+/* line 16, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-9 {
+  margin-left: 2925px;
+}
+/* line 18, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-9.resetColumn {
+  margin-top: -380px;
+}
+/* line 16, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-10 {
+  margin-left: 3250px;
+}
+/* line 18, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-10.resetColumn {
+  margin-top: -380px;
+}
+/* line 16, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-11 {
+  margin-left: 3575px;
+}
+/* line 18, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-11.resetColumn {
+  margin-top: -380px;
+}
+/* line 16, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-12 {
+  margin-left: 3900px;
+}
+/* line 18, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-12.resetColumn {
+  margin-top: -380px;
+}
+/* line 16, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-13 {
+  margin-left: 4225px;
+}
+/* line 18, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-13.resetColumn {
+  margin-top: -380px;
+}
+/* line 16, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-14 {
+  margin-left: 4550px;
+}
+/* line 18, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-14.resetColumn {
+  margin-top: -380px;
+}
+/* line 16, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-15 {
+  margin-left: 4875px;
+}
+/* line 18, ../../../_baseClient/padrao1/css/sass/ieFix/_indice.scss */
+.wrapper .menuIndice ol .column-15.resetColumn {
+  margin-top: -380px;
+}
+
+/* line 4, ../../../_baseClient/padrao1/css/sass/ieFix/_audio.scss */
+#slider .resource .audio:before {
+  content: "Este navegador não suporta áudio HTML5.";
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  display: block;
+}
+/* line 11, ../../../_baseClient/padrao1/css/sass/ieFix/_audio.scss */
+#slider .resource .audio .vjs-defaut-skin {
+  display: none;
+}
+
+/* line 5, ../../../_baseClient/padrao1/css/sass/ieFix/_others.scss */
+#slider .resource .texto .tagP b, #slider .resource .primeiroPlano .tagP b, #slider .resource .atividade .tagP b, #slider .resource .imagem .tagP b {
+  font-size: 13px;
+}
+/* line 9, ../../../_baseClient/padrao1/css/sass/ieFix/_others.scss */
+#slider .resource .texto b, #slider .resource .primeiroPlano b, #slider .resource .atividade b, #slider .resource .imagem b {
+  font-size: 13px;
+}
+/* line 15, ../../../_baseClient/padrao1/css/sass/ieFix/_others.scss */
+#slider .resource .caixaDestaque .tagP b {
+  font-size: 11px;
+}
+/* line 19, ../../../_baseClient/padrao1/css/sass/ieFix/_others.scss */
+#slider .resource .caixaDestaque b {
+  font-size: 11px;
+}
