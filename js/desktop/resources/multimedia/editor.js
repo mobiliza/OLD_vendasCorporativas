@@ -98,7 +98,11 @@ define([], function() {
 				recView = this.recView,
 				url = data.path,
 				folder = url.substr(0, url.lastIndexOf('/') + 1),
-				file = url.substr(url.lastIndexOf('/') + 1),
+	
+				folderID = data._parent_folder_id,
+				file = data.name,
+				type = file.indexOf('.html') !== -1 || file.indexOf('.htm') !== -1 ? "external" : "file",
+	
 				model = this.recView.model;
 
 			/* função que copia para s3 os arquivos do curso e percisa do modelo do recurso, 
@@ -109,6 +113,7 @@ define([], function() {
 				type: "external",
 				model: model,
 				src: folder,
+				_object_id: type === 'external' ? folderID : undefined,
 				attr: "src",
 				callback: function(data) {
 					model.set('src', data.dest + "/" + file);
