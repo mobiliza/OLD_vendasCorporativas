@@ -73,7 +73,7 @@ require.config({
 	},
 
 	paths: {
-		player: '../../../../_baseClient/_base/js/desktop/player',
+		player: '../../../_base/js/desktop/player',
 		jquery: '../../../../../vendor/components/jquery/dist/jquery.min',
 		jqueryUICore: '../../../../../vendor/components/jquery.ui/ui/jquery.ui.core',
 		jqueryUIWidget: '../../../../../vendor/components/jquery.ui/ui/jquery.ui.widget',
