@@ -49,10 +49,19 @@
   width: 100%;
 
   ol{
-  	  column-width: 245px;
+  	  // column-width: 245px;
 	  -moz-column-gap: 1px;
 	  -webkit-column-gap: 1px;
 	  column-gap: 1px;
+	  @for $i from 0 through 15 {
+			.column-#{$i} { 
+				margin-left: 325px * $i;
+				&.resetColumn{
+					margin-top: -440px;
+				}
+			}
+		}
+
   }
 }
 
