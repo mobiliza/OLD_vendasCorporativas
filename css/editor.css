@@ -2310,147 +2310,153 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   list-style: none;
   margin-bottom: 20px;
   padding-left: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-/* line 19, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 22, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol li {
   list-style-type: decimal;
   list-style-position: inside;
 }
-/* line 22, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 25, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol li h3 {
   padding-left: 0px;
   display: inline;
+  position: absolute;
+  top: 5px;
+  left: 25px;
 }
-/* line 26, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 32, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol li:before {
   content: none;
 }
-/* line 31, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-0 {
   margin-left: 0px;
 }
-/* line 33, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-0.resetColumn {
   margin-top: -380px;
 }
-/* line 31, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-1 {
   margin-left: 325px;
 }
-/* line 33, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-1.resetColumn {
   margin-top: -380px;
 }
-/* line 31, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-2 {
   margin-left: 650px;
 }
-/* line 33, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-2.resetColumn {
   margin-top: -380px;
 }
-/* line 31, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-3 {
   margin-left: 975px;
 }
-/* line 33, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-3.resetColumn {
   margin-top: -380px;
 }
-/* line 31, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-4 {
   margin-left: 1300px;
 }
-/* line 33, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-4.resetColumn {
   margin-top: -380px;
 }
-/* line 31, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-5 {
   margin-left: 1625px;
 }
-/* line 33, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-5.resetColumn {
   margin-top: -380px;
 }
-/* line 31, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-6 {
   margin-left: 1950px;
 }
-/* line 33, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-6.resetColumn {
   margin-top: -380px;
 }
-/* line 31, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-7 {
   margin-left: 2275px;
 }
-/* line 33, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-7.resetColumn {
   margin-top: -380px;
 }
-/* line 31, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-8 {
   margin-left: 2600px;
 }
-/* line 33, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-8.resetColumn {
   margin-top: -380px;
 }
-/* line 31, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-9 {
   margin-left: 2925px;
 }
-/* line 33, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-9.resetColumn {
   margin-top: -380px;
 }
-/* line 31, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-10 {
   margin-left: 3250px;
 }
-/* line 33, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-10.resetColumn {
   margin-top: -380px;
 }
-/* line 31, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-11 {
   margin-left: 3575px;
 }
-/* line 33, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-11.resetColumn {
   margin-top: -380px;
 }
-/* line 31, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-12 {
   margin-left: 3900px;
 }
-/* line 33, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-12.resetColumn {
   margin-top: -380px;
 }
-/* line 31, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-13 {
   margin-left: 4225px;
 }
-/* line 33, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-13.resetColumn {
   margin-top: -380px;
 }
-/* line 31, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-14 {
   margin-left: 4550px;
 }
-/* line 33, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-14.resetColumn {
   margin-top: -380px;
 }
-/* line 31, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-15 {
   margin-left: 4875px;
 }
-/* line 33, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol .column-15.resetColumn {
   margin-top: -380px;
 }
@@ -4455,7 +4461,7 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  width: 95%;
+  width: 85%;
 }
 /* line 116, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
 .menuIndice ol li:before {
@@ -5937,8 +5943,9 @@ a:focus {
 /* line 172, sass/main/style.scss */
 .menuIndice ol li h3 {
   font-size: 13px;
-  margin: -6px;
   font-weight: normal;
-  padding-left: 36px;
-  width: 234px;
+  width: 220px;
+  position: absolute;
+  top: 7px;
+  left: 25px;
 }

@@ -171,8 +171,11 @@
 
 .menuIndice ol li h3 {
   font-size: 13px;
-  margin: -6px;
+  // margin: -6px;
   font-weight: normal;
-  padding-left: 36px;
-  width: 234px;
+  // padding-left: 36px;
+  width: 220px;
+  position: absolute;
+  top: 7px;
+  left: 25px;
 }

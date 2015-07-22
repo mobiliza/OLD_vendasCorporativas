@@ -293,8 +293,9 @@
 /* line 172, ../sass/main/style.scss */
 .menuIndice ol li h3 {
   font-size: 13px;
-  margin: -6px;
   font-weight: normal;
-  padding-left: 36px;
-  width: 234px;
+  width: 220px;
+  position: absolute;
+  top: 7px;
+  left: 25px;
 }
