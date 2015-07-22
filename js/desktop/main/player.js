@@ -19,6 +19,22 @@ define([
 			$.extend(this, new Player.Base.main.player(this));
 			$.extend(this.elems, getElements());
 
+			//========== Para definir limite de páginas no índice =============
+            var    slidesArray = Player.json.slides,
+                slidesTotal = slidesArray.length,
+
+            right = 1,
+            tSliderInd = (slidesTotal / 22);
+
+            if (!(tSliderInd % 1 == 0)) {
+                tSliderInd = parseInt(tSliderInd);
+                tSliderInd += 1;
+                if (tSliderInd < 1) {
+                    tSliderInd += 1;
+                }
+            }
+            //========== Para definir limite de páginas no índice =============
+
 
 			//adiciona classe ao índice, para fallback ie8
 	  		var columnItens = 10,
