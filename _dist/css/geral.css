@@ -615,18 +615,18 @@ body {
   line-height: 32px;
 }
 
-/* line 1, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
-.primeiroPlano {
+/* line 2, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+#modal .primeiroPlano {
   min-height: 285px;
   overflow: hidden;
   /*max-height: 470px;*/
 }
-/* line 5, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
-.primeiroPlano h2 {
+/* line 6, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+#modal .primeiroPlano h2 {
   margin: 0px;
 }
 
-/* line 11, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+/* line 12, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
 .visited .botaoPP:before {
   content: "";
   position: absolute;
@@ -637,40 +637,40 @@ body {
   z-index: 100;
 }
 
-/* line 22, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+/* line 23, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
 .ppPequeno {
   width: 500px;
   height: 285px;
 }
-/* line 26, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+/* line 27, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
 .ppPequeno #modalContent {
   height: inherit;
   width: inherit;
 }
 
-/* line 32, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+/* line 33, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
 .ppMedio {
   width: 580px;
   height: 500px;
 }
-/* line 36, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
 .ppMedio #modalContent {
   height: inherit;
   width: inherit;
 }
 
-/* line 42, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+/* line 43, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
 .ppGrande {
   width: 880px;
   height: 500px;
 }
-/* line 46, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+/* line 47, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
 .ppGrande #modalContent {
   height: inherit;
   width: inherit;
 }
 
-/* line 55, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+/* line 56, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
 .playerModal .primeiroPlano {
   overflow: initial;
 }
@@ -6579,6 +6579,11 @@ a:focus {
 /* line 10, sass/resources/atividade/_style.scss */
 .atividade .enviaResposta.desativado {
   background: #636363 !important;
+}
+
+/* line 14, sass/resources/atividade/_style.scss */
+.atividade .pergunta_atividade .tagP {
+  color: #2274AC;
 }
 
 /* line 1, sass/main/style.scss */
