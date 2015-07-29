@@ -110,18 +110,18 @@ $background_atividade: url(assets/images/background_atividade.png);
   line-height: 32px;
 }
 
-/* line 1, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
-.primeiroPlano {
+/* line 2, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+#modal .primeiroPlano {
   min-height: 285px;
   overflow: hidden;
   /*max-height: 470px;*/
 }
-/* line 5, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
-.primeiroPlano h2 {
+/* line 6, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+#modal .primeiroPlano h2 {
   margin: 0px;
 }
 
-/* line 11, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+/* line 12, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
 .visited .botaoPP:before {
   content: "";
   position: absolute;
@@ -132,40 +132,40 @@ $background_atividade: url(assets/images/background_atividade.png);
   z-index: 100;
 }
 
-/* line 22, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+/* line 23, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
 .ppPequeno {
   width: 500px;
   height: 285px;
 }
-/* line 26, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+/* line 27, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
 .ppPequeno #modalContent {
   height: inherit;
   width: inherit;
 }
 
-/* line 32, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+/* line 33, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
 .ppMedio {
   width: 580px;
   height: 500px;
 }
-/* line 36, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+/* line 37, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
 .ppMedio #modalContent {
   height: inherit;
   width: inherit;
 }
 
-/* line 42, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+/* line 43, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
 .ppGrande {
   width: 880px;
   height: 500px;
 }
-/* line 46, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+/* line 47, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
 .ppGrande #modalContent {
   height: inherit;
   width: inherit;
 }
 
-/* line 55, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
+/* line 56, ../../../_baseClient/_base/css/sass/resources/primeiroPlano/_style.scss */
 .playerModal .primeiroPlano {
   overflow: initial;
 }
@@ -400,21 +400,24 @@ $background_atividade: url(assets/images/background_atividade.png);
 .theTab.horizontal.top {
   background: none;
   border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
-/* line 255, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 258, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal.top ul.tabs-nav {
   border-bottom: 0px;
 }
-/* line 259, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 262, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal.top:after, .theTab.horizontal.top.before {
   content: none;
 }
-/* line 262, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 265, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal.top .tab-next, .theTab.horizontal.top .tab-prev {
   top: 0px;
   z-index: 200;
 }
-/* line 267, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 270, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal.top .tabs-content {
   position: absolute;
   top: 70px;
@@ -423,27 +426,27 @@ $background_atividade: url(assets/images/background_atividade.png);
   right: 0;
   height: auto;
 }
-/* line 277, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 280, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal.bottom {
   background: none;
   bottom: auto;
   border: 0px;
 }
-/* line 281, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 284, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal.bottom ul.tabs-nav {
   position: absolute;
   bottom: 0px;
 }
-/* line 284, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 287, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal.bottom ul.tabs-nav li {
   bottom: -8px;
 }
-/* line 289, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 292, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal.bottom .tab-prev, .theTab.horizontal.bottom .tab-next {
   bottom: 0px;
   z-index: 200;
 }
-/* line 294, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 297, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal.bottom .tabs-content {
   position: absolute;
   top: 0;
@@ -452,33 +455,33 @@ $background_atividade: url(assets/images/background_atividade.png);
   right: 0;
   height: auto;
 }
-/* line 304, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 307, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal ul.tabs-nav {
   height: 70px;
   overflow: hidden;
   white-space: nowrap;
   padding: 0px 22px 0px 25px;
 }
-/* line 310, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 313, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal ul.tabs-nav li {
   height: 90%;
   margin-right: 10px;
   min-width: 60px;
   display: inline-block;
 }
-/* line 319, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 322, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal .tabs-content .tab-content {
   height: 100%;
 }
-/* line 322, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 325, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal .tabs-content .tab-content .TabsStage {
   height: inherit;
 }
-/* line 325, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 328, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal .tabs-content .tab-content .TabsStage .mbCanvas {
   height: inherit;
 }
-/* line 332, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 335, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal .tab-next, .theTab.horizontal .tab-prev {
   position: absolute;
   width: 20px;
@@ -486,7 +489,7 @@ $background_atividade: url(assets/images/background_atividade.png);
   left: -3px;
   z-index: 1;
 }
-/* line 338, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 341, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal .tab-next:after, .theTab.horizontal .tab-prev:after {
   content: '';
   position: absolute;
@@ -501,17 +504,17 @@ $background_atividade: url(assets/images/background_atividade.png);
   margin-top: -5px;
   margin-left: -3px;
 }
-/* line 355, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 358, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal .tab-prev:after {
   border-width: 5px 5px 5px 0;
 }
-/* line 360, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 363, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .theTab.horizontal .tab-next {
   right: -3px;
   left: initial;
 }
 
-/* line 372, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 375, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .resource .theTab .mb-stage .content-blocker {
   width: 100%;
   height: 100%;
@@ -523,7 +526,7 @@ $background_atividade: url(assets/images/background_atividade.png);
   z-index: 1000;
   /* @include opacityBackground($n1: 255, $n2: 192, $n3: 203, $opacidade: 0.5); */
 }
-/* line 385, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 388, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .resource .theTab .tab-content .TabsStage .mbCanvas {
   top: 0px;
   left: 0px;
@@ -531,43 +534,43 @@ $background_atividade: url(assets/images/background_atividade.png);
   overflow: hidden;
   /* esconde conteudo que extrapola o canvas */
 }
-/* line 391, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 394, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .resource .theTab .tab-content .TabsStage .mbCanvas #mbResources {
   background: #eaeaea;
 }
-/* line 394, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 397, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .resource .theTab .tab-content .TabsStage .mbCanvas .cover {
   position: absolute;
 }
-/* line 402, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 405, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .resource .theTab.singleTab ul.tabs-nav li .addRemoveTabs #mbRemoveTab {
   display: none !important;
 }
 
-/* line 412, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 415, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .onEdition2 .theTab ul.tabs-nav li .addRemoveTabs {
   display: block;
 }
-/* line 414, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 417, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .onEdition2 .theTab ul.tabs-nav li .addRemoveTabs .btn-group .btn {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
   padding: 0px 4px;
 }
-/* line 421, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 424, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .onEdition2 .theTab ul.tabs-nav .addRemoveTabs:last-child {
   position: relative;
   display: none;
   top: 0px;
   left: 0px;
 }
-/* line 426, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 429, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 .onEdition2 .theTab ul.tabs-nav .addRemoveTabs:last-child #mbRemoveTab {
   display: none !important;
 }
 
-/* line 436, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 439, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 #mbResources .resource .tabs:after {
   content: "";
   position: absolute;
@@ -575,7 +578,7 @@ $background_atividade: url(assets/images/background_atividade.png);
   height: 100%;
   width: 100%;
 }
-/* line 447, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
+/* line 450, ../../../_baseClient/_base/css/sass/resources/tabs/_style.scss */
 #mbResources .resource.onEdition2 .tabs:after {
   content: none;
 }
@@ -614,44 +617,48 @@ $background_atividade: url(assets/images/background_atividade.png);
 /* line 47, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider .sliderMenu > .prev-slide, .slider .sliderMenu > .next-slide {
   position: absolute;
-  left: 0px;
   top: 0px;
   background: blue;
   width: 40px;
   height: 40px;
   z-index: 150;
 }
-/* line 57, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 56, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider .sliderMenu > .next-slide {
-  left: initial;
   right: 0px;
 }
-/* line 62, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 60, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider .sliderMenu > .prev-slide {
+  left: 0px;
+}
+/* line 64, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider .sliderMenu .summary {
   position: relative;
   z-index: 149;
   text-align: center;
   font-size: 16px;
 }
-/* line 71, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 73, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider .tab-prev, .slider .tab-next {
   bottom: 0px;
   width: 30px;
   height: 20%;
   position: absolute;
-  left: 0px;
   z-index: 2;
 }
-/* line 81, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 82, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider .tab-next {
   right: 0px;
-  left: initial;
 }
 /* line 86, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+.slider .tab-prev {
+  left: 0px;
+}
+/* line 90, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider.ui-tabs {
   display: block;
 }
-/* line 90, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 94, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider ul.tabs-nav {
   display: block;
   width: 100%;
@@ -663,7 +670,7 @@ $background_atividade: url(assets/images/background_atividade.png);
   overflow: hidden;
   white-space: nowrap;
 }
-/* line 101, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 105, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider ul.tabs-nav li {
   display: block;
   list-style: none;
@@ -671,15 +678,15 @@ $background_atividade: url(assets/images/background_atividade.png);
   position: relative;
   height: 100%;
   min-width: 60px;
-  width: 90px;
+  width: 110px;
   display: inline-block;
   margin-left: 13px;
 }
-/* line 113, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 117, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider ul.tabs-nav li:first-child {
   margin-left: 0px;
 }
-/* line 117, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 121, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider ul.tabs-nav li .anchor {
   color: #333333;
   display: block;
@@ -687,19 +694,19 @@ $background_atividade: url(assets/images/background_atividade.png);
   width: 100%;
   cursor: pointer;
 }
-/* line 125, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 129, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider ul.tabs-nav li .anchor, .slider ul.tabs-nav li .anchor * {
   text-decoration: none;
 }
-/* line 128, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 132, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider ul.tabs-nav li .anchor:focus {
   outline: none;
 }
-/* line 133, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 137, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider ul.tabs-nav li .anchor .resource {
   height: 100%;
 }
-/* line 135, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 139, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider ul.tabs-nav li .anchor .resource .imagem {
   height: 100%;
   width: 100%;
@@ -707,32 +714,32 @@ $background_atividade: url(assets/images/background_atividade.png);
   min-width: initial;
   display: block;
 }
-/* line 141, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 145, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider ul.tabs-nav li .anchor .resource .imagem .trow, .slider ul.tabs-nav li .anchor .resource .imagem .tcell {
   display: block;
 }
-/* line 145, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 149, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider ul.tabs-nav li .anchor .resource #imageWrapper {
   min-height: initial;
   border: 0px;
 }
-/* line 152, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 156, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider ul.tabs-nav li.ui-state-hover {
   -webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.3);
   -moz-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.3);
   box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.3);
 }
-/* line 156, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 160, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider ul.tabs-nav li.ui-tabs-active {
   -webkit-box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.7);
   -moz-box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.7);
   box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.7);
 }
-/* line 161, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 165, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider ul.tabs-nav li:focus {
   outline: none;
 }
-/* line 167, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 171, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider .tabs-content {
   width: 100%;
   height: 80%;
@@ -740,19 +747,19 @@ $background_atividade: url(assets/images/background_atividade.png);
   position: relative;
   overflow: hidden;
 }
-/* line 174, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 178, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider .tabs-content .tab-content {
   height: 100%;
 }
-/* line 177, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 181, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider .tabs-content .tab-content .SliderStage {
   height: inherit;
 }
-/* line 180, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 184, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider .tabs-content .tab-content .SliderStage .mbCanvas {
   height: inherit;
 }
-/* line 186, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 190, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider .tabs-content .tab-content .SliderStage .mbCanvas {
   top: 0px;
   left: 0px;
@@ -760,14 +767,14 @@ $background_atividade: url(assets/images/background_atividade.png);
   overflow: hidden;
   /* esconde conteudo que extrapola o canvas */
 }
-/* line 194, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 198, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider .addRemoveTabs {
   position: absolute;
   bottom: -1px;
   right: -1px;
   z-index: 1;
 }
-/* line 199, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 203, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .slider .addRemoveTabs .btn-group .btn {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -775,16 +782,16 @@ $background_atividade: url(assets/images/background_atividade.png);
   padding: 0px 4px;
 }
 
-/* line 208, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 212, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .onEdition2 .slider ul.tabs-nav .addRemoveTabs:last-child {
   display: none;
 }
-/* line 212, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 216, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .onEdition2 .slider .addRemoveTabs {
   display: block;
 }
 
-/* line 224, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 228, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .mbCanvas .resource .slider .mb-stage .content-blocker {
   width: 100%;
   height: 100%;
@@ -795,11 +802,11 @@ $background_atividade: url(assets/images/background_atividade.png);
   position: absolute;
   z-index: 1000;
 }
-/* line 236, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 240, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .mbCanvas .resource .slider .anchor {
   cursor: pointer;
 }
-/* line 238, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 242, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .mbCanvas .resource .slider .anchor .tab-thumb-cover {
   position: absolute;
   top: 0px;
@@ -807,7 +814,7 @@ $background_atividade: url(assets/images/background_atividade.png);
   bottom: 0px;
   right: 0px;
 }
-/* line 247, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 251, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .mbCanvas .resource .slider:after {
   content: "";
   position: absolute;
@@ -816,11 +823,11 @@ $background_atividade: url(assets/images/background_atividade.png);
   top: 0;
   z-index: 1000;
 }
-/* line 259, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 263, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .mbCanvas .resource.onEdition2 .slider:after {
   content: none;
 }
-/* line 265, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
+/* line 269, ../../../_baseClient/_base/css/sass/resources/slider/_style.scss */
 .mbCanvas .resource.onEdition2 .slider.tabs-nav-can-scroll .tab-prev, .mbCanvas .resource.onEdition2 .slider.tabs-nav-can-scroll .tab-next {
   display: block !important;
 }
@@ -1902,27 +1909,31 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
 .resource div.video .video-js .vjs-control-bar .vjs-mute-control, .resource div.video .video-js .vjs-control-bar .vjs-fullscreen-control, .resource div.video .video-js .vjs-control-bar .vjs-quality-button, .resource div.video .video-js .vjs-control-bar .vjs-live-controls, .resource div.video .video-js .vjs-control-bar .vjs-play-control, .resource div.video2 .video-js .vjs-control-bar .vjs-mute-control, .resource div.video2 .video-js .vjs-control-bar .vjs-fullscreen-control, .resource div.video2 .video-js .vjs-control-bar .vjs-quality-button, .resource div.video2 .video-js .vjs-control-bar .vjs-live-controls, .resource div.video2 .video-js .vjs-control-bar .vjs-play-control {
   width: 3em;
 }
-/* line 24, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+/* line 23, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+.resource div.video .video-js .ytp-thumbnail, .resource div.video2 .video-js .ytp-thumbnail {
+  background-image: none;
+}
+/* line 27, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
 .resource div.video.fullscreen, .resource div.video2.fullscreen {
   z-index: 1000 !important;
 }
-/* line 30, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+/* line 33, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
 .resource div.noContent.video, .resource div.noContent.video2 {
   background: #e7e7e7;
 }
-/* line 36, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+/* line 39, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
 .resource div.noContent .video, .resource div.noContent .video2 {
   background: #e7e7e7;
 }
-/* line 39, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+/* line 42, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
 .resource div.noContent .glyphicon {
   display: block;
 }
-/* line 43, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+/* line 46, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
 .resource div.noContent .vjs-loading-spinner, .resource div.noContent .vjs-big-play-button, .resource div.noContent .vjs-control-bar, .resource div.noContent .vjs-error-display {
   display: none;
 }
-/* line 47, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+/* line 50, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
 .resource div.noContent .bgVideoIEfix {
   position: absolute;
   height: 100%;
@@ -1930,24 +1941,24 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   background: #e7e7e7;
   top: 0px;
 }
-/* line 57, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+/* line 60, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
 .resource.noContent .video, .resource.noContent .video2 {
   background: #e7e7e7;
 }
-/* line 59, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+/* line 62, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
 .resource.noContent .video .glyphicon, .resource.noContent .video2 .glyphicon {
   display: block;
 }
-/* line 64, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+/* line 67, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
 .resource.noContent .vjs-loading-spinner, .resource.noContent .vjs-big-play-button, .resource.noContent .vjs-control-bar, .resource.noContent .vjs-error-display {
   display: none;
 }
 
-/* line 73, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+/* line 76, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
 .resource div.video .iframeblocker, .resource div.video2 .iframeblocker {
   display: none;
 }
-/* line 76, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
+/* line 79, ../../../_baseClient/_base/css/sass/resources/video/_style.scss */
 .resource div.video .vjs-default-skin .vjs-big-play-button:focus, .resource div.video2 .vjs-default-skin .vjs-big-play-button:focus {
   border-color: none;
 }
@@ -1955,8 +1966,8 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
 /* line 3, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
 .resource .imagem {
   position: absolute;
-  min-width: 100px;
-  min-height: 100px;
+  min-width: 30px;
+  min-height: 30px;
   display: table;
 }
 /* line 11, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
@@ -1992,11 +2003,11 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
 .resource .imagem .glyphicon {
   display: none;
   position: absolute;
-  font-size: 50px;
+  font-size: 30px;
   top: 50%;
   left: 50%;
-  margin-left: -25px;
-  margin-top: -30px;
+  margin-left: -15px;
+  margin-top: -19px;
 }
 /* line 52, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
 .resource .imagem .noContent {
@@ -2011,7 +2022,7 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
 .resource .imagem #imageWrapper {
   position: relative;
   height: 100%;
-  min-height: 100px;
+  min-height: 30px;
 }
 /* line 66, ../../../_baseClient/_base/css/sass/resources/imagem/_style.scss */
 .resource .imagem #recImglegendaContent {
@@ -2295,15 +2306,159 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
 
 /* line 10, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
 .menuIndice ol > li {
-  position: absolute;
+  position: relative;
   list-style: none;
   margin-bottom: 20px;
   padding-left: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-/* line 18, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
-.resetColumn {
+/* line 22, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol li {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+/* line 25, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol li h3 {
+  padding-left: 0px;
+  display: inline;
   position: absolute;
+  top: 5px;
+  left: 25px;
+}
+/* line 32, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol li:before {
+  content: none;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-0 {
+  margin-left: 0px;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-0.resetColumn {
+  margin-top: -380px;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-1 {
+  margin-left: 325px;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-1.resetColumn {
+  margin-top: -380px;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-2 {
+  margin-left: 650px;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-2.resetColumn {
+  margin-top: -380px;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-3 {
+  margin-left: 975px;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-3.resetColumn {
+  margin-top: -380px;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-4 {
+  margin-left: 1300px;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-4.resetColumn {
+  margin-top: -380px;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-5 {
+  margin-left: 1625px;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-5.resetColumn {
+  margin-top: -380px;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-6 {
+  margin-left: 1950px;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-6.resetColumn {
+  margin-top: -380px;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-7 {
+  margin-left: 2275px;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-7.resetColumn {
+  margin-top: -380px;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-8 {
+  margin-left: 2600px;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-8.resetColumn {
+  margin-top: -380px;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-9 {
+  margin-left: 2925px;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-9.resetColumn {
+  margin-top: -380px;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-10 {
+  margin-left: 3250px;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-10.resetColumn {
+  margin-top: -380px;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-11 {
+  margin-left: 3575px;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-11.resetColumn {
+  margin-top: -380px;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-12 {
+  margin-left: 3900px;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-12.resetColumn {
+  margin-top: -380px;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-13 {
+  margin-left: 4225px;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-13.resetColumn {
+  margin-top: -380px;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-14 {
+  margin-left: 4550px;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-14.resetColumn {
+  margin-top: -380px;
+}
+/* line 37, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-15 {
+  margin-left: 4875px;
+}
+/* line 39, ../../../_baseClient/_base/css/sass/resources/indice/_style.scss */
+.menuIndice ol .column-15.resetColumn {
+  margin-top: -380px;
 }
 
 /* line 2, ../../../_baseClient/_base/css/sass/resources/botaoRD/_style.scss */
@@ -2369,8 +2524,9 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   position: relative;
   display: table-cell;
   width: 25%;
+  vertical-align: middle;
 }
-/* line 67, ../../../_baseClient/_base/css/sass/resources/botaoRD/_style.scss */
+/* line 68, ../../../_baseClient/_base/css/sass/resources/botaoRD/_style.scss */
 .resource .botaoRD.botaoTexto .tagP {
   width: 75%;
   height: 60px;
@@ -2383,7 +2539,7 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   font-weight: normal;
   word-break: break-all;
 }
-/* line 81, ../../../_baseClient/_base/css/sass/resources/botaoRD/_style.scss */
+/* line 82, ../../../_baseClient/_base/css/sass/resources/botaoRD/_style.scss */
 .resource .botaoRD.botaoPequeno {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -2391,24 +2547,24 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   height: 50px;
   width: 50px;
 }
-/* line 86, ../../../_baseClient/_base/css/sass/resources/botaoRD/_style.scss */
+/* line 87, ../../../_baseClient/_base/css/sass/resources/botaoRD/_style.scss */
 .resource .botaoRD.botaoPequeno .iconBtnRD {
   width: 100%;
 }
-/* line 90, ../../../_baseClient/_base/css/sass/resources/botaoRD/_style.scss */
+/* line 91, ../../../_baseClient/_base/css/sass/resources/botaoRD/_style.scss */
 .resource .botaoRD.botaoPequeno .tagP {
   display: none;
 }
 
-/* line 101, ../../../_baseClient/_base/css/sass/resources/botaoRD/_style.scss */
+/* line 102, ../../../_baseClient/_base/css/sass/resources/botaoRD/_style.scss */
 #mbResources .resource .botaoRD {
   cursor: auto;
 }
-/* line 103, ../../../_baseClient/_base/css/sass/resources/botaoRD/_style.scss */
+/* line 104, ../../../_baseClient/_base/css/sass/resources/botaoRD/_style.scss */
 #mbResources .resource .botaoRD .slideName, #mbResources .resource .botaoRD .fileName {
   display: block;
 }
-/* line 106, ../../../_baseClient/_base/css/sass/resources/botaoRD/_style.scss */
+/* line 107, ../../../_baseClient/_base/css/sass/resources/botaoRD/_style.scss */
 #mbResources .resource .botaoRD a {
   display: none;
 }
@@ -2459,7 +2615,13 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   display: table-cell;
   vertical-align: middle;
 }
-/* line 37, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+/* line 36, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+.resource .atividade .alternativa_atividade ul li .checkOnDiv .tagP.recContentAtividade {
+  position: relative;
+  height: 16px;
+  width: 100%;
+}
+/* line 42, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
 .resource .atividade .alternativa_atividade ul li .checkOnDiv .chkOrRadio {
   position: absolute;
   top: 50%;
@@ -2469,19 +2631,19 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   margin: 0px;
   margin-top: -12.5px;
 }
-/* line 48, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+/* line 53, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
 .resource .atividade .alternativa_atividade ul li:nth-child(2) .addRemoveTemplate #mbRemoveAlternative {
   display: none;
 }
-/* line 51, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+/* line 56, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
 .resource .atividade .alternativa_atividade ul li:nth-child(5) .addRemoveTemplate #mbAddAlternative {
   display: none;
 }
-/* line 57, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+/* line 62, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
 .resource .atividade .enviaResposta {
   margin: 10px 20px 20px 0px;
 }
-/* line 60, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+/* line 65, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
 .resource .atividade .enviaResposta strong {
   display: block;
   padding: 12px;
@@ -2491,19 +2653,19 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   font-weight: bold;
 }
 
-/* line 75, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+/* line 80, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
 .onEdition2 > .atividade .alternativa_atividade li:last-child .addRemoveTemplate {
   display: block;
 }
 
-/* line 80, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+/* line 85, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
 .caixaResposta {
   position: absolute;
   width: 316px;
   min-height: 80px;
   display: table;
 }
-/* line 85, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+/* line 90, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
 .caixaResposta h2 {
   text-align: center;
   display: table-cell;
@@ -2600,7 +2762,7 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
 }
 /* line 51, ../../../_baseClient/_base/css/sass/base.scss */
 .texto ul li, .caixaDestaque ul li, .texto ol li, .caixaDestaque ol li {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 /* line 58, ../../../_baseClient/_base/css/sass/base.scss */
@@ -2704,9 +2866,8 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
 }
 /* line 50, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
 .resource .atividade .enviaResposta {
-  background: #058b9b;
+  background: #ff871f;
   position: relative;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC48a8b3, endColorstr=#CC48a8b3);
   border: solid 1px #ffffff;
   float: right;
   cursor: pointer;
@@ -2714,33 +2875,33 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* line 62, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+/* line 61, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
 .resource .atividade .enviaResposta:hover {
-  background: #006470;
+  background: #cc6c18;
 }
-/* line 65, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+/* line 64, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
 .resource .atividade .enviaResposta:active {
   -webkit-box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
   -moz-box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
   box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
 }
-/* line 68, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+/* line 67, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
 .resource .atividade .enviaResposta strong {
   padding: 14px;
 }
-/* line 72, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+/* line 71, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
 .resource .atividade .enviaResposta.desativado {
   background: #636363;
 }
 
-/* line 84, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+/* line 83, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
 .caixaResposta {
   background: #ffffff;
   z-index: 10000;
   border: 1px solid #e2e2e2;
   font-family: VWHeadlineOTBook, sans-serif;
 }
-/* line 90, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+/* line 89, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
 .caixaResposta .detalheCaixa {
   position: absolute;
   display: block;
@@ -2750,7 +2911,7 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   border: 2px solid #9c9c9c;
 }
 
-/* line 101, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+/* line 100, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
 .respostaCerta:after {
   content: "";
   position: absolute;
@@ -2762,7 +2923,7 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   z-index: 10;
 }
 
-/* line 114, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+/* line 113, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
 .respostaErrada:after {
   content: "";
   position: absolute;
@@ -2774,7 +2935,7 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   z-index: 10;
 }
 
-/* line 126, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
+/* line 125, ../../../_baseClient/padrao2/css/sass/slide/_atividade.scss */
 .serverMsg {
   font-size: 10px;
   bottom: 10px;
@@ -3583,7 +3744,7 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
 }
 /* line 61, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
 .resource .botaoPP:hover {
-  background: #cc6c19;
+  background: #cc6c18;
 }
 /* line 64, ../../../_baseClient/padrao2/css/sass/resources/primeiroPlano/_style.scss */
 .resource .botaoPP:active {
@@ -3869,7 +4030,7 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
 /* line 2, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
 .tooltipster-default {
   border: 1px solid #FFF;
-  color: #FFF;
+  color: #000;
   background-color: #A9A9A9;
 }
 
@@ -3877,7 +4038,7 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
 /* line 9, ../../../_baseClient/padrao2/css/sass/resources/tooltip/_style.scss */
 .tooltipster-default .tooltipster-content {
   font-family: Arial, sans-serif;
-  font-size: 14px;
+  font-size: 10px;
   line-height: 16px;
   padding: 6px 8px;
   overflow: hidden;
@@ -4247,11 +4408,6 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   list-style: none;
   /* Remove default numbering */
   *list-style: decimal-leading-zero;
-  -moz-column-width: 245px;
-  /* Firefox */
-  -webkit-column-width: 245px;
-  /* Safari and Chrome */
-  column-width: 245px;
   -moz-column-gap: 40px;
   -webkit-column-gap: 40px;
   column-gap: 40px;
@@ -4301,11 +4457,11 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   font-size: 13px;
   margin: 0;
   font-weight: normal;
-  padding-left: 35px;
+  padding-left: 20px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  width: 95%;
+  width: 85%;
 }
 /* line 116, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
 .menuIndice ol li:before {
@@ -4331,7 +4487,6 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
 }
 /* line 138, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
 .menuIndice ol li:hover {
-  margin-left: 10px;
   border: 1px solid #89A8C8;
 }
 /* line 142, ../../../_baseClient/padrao2/css/sass/resources/indice/_style.scss */
@@ -4357,7 +4512,7 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
 }
 /* line 23, ../../../_baseClient/padrao2/css/sass/resources/tabs/_style.scss */
 .resource .theTab ul.tabs-nav li .anchor:hover {
-  background: #cc6c19;
+  background: #cc6c18;
 }
 /* line 26, ../../../_baseClient/padrao2/css/sass/resources/tabs/_style.scss */
 .resource .theTab ul.tabs-nav li .anchor:active {
@@ -4482,49 +4637,50 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   border: 1px solid #FFFFFF;
   background: #ff871f;
   font-family: VWHeadlineOTBook, sans-serif;
+  behavior: url(css/PIE.htc);
 }
-/* line 6, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
+/* line 7, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
 .resource .botaoRD:hover {
-  background: #cc6c19;
+  background: #cc6c18;
 }
-/* line 9, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
+/* line 10, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
 .resource .botaoRD:active {
   -webkit-box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
   -moz-box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
   box-shadow: inset 4px 3px 4px rgba(50, 50, 50, 0.49);
 }
-/* line 14, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
+/* line 15, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
 .resource .botaoRD.botaoTexto {
   width: 215px;
   min-height: 45px;
 }
-/* line 17, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
+/* line 18, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
 .resource .botaoRD.botaoTexto .iconBtnRD {
   height: 45px;
 }
-/* line 19, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
+/* line 20, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
 .resource .botaoRD.botaoTexto .iconBtnRD:after {
   content: "";
   position: absolute;
   height: 36px;
   width: 36px;
   left: 50%;
-  top: 50%;
   margin-left: -18px;
   margin-top: -18px;
 }
-/* line 30, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
+/* line 31, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
 .resource .botaoRD.botaoTexto .tagP {
   height: 45px;
 }
-/* line 35, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
+/* line 36, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
 .resource .botaoRD.botaoPequeno {
   -webkit-box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
   box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
+  behavior: url(css/PIE.htc);
   border: 0px;
 }
-/* line 39, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
+/* line 41, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
 .resource .botaoRD.botaoPequeno .iconBtnRD:after {
   content: "";
   position: absolute;
@@ -4536,32 +4692,32 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   margin-top: -20px;
   border-radius: 50px;
 }
-/* line 55, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
+/* line 57, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
 .resource .botaoRD.btnDownload.botaoPequeno .iconBtnRD:after {
   background: url("assets/images/icons-s59dee07877.png") no-repeat -11px -1398px;
 }
-/* line 61, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
+/* line 63, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
 .resource .botaoRD.btnDownload.botaoTexto .iconBtnRD:after {
   background: url("assets/images/icons-s59dee07877.png") no-repeat -12px -1400px;
 }
-/* line 67, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
+/* line 69, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
 .resource .botaoRD.btnRedirect.botaoPequeno .iconBtnRD:after {
   background: url("assets/images/icons-s59dee07877.png") no-repeat -10px -1358px;
 }
-/* line 73, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
+/* line 75, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
 .resource .botaoRD.btnRedirect.botaoTexto .iconBtnRD:after {
   background: url("assets/images/icons-s59dee07877.png") no-repeat -13px -1360px;
 }
 
-/* line 86, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
+/* line 88, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
 #mbResources .resource .botaoRD {
   background: #ff871f;
 }
-/* line 88, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
+/* line 90, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
 #mbResources .resource .botaoRD:hover {
   background: #ff871f;
 }
-/* line 91, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
+/* line 93, ../../../_baseClient/padrao2/css/sass/resources/botaoRD/_style.scss */
 #mbResources .resource .botaoRD:active {
   -webkit-box-shadow: inset 0 0 0 rgba(50, 50, 50, 0);
   -moz-box-shadow: inset 0 0 0 rgba(50, 50, 50, 0);
@@ -4635,218 +4791,223 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   color: #ff871f;
 }
 
+/* line 40, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+.mbTooltip.tooltipstered {
+  color: #eb6d00;
+}
+
 /* line 314, icons/*.png */
-/* line 41, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 45, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-sprite, .icons-atencao, .icons-avancar, .icons-avancarHover, .icons-bulletAzul, .icons-check, .icons-checkGaveta, .icons-checkGrande, .icons-destaque, .icons-dica, .icons-errado, .icons-erradoGrande, .icons-exemplo, .icons-importante, .icons-indiceAvancar, .icons-indiceAvancarHover, .icons-indiceVoltar, .icons-indiceVoltarHover, .icons-informacao, .icons-maisCircle, .icons-modal_fechar, .icons-objetivo, .icons-pratique, .icons-preparese, .icons-programese, .icons-saibamais, .icons-seta-direita-lista-slide, .icons-seta-direita-lista-slideHover, .icons-seta-esquerda-lista-slide, .icons-seta-esquerda-lista-slideHover, .icons-seta-menu-baixo, .icons-seta-menu-cima, .icons-setaDuplaDireita, .icons-setaDuplaEsquerda, .icons-voltar, .icons-voltarHover {
   background: url("assets/images/icons-s59dee07877.png") no-repeat;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 46, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 50, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-atencao {
   background-position: 0 -446px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 51, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 55, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-avancar {
   background-position: -29px -769px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 56, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 60, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-avancarHover {
   background-position: -29px -917px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 61, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 65, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-bulletAzul {
   background-position: 0 -1326px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 66, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 70, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-check {
   background-position: 0 -1105px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 71, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 75, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-checkGaveta {
   background-position: 0 -1219px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 76, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 80, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-checkGrande {
   background-position: 0 -671px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 81, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 85, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-destaque {
   background-position: 0 -168px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 86, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 90, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-dica {
   background-position: 0 -339px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 91, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 95, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-errado {
   background-position: 0 -1125px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 96, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 100, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-erradoGrande {
   background-position: 0 -617px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 101, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 105, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-exemplo {
   background-position: 0 -57px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 106, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 110, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-importante {
   background-position: 0 -396px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 111, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 115, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-indiceAvancar {
   background-position: 0 -1167px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 116, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 120, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-indiceAvancarHover {
   background-position: 0 -1234px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 121, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 125, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-indiceVoltar {
   background-position: 0 -1193px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 126, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 130, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-indiceVoltarHover {
   background-position: 0 -1255px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 131, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 135, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-informacao {
   background-position: 0 -225px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 136, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 140, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-maisCircle {
   background-position: 0 -1142px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 141, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 145, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-modal_fechar {
   background-position: 0 -1302px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 146, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 150, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-objetivo {
   background-position: 0 -503px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 151, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 155, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-pratique {
   background-position: 0 -560px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 156, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 160, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-preparese {
   background-position: 0 -111px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 161, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 165, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-programese {
   background-position: 0 0;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 166, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 170, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-saibamais {
   background-position: 0 -282px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 171, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 175, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-seta-direita-lista-slide {
   background-position: 0 -1011px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 176, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 180, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-seta-direita-lista-slideHover {
   background-position: 0 -725px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 181, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 185, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-seta-esquerda-lista-slide {
   background-position: 0 -987px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 186, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 190, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-seta-esquerda-lista-slideHover {
   background-position: 0 -747px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 191, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 195, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-seta-menu-baixo {
   background-position: 0 -1336px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 196, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 200, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-seta-menu-cima {
   background-position: 0 -1350px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 201, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 205, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-setaDuplaDireita {
   background-position: 0 -1290px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 206, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 210, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-setaDuplaEsquerda {
   background-position: 0 -1276px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 211, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 215, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-voltar {
   background-position: 0 -843px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 216, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 220, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-voltarHover {
   background-position: 0 -1035px;
 }
@@ -4856,6 +5017,11 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   position: absolute;
   top: -67px;
   left: -21px;
+}
+
+/* line 7, ../../../_baseClient/padrao2/css/sass/_clientsToEditor.scss */
+.mbTooltip {
+  color: #eb6d00;
 }
 
 /* line 2, sass/_changes.scss */
