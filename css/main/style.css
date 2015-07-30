@@ -32,7 +32,19 @@
   z-index: 19;
 }
 
-/* line 34, ../sass/main/style.scss */
+/* line 33, ../sass/main/style.scss */
+.ajuda {
+  position: absolute !important;
+  background: url("assets/images/ajuda.png") no-repeat !important;
+  width: 100% !important;
+  height: 630px !important;
+  z-index: 20 !important;
+  left: 0px !important;
+  background-size: 1020px 631px !important;
+  top: -4px !important;
+}
+
+/* line 47, ../sass/main/style.scss */
 #indice {
   position: absolute;
   top: 50px;
@@ -42,149 +54,149 @@
   padding: 1px 1px 1px 1px;
 }
 
-/* line 45, ../sass/main/style.scss */
+/* line 58, ../sass/main/style.scss */
 .menuIndice {
   background: url("assets/images/VW38_background.png") no-repeat;
   position: absolute;
   left: 20px;
   width: 100%;
 }
-/* line 51, ../sass/main/style.scss */
+/* line 64, ../sass/main/style.scss */
 .menuIndice ol {
   -moz-column-gap: 1px;
   -webkit-column-gap: 1px;
   column-gap: 1px;
 }
-/* line 57, ../sass/main/style.scss */
+/* line 70, ../sass/main/style.scss */
 .menuIndice ol .column-0 {
   margin-left: 0px;
 }
-/* line 59, ../sass/main/style.scss */
+/* line 72, ../sass/main/style.scss */
 .menuIndice ol .column-0.resetColumn {
   margin-top: -440px;
 }
-/* line 57, ../sass/main/style.scss */
+/* line 70, ../sass/main/style.scss */
 .menuIndice ol .column-1 {
   margin-left: 325px;
 }
-/* line 59, ../sass/main/style.scss */
+/* line 72, ../sass/main/style.scss */
 .menuIndice ol .column-1.resetColumn {
   margin-top: -440px;
 }
-/* line 57, ../sass/main/style.scss */
+/* line 70, ../sass/main/style.scss */
 .menuIndice ol .column-2 {
   margin-left: 650px;
 }
-/* line 59, ../sass/main/style.scss */
+/* line 72, ../sass/main/style.scss */
 .menuIndice ol .column-2.resetColumn {
   margin-top: -440px;
 }
-/* line 57, ../sass/main/style.scss */
+/* line 70, ../sass/main/style.scss */
 .menuIndice ol .column-3 {
   margin-left: 975px;
 }
-/* line 59, ../sass/main/style.scss */
+/* line 72, ../sass/main/style.scss */
 .menuIndice ol .column-3.resetColumn {
   margin-top: -440px;
 }
-/* line 57, ../sass/main/style.scss */
+/* line 70, ../sass/main/style.scss */
 .menuIndice ol .column-4 {
   margin-left: 1300px;
 }
-/* line 59, ../sass/main/style.scss */
+/* line 72, ../sass/main/style.scss */
 .menuIndice ol .column-4.resetColumn {
   margin-top: -440px;
 }
-/* line 57, ../sass/main/style.scss */
+/* line 70, ../sass/main/style.scss */
 .menuIndice ol .column-5 {
   margin-left: 1625px;
 }
-/* line 59, ../sass/main/style.scss */
+/* line 72, ../sass/main/style.scss */
 .menuIndice ol .column-5.resetColumn {
   margin-top: -440px;
 }
-/* line 57, ../sass/main/style.scss */
+/* line 70, ../sass/main/style.scss */
 .menuIndice ol .column-6 {
   margin-left: 1950px;
 }
-/* line 59, ../sass/main/style.scss */
+/* line 72, ../sass/main/style.scss */
 .menuIndice ol .column-6.resetColumn {
   margin-top: -440px;
 }
-/* line 57, ../sass/main/style.scss */
+/* line 70, ../sass/main/style.scss */
 .menuIndice ol .column-7 {
   margin-left: 2275px;
 }
-/* line 59, ../sass/main/style.scss */
+/* line 72, ../sass/main/style.scss */
 .menuIndice ol .column-7.resetColumn {
   margin-top: -440px;
 }
-/* line 57, ../sass/main/style.scss */
+/* line 70, ../sass/main/style.scss */
 .menuIndice ol .column-8 {
   margin-left: 2600px;
 }
-/* line 59, ../sass/main/style.scss */
+/* line 72, ../sass/main/style.scss */
 .menuIndice ol .column-8.resetColumn {
   margin-top: -440px;
 }
-/* line 57, ../sass/main/style.scss */
+/* line 70, ../sass/main/style.scss */
 .menuIndice ol .column-9 {
   margin-left: 2925px;
 }
-/* line 59, ../sass/main/style.scss */
+/* line 72, ../sass/main/style.scss */
 .menuIndice ol .column-9.resetColumn {
   margin-top: -440px;
 }
-/* line 57, ../sass/main/style.scss */
+/* line 70, ../sass/main/style.scss */
 .menuIndice ol .column-10 {
   margin-left: 3250px;
 }
-/* line 59, ../sass/main/style.scss */
+/* line 72, ../sass/main/style.scss */
 .menuIndice ol .column-10.resetColumn {
   margin-top: -440px;
 }
-/* line 57, ../sass/main/style.scss */
+/* line 70, ../sass/main/style.scss */
 .menuIndice ol .column-11 {
   margin-left: 3575px;
 }
-/* line 59, ../sass/main/style.scss */
+/* line 72, ../sass/main/style.scss */
 .menuIndice ol .column-11.resetColumn {
   margin-top: -440px;
 }
-/* line 57, ../sass/main/style.scss */
+/* line 70, ../sass/main/style.scss */
 .menuIndice ol .column-12 {
   margin-left: 3900px;
 }
-/* line 59, ../sass/main/style.scss */
+/* line 72, ../sass/main/style.scss */
 .menuIndice ol .column-12.resetColumn {
   margin-top: -440px;
 }
-/* line 57, ../sass/main/style.scss */
+/* line 70, ../sass/main/style.scss */
 .menuIndice ol .column-13 {
   margin-left: 4225px;
 }
-/* line 59, ../sass/main/style.scss */
+/* line 72, ../sass/main/style.scss */
 .menuIndice ol .column-13.resetColumn {
   margin-top: -440px;
 }
-/* line 57, ../sass/main/style.scss */
+/* line 70, ../sass/main/style.scss */
 .menuIndice ol .column-14 {
   margin-left: 4550px;
 }
-/* line 59, ../sass/main/style.scss */
+/* line 72, ../sass/main/style.scss */
 .menuIndice ol .column-14.resetColumn {
   margin-top: -440px;
 }
-/* line 57, ../sass/main/style.scss */
+/* line 70, ../sass/main/style.scss */
 .menuIndice ol .column-15 {
   margin-left: 4875px;
 }
-/* line 59, ../sass/main/style.scss */
+/* line 72, ../sass/main/style.scss */
 .menuIndice ol .column-15.resetColumn {
   margin-top: -440px;
 }
 
-/* line 68, ../sass/main/style.scss */
+/* line 81, ../sass/main/style.scss */
 .menuIndice .avancarIndice {
   position: absolute;
   cursor: pointer;
@@ -199,18 +211,18 @@
   z-index: 9999;
 }
 
-/* line 83, ../sass/main/style.scss */
+/* line 96, ../sass/main/style.scss */
 .menuIndice ol .indiceVisitado {
   background: #f3f3f3;
   border-radius: 0px;
   border: 1px solid #dadada;
 }
-/* line 88, ../sass/main/style.scss */
+/* line 101, ../sass/main/style.scss */
 .menuIndice ol .indiceVisitado h3 {
   color: #5a646b;
   font-family: 'Open Sans', sans-serif;
 }
-/* line 94, ../sass/main/style.scss */
+/* line 107, ../sass/main/style.scss */
 .menuIndice ol .indiceVisitado:before {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
@@ -232,16 +244,16 @@
   border-radius: 0px;
   border: 1px solid #ffffff;
 }
-/* line 116, ../sass/main/style.scss */
+/* line 129, ../sass/main/style.scss */
 .menuIndice ol .indiceVisitado:hover {
   border: 1px solid #ff871f;
 }
-/* line 119, ../sass/main/style.scss */
+/* line 132, ../sass/main/style.scss */
 .menuIndice ol .indiceVisitado:hover:before {
   border: none;
 }
 
-/* line 125, ../sass/main/style.scss */
+/* line 138, ../sass/main/style.scss */
 .menuIndice ol li {
   font-family: 'Open Sans', sans-serif;
   cursor: pointer;
@@ -257,7 +269,7 @@
   -moz-border-radius: 0px;
   border: 1px solid #dadada;
 }
-/* line 140, ../sass/main/style.scss */
+/* line 153, ../sass/main/style.scss */
 .menuIndice ol li:before {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
@@ -280,17 +292,17 @@
   border: 1px solid #969696;
 }
 
-/* line 163, ../sass/main/style.scss */
+/* line 176, ../sass/main/style.scss */
 .menuIndice ol .indiceAtual {
   background: #fbcba2;
   border: 1px solid #ff871f;
 }
-/* line 167, ../sass/main/style.scss */
+/* line 180, ../sass/main/style.scss */
 .menuIndice ol .indiceAtual:before {
   border: none;
 }
 
-/* line 172, ../sass/main/style.scss */
+/* line 185, ../sass/main/style.scss */
 .menuIndice ol li h3 {
   font-size: 13px;
   font-weight: normal;
