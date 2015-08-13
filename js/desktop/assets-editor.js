@@ -49,6 +49,12 @@ require.config({
 						"paths": [
 						"json!main.json"
 						]
+					},
+					"slides": {
+						"baseURL": "../../../../_baseClient/_base/config/slides",
+						"paths": [
+							"json!config.json"
+						]
 					}
 				},
 
