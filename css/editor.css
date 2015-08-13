@@ -5059,6 +5059,11 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   padding-top: 3px;
 }
 
+/* line 35, sass/_changes.scss */
+.resource.slideFinal .caixaDestaque.slideFinal.normal .tituloCaixaDestaque #cdTitle {
+  color: #2274AC;
+}
+
 /* line 5, sass/resources/texto/_style.scss */
 .Textocomlista .texto.titulo.secundario .tagP {
   color: #003C65;
