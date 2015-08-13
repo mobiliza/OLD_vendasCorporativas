@@ -93,13 +93,24 @@ require.config({
 	},
 
 	config: {
+
 		namespace: {
 			"overrides": {
+
+
 				"config": {
 					"baseURL": "../../config",
 					"paths": [
 					"json!general.json",
 					"json!selectors.json"
+					]
+				},
+
+				"scorm": {
+					"baseURL": "../../../_base/js/scorm",
+					"paths": [
+						"initScorm",
+						"saveScormData"
 					]
 				},
 
@@ -195,11 +206,9 @@ require.config({
 			"scorm": {
 				"baseURL": "../../../../../player/_base/js/scorm",
 				"paths": [
-				"initScorm",
 				"getScormValue",
 				"setScormValue",
 				"readScormVars",
-				"saveScormData",
 				"endScorm"
 				]
 			},
