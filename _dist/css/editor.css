@@ -2663,9 +2663,10 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   position: absolute;
   width: 316px;
   min-height: 80px;
+  height: 80px;
   display: table;
 }
-/* line 90, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
+/* line 91, ../../../_baseClient/_base/css/sass/slide/atividade/_style.scss */
 .caixaResposta h2 {
   text-align: center;
   display: table-cell;
@@ -3433,6 +3434,13 @@ https://github.com/videojs/video.js/blob/master/src/css/video-js.less */
   border-width: 26px 25px 0px 0px;
   right: -25px;
   bottom: 15px;
+}
+
+/* line 3, ../../../_baseClient/padrao2/css/sass/resources/shape/_style.scss */
+.resource .shape.circulo {
+  -webkit-border-radius: 100% !important;
+  -moz-border-radius: 100% !important;
+  border-radius: 100% !important;
 }
 
 /* line 12, ../../../_baseClient/padrao2/css/sass/resources/caixaDestaque/_style.scss */
@@ -4769,16 +4777,16 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   content: "\e008";
 }
 
-/* line 16, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 17, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .texto, .primeiroPlano .tituloPrimeiroPlano, .atividade, .caixaDestaque, .imagem, .respostaCerta, .respostaErrada {
   font-family: VWHeadlineOTBook, sans-serif;
 }
 
-/* line 21, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 22, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .texto ul li, .caixaDestaque ul li {
   margin-left: 10px;
 }
-/* line 23, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 24, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .texto ul li:before, .caixaDestaque ul li:before {
   content: ">>";
   color: #ff871f;
@@ -4786,228 +4794,228 @@ div.audio .vjs-control-bar .vjs-play-progress, div.audio .vjs-control-bar .vjs-v
   left: 23px;
 }
 
-/* line 34, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 35, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .texto ol li:before, .caixaDestaque ol li:before {
   color: #ff871f;
 }
 
-/* line 40, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 41, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .mbTooltip.tooltipstered {
   color: #eb6d00;
 }
 
 /* line 314, icons/*.png */
-/* line 45, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 46, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-sprite, .icons-atencao, .icons-avancar, .icons-avancarHover, .icons-bulletAzul, .icons-check, .icons-checkGaveta, .icons-checkGrande, .icons-destaque, .icons-dica, .icons-errado, .icons-erradoGrande, .icons-exemplo, .icons-importante, .icons-indiceAvancar, .icons-indiceAvancarHover, .icons-indiceVoltar, .icons-indiceVoltarHover, .icons-informacao, .icons-maisCircle, .icons-modal_fechar, .icons-objetivo, .icons-pratique, .icons-preparese, .icons-programese, .icons-saibamais, .icons-seta-direita-lista-slide, .icons-seta-direita-lista-slideHover, .icons-seta-esquerda-lista-slide, .icons-seta-esquerda-lista-slideHover, .icons-seta-menu-baixo, .icons-seta-menu-cima, .icons-setaDuplaDireita, .icons-setaDuplaEsquerda, .icons-voltar, .icons-voltarHover {
   background: url("assets/images/icons-s59dee07877.png") no-repeat;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 50, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 51, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-atencao {
   background-position: 0 -446px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 55, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 56, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-avancar {
   background-position: -29px -769px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 60, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 61, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-avancarHover {
   background-position: -29px -917px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 65, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 66, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-bulletAzul {
   background-position: 0 -1326px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 70, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 71, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-check {
   background-position: 0 -1105px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 75, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 76, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-checkGaveta {
   background-position: 0 -1219px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 80, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 81, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-checkGrande {
   background-position: 0 -671px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 85, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 86, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-destaque {
   background-position: 0 -168px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 90, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 91, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-dica {
   background-position: 0 -339px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 95, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 96, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-errado {
   background-position: 0 -1125px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 100, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 101, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-erradoGrande {
   background-position: 0 -617px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 105, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 106, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-exemplo {
   background-position: 0 -57px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 110, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 111, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-importante {
   background-position: 0 -396px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 115, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 116, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-indiceAvancar {
   background-position: 0 -1167px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 120, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 121, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-indiceAvancarHover {
   background-position: 0 -1234px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 125, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 126, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-indiceVoltar {
   background-position: 0 -1193px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 130, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 131, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-indiceVoltarHover {
   background-position: 0 -1255px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 135, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 136, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-informacao {
   background-position: 0 -225px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 140, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 141, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-maisCircle {
   background-position: 0 -1142px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 145, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 146, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-modal_fechar {
   background-position: 0 -1302px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 150, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 151, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-objetivo {
   background-position: 0 -503px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 155, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 156, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-pratique {
   background-position: 0 -560px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 160, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 161, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-preparese {
   background-position: 0 -111px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 165, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 166, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-programese {
   background-position: 0 0;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 170, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 171, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-saibamais {
   background-position: 0 -282px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 175, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 176, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-seta-direita-lista-slide {
   background-position: 0 -1011px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 180, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 181, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-seta-direita-lista-slideHover {
   background-position: 0 -725px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 185, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 186, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-seta-esquerda-lista-slide {
   background-position: 0 -987px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 190, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 191, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-seta-esquerda-lista-slideHover {
   background-position: 0 -747px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 195, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 196, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-seta-menu-baixo {
   background-position: 0 -1336px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 200, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 201, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-seta-menu-cima {
   background-position: 0 -1350px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 205, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 206, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-setaDuplaDireita {
   background-position: 0 -1290px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 210, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 211, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-setaDuplaEsquerda {
   background-position: 0 -1276px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 215, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 216, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-voltar {
   background-position: 0 -843px;
 }
 
 /* line 60, ../../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-/* line 220, ../../../_baseClient/padrao2/css/sass/_resources.scss */
+/* line 221, ../../../_baseClient/padrao2/css/sass/_resources.scss */
 .icons-voltarHover {
   background-position: 0 -1035px;
 }
