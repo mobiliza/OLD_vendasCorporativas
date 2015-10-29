@@ -190,7 +190,7 @@ module.exports = function(grunt) {
 	// TASKS =====================================/
 
 	// grunt.registerTask('resourcesEditor', ['requirejs']);
-	grunt.registerTask('reqjs', ['requirejs']);
+	grunt.registerTask('reqjs', ['requirejs','uglify']);
 	grunt.registerTask('watchJS', ['watch']);
 	grunt.registerTask('imgmin', ['imagemin']);
 	grunt.registerTask('cp', ['copy']);
