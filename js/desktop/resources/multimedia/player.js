@@ -2,6 +2,7 @@ define([], function() {
 
 	var multimedia = function(template, data) {
 		var me = this;
+
 		this.init = function() {
 			/*Checar Função compile para observar que objetos são atrelados ao objeto principal
 			- this.template
@@ -11,30 +12,40 @@ define([], function() {
 			- this.$el
 			*/
 			
-			$.extend(true, this, new Player.Helpers.resourceExtend(this, arguments));
+			$.extend(true, me, new Player.Helpers.resourceExtend(this, arguments));
 
-			var multimedia = this,
-				$multimedia = multimedia.$el.find('iframe'),
+			var $multimedia = me.$el.find('iframe'),
 				src = $multimedia.attr('src');
 
-			 this.iframe = $multimedia.attr('src', 'about:blank');
-			 this.src = src;
+			me.iframe = $multimedia;
+			me.src = src;
 
 		}
-
-	
 
 		this['in'] = function() {
+			var index = me.data.index,
+				tabParent = me.$el.closest('.tab-content').length,
+				isChrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
 
-			
-			me.iframe.attr('src', me.src);
+				// fix edge to Firefox
+				if (!isChrome) {
+					if (tabParent == 1) {
+						window.setTimeout(function(){
+							me.iframe.attr('src', me.src);
+						}, 500);
+					}else{
+						window.setTimeout(function(){
+							me.iframe.attr('src', me.src);
+						}, index*500);
+					}
+				}else{
+					me.iframe.attr('src', me.src);
+				}
 		}
 
-		this['out'] = function() {
-
-			
+		this.out = function() {
 			me.iframe.attr('src', 'about:blank');
-			
+			// console.log('fooo iframe out');
 		}
 	}
 

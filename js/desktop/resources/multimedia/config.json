@@ -1,0 +1,26 @@
+{
+	"defaults": {
+		"template": "multimedia",
+		"src": "",
+		"styleObj": {
+			"position": "absolute",
+			"width": "283px",
+			"height": "208px",
+			"top": "36px",
+			"left": "52px"
+		}
+	},
+
+	"validators": [
+		"_template === multimedia"
+	],
+
+	"editor": {
+		"restrictions": {
+			"width": true,
+			"height": true,
+			"top": true,
+			"left": true
+		}
+	}
+}

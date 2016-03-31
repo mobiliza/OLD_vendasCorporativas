@@ -118,10 +118,8 @@ require.config({
 					"multimedia": {
 						"baseURL": "resources/multimedia",
 						"paths": [
-						"text!template.html",
-						"text!edition.html",
-						"editor",
-						"player"
+							"text!template.html",
+							"player"
 						]
 					},
 					"caixaDestaque": {

@@ -24,6 +24,11 @@ define([], function() {
 			- positioning: Ao final das funções de posicionamento
 		*/
 
+
+		keyMap: {
+			"13": "setSource"
+		},
+
 		initializating: function(e) {
 			console.log('initialization imagem -------', this);
 			var me = this;
@@ -34,13 +39,16 @@ define([], function() {
 				'ok': '#editionVideoOk',
 				'addLinkMultBtn': '#editionExternalLink',
 				'inputMultBox': '.mbInputMultBox',
-				'editionMultURL': '#editionMultURL'
+				'editionMultURL': '#editionMultURL',
+				'jsonEditorButton': '#jsonEditorButton'
 			});
 
 			this.events = _.extend(this.events, {
 				'click _multimediaPicker': 'fileManeger',
 				'click _ok': 'setSource',
-				'click _addLinkMultBtn': 'addExternalLink'
+				'click _addLinkMultBtn': 'addExternalLink',
+				"keydown": "keyMapper",
+				'click _jsonEditorButton': 'openJsonEditor'
 			});
 
 			_.bindAll(this, 'handlerPickedMultimedia');
@@ -93,30 +101,51 @@ define([], function() {
 		},
 
 		handlerPickedMultimedia: function(data) {
-			console.log('[rec]audio [method]handlerPickedMultimedia: ', data);
+			console.log('[rec]multimedia [method]handlerPickedMultimedia: ', data);
 			var me = this,
-				recView = this.recView,
+				recView = me.recView,
 				url = data.path,
-				folder = url.substr(0, url.lastIndexOf('/') + 1),
-	
-				folderID = data._parent_folder_id,
+				folder = data._parent_folder_id,
+				src = data.path,
 				file = data.name,
 				type = file.indexOf('.html') !== -1 || file.indexOf('.htm') !== -1 ? "external" : "file",
-	
-				model = this.recView.model;
+				model = recView.model,
+				snapData = {
+					entity: "resources",
+					type: type,
+					model: model,
+					_object_id: type === 'external' ? folder : undefined,
+					src: type === 'file' ? src : undefined,
+					attr: type === 'file' ? 'src' : 'folder',
+					callback: function(data) {
+						console.log('[rec]multimedia [method]handlerPickedMultimedia/callback: ', data, type);
+						var folder =  data.folder,
+							src = folder;
+
+						if(type === 'external'){
+							src = src + file + "?update=" + new Date().getTime();
+							model.set('src', src);
+						}
+					}
+				};
 
 			/* função que copia para s3 os arquivos do curso e percisa do modelo do recurso, 
 			path para arquivo a ser copiado e atributo que vai ser alterado na finalização */
+			
+			console.log('[rec]multimedia [method]handlerPickedMultimedia: ', snapData);
+			me.copyToS3(snapData);
+		},
 
-			me.copyToS3({
-				entity: "resources",
-				type: "external",
-				model: model,
-				src: folder,
-				_object_id: type === 'external' ? folderID : undefined,
-				attr: "src",
-				callback: function(data) {
-					model.set('src', data.dest + "/" + file);
+		openJsonEditor: function(event) {
+			var me = this,
+				model = me.recView.model;
+
+			Editor.Views.Modals.jsonEditor.show({
+				name: 'Recurso ' + model.get('template'),
+				json: model.toJSON(),
+				callback: function(json) {
+					model.set(json);
+					me.recView.render();
 				}
 			});
 		}
